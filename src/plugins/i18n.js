@@ -34,11 +34,9 @@ export default {
                     return localTranslation;
                 }
 
-                console.log(`Translation not found for key: ${codeOrEnglish} in Language: ${state.selectedLanguage}`);
                 return translation.en;
             }
 
-            console.log(`Translation not found for key: ${codeOrEnglish}`);
             return codeOrEnglish;
         };
 
@@ -48,7 +46,6 @@ export default {
             }
 
             state.selectedLanguage = languageCode;
-            console.log('toggled language to:', languageCode);
         };
     },
 };

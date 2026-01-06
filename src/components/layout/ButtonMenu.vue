@@ -8,7 +8,6 @@ const controlsStore = useControlsStore();
 const { sliderValue } = storeToRefs(controlsStore);
 
 watch(sliderValue, () => {
-    console.log(sliderValue.value);
     if (sliderValue.value === 0) {
         document.getElementById('scroll-me').scrollTo({
             top: 0,
