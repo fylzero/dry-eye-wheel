@@ -108,7 +108,7 @@ g {
     stroke: #fff;
 }
 
-:deep .cls-1 {
+:deep(.cls-1) {
     fill: none;
     stroke: #000;
     stroke-linecap: round;

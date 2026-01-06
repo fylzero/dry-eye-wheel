@@ -1,7 +1,7 @@
 <script setup>
 import { useControlsStore } from '@/stores/controlsStore.js';
-import OsmolarityFr from "@/assets/svg/fr/osmolarity.svg";
-import OsmolarityZh from "@/assets/svg/zh/osmolarity.svg";
+import OsmolarityFr from '@/assets/svg/fr/osmolarity.svg';
+import OsmolarityZh from '@/assets/svg/zh/osmolarity.svg';
 const controlsStore = useControlsStore();
 </script>
 
@@ -19,18 +19,14 @@ const controlsStore = useControlsStore();
                     d="m492.19,279.81v7.1h-1.45v-4.62l-2.18,2.99-2.18-2.99v4.62h-1.45v-7.1h1.32l2.31,3.16,2.31-3.16h1.32Z" />
                 <path
                     d="m497.27,279.69c1.98-.04,3.71,1.69,3.67,3.67.04,1.98-1.69,3.71-3.67,3.67-1.98.04-3.71-1.69-3.67-3.67-.04-1.98,1.69-3.71,3.67-3.67Zm0,1.4c-1.21-.03-2.23,1.06-2.21,2.27-.02,1.21,1,2.3,2.21,2.27,1.21.03,2.23-1.06,2.21-2.27.02-1.21-1-2.3-2.21-2.27Z" />
-                <path
-                    d="m503.8,279.81v5.72h3.04v1.38h-4.49v-7.1h1.45Z" />
+                <path d="m503.8,279.81v5.72h3.04v1.38h-4.49v-7.1h1.45Z" />
                 <path
                     d="m512.54,285.29h-3.02l-.69,1.62h-1.5l3.06-7.1h1.29l3.07,7.1h-1.52l-.69-1.62Zm-.53-1.27l-.98-2.31-.98,2.31h1.96Z" />
                 <path
                     d="m520.03,286.91l-2.43-2.99h-.36v2.99h-1.45v-7.1h2.72c1.31,0,2.18.91,2.18,2.1,0,.92-.49,1.54-1.46,1.85l2.55,3.15h-1.75Zm-1.69-4.23c.55,0,.91-.29.91-.77s-.36-.77-.91-.77h-1.1v1.54h1.1Z" />
-                <path
-                    d="m524.05,279.81v7.1h-1.45v-7.1h1.45Z" />
-                <path
-                    d="m525.3,281.19v-1.38h5.26v1.38h-1.91v5.72h-1.46v-5.72h-1.89Z" />
-                <path
-                    d="m531.12,279.81h1.68l1.66,2.69,1.67-2.69h1.69l-2.63,4.12v2.98h-1.45v-2.99l-2.62-4.11Z" />
+                <path d="m524.05,279.81v7.1h-1.45v-7.1h1.45Z" />
+                <path d="m525.3,281.19v-1.38h5.26v1.38h-1.91v5.72h-1.46v-5.72h-1.89Z" />
+                <path d="m531.12,279.81h1.68l1.66,2.69,1.67-2.69h1.69l-2.63,4.12v2.98h-1.45v-2.99l-2.62-4.11Z" />
             </g>
             <g>
                 <circle
@@ -152,19 +148,19 @@ const controlsStore = useControlsStore();
     stroke-miterlimit: 10;
 }
 
-:deep .cls-2 {
+:deep(.cls-2) {
     fill: none;
 }
 
-.svg-active :deep circle {
+.svg-active :deep(circle) {
     fill: #fff;
 }
 
-.svg-active :deep circle.cls-2 {
+.svg-active :deep(circle.cls-2) {
     fill: none;
 }
 
-.svg-active :deep .cls-1 {
+.svg-active :deep(.cls-1) {
     stroke: #fff;
 }
 </style>
