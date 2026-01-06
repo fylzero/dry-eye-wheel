@@ -2,7 +2,7 @@
 
 ## Deployment Instructions
 
-- npm run build
+- bun run build
 - This will build everything to the /docs folder (chose that for Github Pages setup simplicity)
 - Open /docs/index.html
 - Change all instances of /assets to ./assets and save file
