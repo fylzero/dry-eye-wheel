@@ -33,14 +33,14 @@ const controlsStore = useControlsStore();
                 text-anchor="middle">
                 <tspan
                     x="310"
-                    dy="0"
-                    >Differential</tspan
-                >
+                    dy="0">
+                    Differential
+                </tspan>
                 <tspan
                     x="310"
-                    dy="12"
-                    >Diagnosis</tspan
-                >
+                    dy="12">
+                    Diagnosis
+                </tspan>
             </text>
             <text
                 v-else-if="$selectedLanguage.value === 'es'"
@@ -49,14 +49,14 @@ const controlsStore = useControlsStore();
                 text-anchor="middle">
                 <tspan
                     x="310"
-                    dy="0"
-                    >Differential</tspan
-                >
+                    dy="0">
+                    Differential
+                </tspan>
                 <tspan
                     x="310"
-                    dy="12"
-                    >Diagnosis (Spanish)</tspan
-                >
+                    dy="12">
+                    Diagnosis (Spanish)
+                </tspan>
             </text>
             <text
                 v-else-if="$selectedLanguage.value === 'fr'"
@@ -65,14 +65,14 @@ const controlsStore = useControlsStore();
                 text-anchor="middle">
                 <tspan
                     x="310"
-                    dy="0"
-                    >Differential</tspan
-                >
+                    dy="0">
+                    Differential
+                </tspan>
                 <tspan
                     x="310"
-                    dy="12"
-                    >Diagnosis (French)</tspan
-                >
+                    dy="12">
+                    Diagnosis (French)
+                </tspan>
             </text>
             <text
                 v-else-if="$selectedLanguage.value === 'zh'"
@@ -81,14 +81,14 @@ const controlsStore = useControlsStore();
                 text-anchor="middle">
                 <tspan
                     x="310"
-                    dy="0"
-                    >Differential</tspan
-                >
+                    dy="0">
+                    Differential
+                </tspan>
                 <tspan
                     x="310"
-                    dy="12"
-                    >Diagnosis (Chinese)</tspan
-                >
+                    dy="12">
+                    Diagnosis (Chinese)
+                </tspan>
             </text>
         </g>
     </g>
