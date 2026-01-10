@@ -44,33 +44,33 @@ const controlsStore = useControlsStore();
             v-if="$selectedLanguage.value === 'en'"
             x="288"
             y="134"
-            font-size="14"
-            text-anchor="middle"
-            >Symptom Check</text
-        >
+            style="font-size: 11px; font-family: EuclidCircularA-Bold; text-transform: uppercase"
+            text-anchor="middle">
+            Symptom Check
+        </text>
         <text
             v-else-if="$selectedLanguage.value === 'es'"
             x="288"
             y="134"
-            font-size="14"
-            text-anchor="middle"
-            >Symptom Check (Español)</text
-        >
+            style="font-size: 11px; font-family: EuclidCircularA-Bold"
+            text-anchor="middle">
+            Historia Y Síntomas
+        </text>
         <text
             v-else-if="$selectedLanguage.value === 'fr'"
             x="288"
             y="134"
-            font-size="14"
-            text-anchor="middle"
-            >Symptom Check (Français)</text
-        >
+            style="font-size: 11px; font-family: EuclidCircularA-Bold"
+            text-anchor="middle">
+            Symptômes et histoire de cas
+        </text>
         <text
             v-else-if="$selectedLanguage.value === 'zh'"
             x="288"
             y="134"
-            font-size="14"
-            text-anchor="middle"
-            >Symptom Check (中文)</text
-        >
+            style="font-size: 11px; font-family: EuclidCircularA-Bold"
+            text-anchor="middle">
+            病史和症状
+        </text>
     </g>
 </template>
