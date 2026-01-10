@@ -1,14 +1,15 @@
 <script setup>
 import { useControlsStore } from '@/stores/controlsStore.js';
-import BlinkExercisesFr from "@/assets/svg/fr/blink-exercises.svg";
-import BlinkExercisesZh from "@/assets/svg/zh/blink-exercises.svg";
+import BlinkExercisesFr from '@/assets/svg/fr/blink-exercises.svg';
+import BlinkExercisesZh from '@/assets/svg/zh/blink-exercises.svg';
 const controlsStore = useControlsStore();
 </script>
 
 <template>
     <g
         :class="{ 'svg-active': controlsStore.selectedItem === 'blink-exercises' }"
-        class="svg-fill-path svg-fill-circle">
+        class="svg-fill-path svg-fill-circle"
+        style="transform: translate(0px, 0px)">
         <g v-if="$selectedLanguage.value === 'en'">
             <g>
                 <g>

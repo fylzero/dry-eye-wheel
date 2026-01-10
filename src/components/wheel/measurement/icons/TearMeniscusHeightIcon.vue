@@ -1,7 +1,7 @@
 <script setup>
 import { useControlsStore } from '@/stores/controlsStore.js';
-import TearMeniscusHeightFr from "@/assets/svg/fr/tear-meniscus-height.svg";
-import TearMeniscusHeightZh from "@/assets/svg/zh/tear-meniscus-height.svg";
+import TearMeniscusHeightFr from '@/assets/svg/fr/tear-meniscus-height.svg';
+import TearMeniscusHeightZh from '@/assets/svg/zh/tear-meniscus-height.svg';
 const controlsStore = useControlsStore();
 </script>
 
@@ -9,7 +9,8 @@ const controlsStore = useControlsStore();
     <g
         v-if="$selectedLanguage.value === 'en'"
         :class="{ 'svg-active': controlsStore.selectedItem === 'tear-meniscus-height' }"
-        class="svg-fill-circle">
+        class="svg-fill-circle"
+        style="transform: translate(0px, 0px)">
         <g>
             <g>
                 <path

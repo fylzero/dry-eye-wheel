@@ -1,14 +1,15 @@
 <script setup>
 import { useControlsStore } from '@/stores/controlsStore.js';
-import ValidatedQuestionnaireFr from "@/assets/svg/fr/validated-questionnaire.svg";
-import ValidatedQuestionnaireZh from "@/assets/svg/zh/validated-questionnaire.svg";
+import ValidatedQuestionnaireFr from '@/assets/svg/fr/validated-questionnaire.svg';
+import ValidatedQuestionnaireZh from '@/assets/svg/zh/validated-questionnaire.svg';
 const controlsStore = useControlsStore();
 </script>
 
 <template>
     <g
         :class="{ 'svg-active': controlsStore.selectedItem === 'validated-questionnaire' }"
-        class="svg-fill-path">
+        class="svg-fill-path"
+        style="transform: translate(0px, 0px)">
         <g v-if="$selectedLanguage.value === 'en'">
             <g>
                 <path

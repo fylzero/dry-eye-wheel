@@ -1,14 +1,15 @@
 <script setup>
 import { useControlsStore } from '@/stores/controlsStore.js';
-import ProphylaxisFr from "@/assets/svg/fr/prophylaxis.svg";
-import ProphylaxisZh from "@/assets/svg/zh/prophylaxis.svg";
+import ProphylaxisFr from '@/assets/svg/fr/prophylaxis.svg';
+import ProphylaxisZh from '@/assets/svg/zh/prophylaxis.svg';
 const controlsStore = useControlsStore();
 </script>
 
 <template>
     <g
         :class="{ 'svg-active': controlsStore.selectedItem === 'prophylaxis' }"
-        class="svg-fill-path">
+        class="svg-fill-path"
+        style="transform: translate(0px, 0px)">
         <g v-if="$selectedLanguage.value === 'en'">
             <g id="CcNbeA">
                 <g>

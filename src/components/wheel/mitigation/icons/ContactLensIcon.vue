@@ -1,12 +1,14 @@
 <script setup>
 import { useControlsStore } from '@/stores/controlsStore.js';
-import ContactLensFr from "@/assets/svg/fr/contact-lens.svg";
-import ContactLensZh from "@/assets/svg/zh/contact-lens.svg";
+import ContactLensFr from '@/assets/svg/fr/contact-lens.svg';
+import ContactLensZh from '@/assets/svg/zh/contact-lens.svg';
 const controlsStore = useControlsStore();
 </script>
 
 <template>
-    <g :class="{ 'svg-active': controlsStore.selectedItem === 'contact-lens' }">
+    <g
+        :class="{ 'svg-active': controlsStore.selectedItem === 'contact-lens' }"
+        style="transform: translate(0px, 0px)">
         <g v-if="$selectedLanguage.value === 'en'">
             <g>
                 <path
@@ -101,14 +103,12 @@ const controlsStore = useControlsStore();
         </g>
         <g
             v-else-if="$selectedLanguage.value === 'fr'"
-            style="transform: translate(81px, 380px)"
-        >
+            style="transform: translate(81px, 380px)">
             <ContactLensFr :viewBox="null" />
         </g>
         <g
             v-else-if="$selectedLanguage.value === 'zh'"
-            style="transform: translate(81px, 380px)"
-        >
+            style="transform: translate(81px, 380px)">
             <ContactLensZh :viewBox="null" />
         </g>
     </g>

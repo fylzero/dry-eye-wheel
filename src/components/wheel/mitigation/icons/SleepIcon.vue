@@ -1,14 +1,15 @@
 <script setup>
 import { useControlsStore } from '@/stores/controlsStore.js';
-import SleepFr from "@/assets/svg/fr/sleep.svg";
-import SleepZh from "@/assets/svg/zh/sleep.svg";
+import SleepFr from '@/assets/svg/fr/sleep.svg';
+import SleepZh from '@/assets/svg/zh/sleep.svg';
 const controlsStore = useControlsStore();
 </script>
 
 <template>
     <g
         :class="{ 'svg-active': controlsStore.selectedItem === 'sleep' }"
-        v-if="$selectedLanguage.value === 'en'">
+        v-if="$selectedLanguage.value === 'en'"
+        style="transform: translate(0px, 0px)">
         <g>
             <g>
                 <path
@@ -55,8 +56,7 @@ const controlsStore = useControlsStore();
     </g>
     <g
         v-else-if="$selectedLanguage.value === 'es'"
-        style="transform: translate(94px, 277px)"
-    >
+        style="transform: translate(94px, 277px)">
         <g>
             <g id="WiJ8ZH">
                 <g>
@@ -88,14 +88,12 @@ const controlsStore = useControlsStore();
     </g>
     <g
         v-else-if="$selectedLanguage.value === 'fr'"
-        style="transform: translate(94px, 277px)"
-    >
+        style="transform: translate(94px, 277px)">
         <SleepFr :viewBox="null" />
     </g>
     <g
         v-else-if="$selectedLanguage.value === 'zh'"
-        style="transform: translate(94px, 277px)"
-    >
+        style="transform: translate(94px, 277px)">
         <SleepZh :viewBox="null" />
     </g>
 </template>

@@ -7,9 +7,10 @@ const controlsStore = useControlsStore();
 </script>
 
 <template>
-    <g :class="{ 'svg-active': controlsStore.selectedItem === 'medication-review' }"
+    <g
+        :class="{ 'svg-active': controlsStore.selectedItem === 'medication-review' }"
         class="svg-fill-path"
-    >
+        style="transform: translate(0px, 0px)">
         <g v-if="$selectedLanguage.value === 'en'">
             <g>
                 <g>
@@ -76,8 +77,7 @@ const controlsStore = useControlsStore();
         </g>
         <g
             v-else-if="$selectedLanguage.value === 'es'"
-            style="transform: translate(330px, 374px)"
-        >
+            style="transform: translate(330px, 374px)">
             <MedicationReviewEs :viewBox="null" />
         </g>
         <g

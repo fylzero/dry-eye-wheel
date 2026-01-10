@@ -1,14 +1,15 @@
 <script setup>
 import { useControlsStore } from '@/stores/controlsStore.js';
-import MeibomianGlandExpressionFr from "@/assets/svg/fr/meibomian-gland-expression.svg";
-import MeibomianGlandExpressionZh from "@/assets/svg/zh/meibomian-gland-expression.svg";
+import MeibomianGlandExpressionFr from '@/assets/svg/fr/meibomian-gland-expression.svg';
+import MeibomianGlandExpressionZh from '@/assets/svg/zh/meibomian-gland-expression.svg';
 const controlsStore = useControlsStore();
 </script>
 
 <template>
     <g
         :class="{ 'svg-active': controlsStore.selectedItem === 'meibomian-gland-expression' }"
-        class="svg-fill-circle">
+        class="svg-fill-circle"
+        style="transform: translate(0px, 0px)">
         <g v-if="$selectedLanguage.value === 'en'">
             <g>
                 <g>

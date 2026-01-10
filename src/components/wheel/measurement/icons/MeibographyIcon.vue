@@ -1,14 +1,15 @@
 <script setup>
 import { useControlsStore } from '@/stores/controlsStore.js';
-import MeibographyFr from "@/assets/svg/fr/meibography.svg";
-import MeibographyZh from "@/assets/svg/zh/meibography.svg";
+import MeibographyFr from '@/assets/svg/fr/meibography.svg';
+import MeibographyZh from '@/assets/svg/zh/meibography.svg';
 const controlsStore = useControlsStore();
 </script>
 
 <template>
     <g
         :class="{ 'svg-active': controlsStore.selectedItem === 'meibography' }"
-        v-if="$selectedLanguage.value === 'en'">
+        v-if="$selectedLanguage.value === 'en'"
+        style="transform: translate(0px, 0px)">
         <g>
             <g>
                 <path

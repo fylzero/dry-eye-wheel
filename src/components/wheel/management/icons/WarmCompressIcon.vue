@@ -8,7 +8,8 @@ const controlsStore = useControlsStore();
 <template>
     <g
         :class="{ 'svg-active': controlsStore.selectedItem === 'warm-compress' }"
-        class="svg-fill-path">
+        class="svg-fill-path"
+        style="transform: translate(0px, 0px)">
         <g v-if="$selectedLanguage.value === 'en'">
             <path
                 d="M593.4,708.8l-1.7,7.1h-1.4l-1.6-3.8l-1.6,3.8h-1.4l-1.7-7.1h1.5l1.1,4.7l2-4.8l2,4.8l1.1-4.7H593.4z" />

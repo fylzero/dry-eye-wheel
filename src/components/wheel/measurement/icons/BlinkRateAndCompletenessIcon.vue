@@ -8,7 +8,8 @@ const controlsStore = useControlsStore();
 <template>
     <g
         :class="{ 'svg-active': controlsStore.selectedItem === 'blink-rate-and-completeness' }"
-        class="svg-fill-path">
+        class="svg-fill-path"
+        style="transform: translate(0px, 0px)">
         <g v-if="$selectedLanguage.value === 'en'">
             <g>
                 <path
@@ -189,11 +190,12 @@ const controlsStore = useControlsStore();
         </g>
         <g
             v-else-if="$selectedLanguage.value === 'fr'"
-            style="transform: translate(710px, 365px)"
-        >
+            style="transform: translate(710px, 365px)">
             <BlinkRateAndCompletenessFr :viewBox="null" />
         </g>
-        <g v-else-if="$selectedLanguage.value === 'zh'" style="transform: translate(710px, 365px)">
+        <g
+            v-else-if="$selectedLanguage.value === 'zh'"
+            style="transform: translate(710px, 365px)">
             <BlinkRateAndCompletenessZh :viewBox="null" />
         </g>
     </g>

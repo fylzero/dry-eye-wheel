@@ -6,7 +6,9 @@ const controlsStore = useControlsStore();
 </script>
 
 <template>
-    <g :class="{ 'svg-active': controlsStore.selectedItem === 'hormones' }">
+    <g
+        :class="{ 'svg-active': controlsStore.selectedItem === 'hormones' }"
+        style="transform: translate(0px, 0px)">
         <g v-if="$selectedLanguage.value === 'en'">
             <g>
                 <path
