@@ -1,8 +1,8 @@
 <script setup>
 import { useControlsStore } from '@/stores/controlsStore.js';
-import ManagementSvg from '@/components/wheel/management/MainSvg.vue';
-import MitigationSvg from '@/components/wheel/mitigation/MainSvg.vue';
-import MeasurementSvg from '@/components/wheel/measurement/MainSvg.vue';
+import MainManagementSvg from '@/components/wheel/management/MainManagementSvg.vue';
+import MainMitigationSvg from '@/components/wheel/mitigation/MainMitigationSvg.vue';
+import MainMeasurementSvg from '@/components/wheel/measurement/MainMeasurementSvg.vue';
 import MitigationPopovers from '@/components/layout/MitigationPopovers.vue';
 import MeasurementPopovers from '@/components/layout/MeasurementPopovers.vue';
 import ManagementPopovers from '@/components/layout/ManagementPopovers.vue';
@@ -16,15 +16,15 @@ const controlsStore = useControlsStore();
         <MeasurementPopovers />
         <ManagementPopovers />
 
-        <MitigationSvg
+        <MainMitigationSvg
             :class="controlsStore.mitigationAreaClasses"
             class="mitigation-svg absolute max-h-[800px] w-full transition-all duration-300" />
 
-        <MeasurementSvg
+        <MainMeasurementSvg
             :class="controlsStore.measurementAreaClasses"
             class="measurement-svg absolute max-h-[800px] w-full transition-all duration-300" />
 
-        <ManagementSvg
+        <MainManagementSvg
             :class="controlsStore.managementAreaClasses"
             class="management-svg absolute max-h-[800px] w-full" />
 

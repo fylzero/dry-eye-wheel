@@ -52,6 +52,7 @@ body {
         @apply !stroke-white;
     }
     rect,
+    text,
     polygon {
         @apply !fill-white;
     }

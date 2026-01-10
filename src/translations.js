@@ -135,13 +135,13 @@ remita al paciente según corresponda.</div>
         zh: '分诊',
     },
     {
-        en: 'History & Symptoms',
+        en: 'Symptom Check',
         es: 'Historia Y Síntomas',
         fr: `Symptômes et histoire de cas`,
         zh: '病史和症状',
     },
     {
-        code: '_history_and_symptoms_text',
+        code: '_symptom_check_text',
         en: 'History-taking: Careful history-taking allows identification of dry eye symptoms as well as risks associated with the development of dry eye disease. Modifiable risk factors are especially important to identify, as simple changes in lifestyle can help reduce or eliminate their impact, and promote a healthier ocular surface.',
         es: 'Una anamnesis detallada permite identificar los síntomas del ojo seco y los riesgos asociados con el desarrollo de esta enfermedad. Es particularmente importante reconocer los factores de riesgo modificables, ya que simples cambios en el estilo de vida pueden ayudar a reducir o eliminar su impacto, promoviendo así una superficie ocular más saludable.',
         fr: `Histoire de cas : Une anamnèse méticuleuse permet d'identifier  les symptômes de sécheresse oculaire ainsi que les risques associés au développement de l'œil sec. Il est particulièrement important de déterminer les facteurs de risque modifiables, car des changements simples dans le mode de vie peuvent aider à réduire ou à éliminer leur impact et favoriser une surface oculaire plus saine.`,

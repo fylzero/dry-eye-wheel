@@ -7,7 +7,7 @@ import MedicationReviewIcon from '@/components/wheel/mitigation/icons/Medication
 import HormonesIcon from '@/components/wheel/mitigation/icons/HormonesIcon.vue';
 import SleepIcon from '@/components/wheel/mitigation/icons/SleepIcon.vue';
 import ProphylaxisIcon from '@/components/wheel/mitigation/icons/ProphylaxisIcon.vue';
-import HistoryAndEarlySymptomsIcon from '@/components/wheel/mitigation/icons/HistoryAndEarlySymptomsIcon.vue';
+import SymptomCheckIcon from '@/components/wheel/mitigation/icons/SymptomCheckIcon.vue';
 import DifferentialDiagnosisIcon from '@/components/wheel/mitigation/icons/DifferentialDiagnosisIcon.vue';
 
 import TriagingTextFr from '@/assets/svg/fr/triaging-text.svg';
@@ -561,7 +561,7 @@ const controlsStore = useControlsStore();
 
         <ProphylaxisIcon />
 
-        <HistoryAndEarlySymptomsIcon />
+        <SymptomCheckIcon />
 
         <DifferentialDiagnosisIcon />
 

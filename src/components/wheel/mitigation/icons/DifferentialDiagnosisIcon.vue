@@ -1,14 +1,15 @@
 <script setup>
 import { useControlsStore } from '@/stores/controlsStore.js';
-import DifferentialDiagnosisFr from "@/assets/svg/fr/differential-diagnosis.svg";
-import DifferentialDiagnosisZh from "@/assets/svg/zh/differential-diagnosis.svg";
+import DifferentialDiagnosisFr from '@/assets/svg/fr/differential-diagnosis.svg';
+import DifferentialDiagnosisZh from '@/assets/svg/zh/differential-diagnosis.svg';
 const controlsStore = useControlsStore();
 </script>
 
 <template>
     <g
         :class="{ 'svg-active': controlsStore.selectedItem === 'differential' }"
-        class="svg-fill-path">
+        class="svg-fill-path"
+        style="transform: translate(-100px, -100px)">
         <g v-if="$selectedLanguage.value === 'en'">
             <g
                 id="_9unT3F"
