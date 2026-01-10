@@ -1,15 +1,13 @@
 <script setup>
 import { useControlsStore } from '@/stores/controlsStore.js';
-import DifferentialDiagnosisFr from '@/assets/svg/fr/differential-diagnosis.svg';
-import DifferentialDiagnosisZh from '@/assets/svg/zh/differential-diagnosis.svg';
 const controlsStore = useControlsStore();
 </script>
 
 <template>
     <g
         :class="{ 'svg-active': controlsStore.selectedItem === 'differential' }"
-        class="svg-fill-path"
-        style="transform: translate(-100px, -100px)">
+        class="svg-icon svg-fill-path"
+        style="transform: translate(-80px, -120px)">
         <g>
             <!-- Icon -->
             <g
@@ -32,33 +30,65 @@ const controlsStore = useControlsStore();
                 v-if="$selectedLanguage.value === 'en'"
                 x="310"
                 y="290"
-                style="font-size: 11px; font-family: EuclidCircularA-Bold; text-transform: uppercase"
                 text-anchor="middle">
-                Differential Diagnosis
+                <tspan
+                    x="310"
+                    dy="0"
+                    >Differential</tspan
+                >
+                <tspan
+                    x="310"
+                    dy="12"
+                    >Diagnosis</tspan
+                >
             </text>
             <text
                 v-else-if="$selectedLanguage.value === 'es'"
                 x="310"
                 y="290"
-                style="font-size: 11px; font-family: EuclidCircularA-Bold"
                 text-anchor="middle">
-                Differential Diagnosis (Spanish)
+                <tspan
+                    x="310"
+                    dy="0"
+                    >Differential</tspan
+                >
+                <tspan
+                    x="310"
+                    dy="12"
+                    >Diagnosis (Spanish)</tspan
+                >
             </text>
             <text
                 v-else-if="$selectedLanguage.value === 'fr'"
                 x="310"
                 y="290"
-                style="font-size: 11px; font-family: EuclidCircularA-Bold"
                 text-anchor="middle">
-                Differential Diagnosis (French)
+                <tspan
+                    x="310"
+                    dy="0"
+                    >Differential</tspan
+                >
+                <tspan
+                    x="310"
+                    dy="12"
+                    >Diagnosis (French)</tspan
+                >
             </text>
             <text
                 v-else-if="$selectedLanguage.value === 'zh'"
                 x="310"
                 y="290"
-                style="font-size: 11px; font-family: EuclidCircularA-Bold"
                 text-anchor="middle">
-                Differential Diagnosis (Chinese)
+                <tspan
+                    x="310"
+                    dy="0"
+                    >Differential</tspan
+                >
+                <tspan
+                    x="310"
+                    dy="12"
+                    >Diagnosis (Chinese)</tspan
+                >
             </text>
         </g>
     </g>

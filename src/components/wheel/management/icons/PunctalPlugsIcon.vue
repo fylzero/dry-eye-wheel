@@ -8,6 +8,7 @@ const controlsStore = useControlsStore();
 
 <template>
     <g
+        class="svg-icon"
         :class="{ 'svg-active': controlsStore.selectedItem === 'punctal-plugs' }"
         style="transform: translate(0px, 0px)">
         <g v-if="$selectedLanguage.value === 'en'">

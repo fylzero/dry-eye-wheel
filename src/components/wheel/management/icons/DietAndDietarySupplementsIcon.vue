@@ -10,6 +10,7 @@ const controlsStore = useControlsStore();
     <!-- class="svg-stroke-polyline" -->
 
     <g
+        class="svg-icon"
         :class="{ 'svg-active': controlsStore.selectedItem === 'diet-and-dietary-supplements' }"
         style="transform: translate(0px, 0px)">
         <g v-if="$selectedLanguage.value === 'en'">

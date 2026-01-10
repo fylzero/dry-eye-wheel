@@ -8,7 +8,7 @@ const controlsStore = useControlsStore();
 <template>
     <g
         :class="{ 'svg-active': controlsStore.selectedItem === 'meibomian-gland-expression' }"
-        class="svg-fill-circle"
+        class="svg-icon svg-fill-circle"
         style="transform: translate(0px, 0px)">
         <g v-if="$selectedLanguage.value === 'en'">
             <g>

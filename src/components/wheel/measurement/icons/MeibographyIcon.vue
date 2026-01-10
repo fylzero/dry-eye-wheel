@@ -7,6 +7,7 @@ const controlsStore = useControlsStore();
 
 <template>
     <g
+        class="svg-icon"
         :class="{ 'svg-active': controlsStore.selectedItem === 'meibography' }"
         v-if="$selectedLanguage.value === 'en'"
         style="transform: translate(0px, 0px)">

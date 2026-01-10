@@ -9,7 +9,7 @@ const controlsStore = useControlsStore();
 <template>
     <g
         :class="{ 'svg-active': controlsStore.selectedItem === 'complex-treatments' }"
-        class="svg-fill-circle svg-stroke-polyline svg-fill-polyline svg-fill-line"
+        class="svg-icon svg-fill-circle svg-stroke-polyline svg-fill-polyline svg-fill-line"
         style="transform: translate(0px, 0px)">
         <g v-if="$selectedLanguage.value === 'en'">
             <g class="st14">

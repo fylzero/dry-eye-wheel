@@ -9,7 +9,7 @@ const controlsStore = useControlsStore();
 <template>
     <g
         :class="{ 'svg-active': controlsStore.selectedItem === 'lid-hygiene' }"
-        class="svg-fill-path svg-fill-circle svg-stroke-polyline svg-fill-polyline"
+        class="svg-icon svg-fill-path svg-fill-circle svg-stroke-polyline svg-fill-polyline"
         style="transform: translate(0px, 0px)">
         <g v-if="$selectedLanguage.value === 'en'">
             <path d="M650.5,651.2v5.7h3v1.4H649v-7.1H650.5z" />

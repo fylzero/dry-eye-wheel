@@ -45,6 +45,20 @@ body {
     font-size: 10px;
 }
 
+.svg-icon {
+    text {
+        font-size: 11px;
+        font-family: 'EuclidCircularA-Bold', sans-serif;
+        text-transform: uppercase;
+
+        tspan {
+            font-size: 11px;
+            font-family: 'EuclidCircularA-Bold', sans-serif;
+            text-transform: uppercase;
+        }
+    }
+}
+
 .svg-active {
     circle,
     line,

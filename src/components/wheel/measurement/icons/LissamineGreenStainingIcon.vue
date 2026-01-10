@@ -8,7 +8,7 @@ const controlsStore = useControlsStore();
 <template>
     <g
         :class="{ 'svg-active': controlsStore.selectedItem === 'lissamine-green-staining' }"
-        class="svg-fill-path"
+        class="svg-icon svg-fill-path"
         style="transform: translate(0px, 0px)">
         <g v-if="$selectedLanguage.value === 'en'">
             <g>

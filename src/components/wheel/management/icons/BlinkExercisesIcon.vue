@@ -8,7 +8,7 @@ const controlsStore = useControlsStore();
 <template>
     <g
         :class="{ 'svg-active': controlsStore.selectedItem === 'blink-exercises' }"
-        class="svg-fill-path svg-fill-circle"
+        class="svg-icon svg-fill-path svg-fill-circle"
         style="transform: translate(0px, 0px)">
         <g v-if="$selectedLanguage.value === 'en'">
             <g>

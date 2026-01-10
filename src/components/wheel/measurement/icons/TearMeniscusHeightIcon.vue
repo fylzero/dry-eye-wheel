@@ -9,7 +9,7 @@ const controlsStore = useControlsStore();
     <g
         v-if="$selectedLanguage.value === 'en'"
         :class="{ 'svg-active': controlsStore.selectedItem === 'tear-meniscus-height' }"
-        class="svg-fill-circle"
+        class="svg-icon svg-fill-circle"
         style="transform: translate(0px, 0px)">
         <g>
             <g>

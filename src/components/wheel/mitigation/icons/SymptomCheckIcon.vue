@@ -6,8 +6,8 @@ const controlsStore = useControlsStore();
 <template>
     <g
         :class="{ 'svg-active': controlsStore.selectedItem === 'questionnaire' }"
-        class="svg-fill-path"
-        style="transform: translate(50px, -20px)">
+        class="svg-icon svg-fill-path"
+        style="transform: translate(70px, -20px)">
         <!-- Icon -->
         <g>
             <path
@@ -44,7 +44,6 @@ const controlsStore = useControlsStore();
             v-if="$selectedLanguage.value === 'en'"
             x="288"
             y="134"
-            style="font-size: 11px; font-family: EuclidCircularA-Bold; text-transform: uppercase"
             text-anchor="middle">
             Symptom Check
         </text>
@@ -52,25 +51,22 @@ const controlsStore = useControlsStore();
             v-else-if="$selectedLanguage.value === 'es'"
             x="288"
             y="134"
-            style="font-size: 11px; font-family: EuclidCircularA-Bold"
             text-anchor="middle">
-            Historia Y Síntomas
+            Symptom Check (Spanish)
         </text>
         <text
             v-else-if="$selectedLanguage.value === 'fr'"
             x="288"
             y="134"
-            style="font-size: 11px; font-family: EuclidCircularA-Bold"
             text-anchor="middle">
-            Symptômes et histoire de cas
+            Symptom Check (French)
         </text>
         <text
             v-else-if="$selectedLanguage.value === 'zh'"
             x="288"
             y="134"
-            style="font-size: 11px; font-family: EuclidCircularA-Bold"
             text-anchor="middle">
-            病史和症状
+            Symptom Check (Chinese)
         </text>
     </g>
 </template>
