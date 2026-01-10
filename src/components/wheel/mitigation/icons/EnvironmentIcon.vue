@@ -1,7 +1,5 @@
 <script setup>
 import { useControlsStore } from '@/stores/controlsStore.js';
-import EnvironmentFr from '@/assets/svg/fr/environment.svg';
-import EnvironmentZh from '@/assets/svg/zh/environment.svg';
 const controlsStore = useControlsStore();
 </script>
 
@@ -38,32 +36,10 @@ const controlsStore = useControlsStore();
                 d="m240.38,320.22c.25.09.52.15.75.28,1.41.8,2.81,1.61,4.2,2.44.78.47,1.02,1.27.61,1.92-.39.63-1.18.8-1.93.37-1.43-.81-2.85-1.65-4.28-2.47-.64-.37-.89-.97-.62-1.58.2-.44.71-.74,1.09-1.1.06.05.12.09.18.14Z" />
         </g>
         <text
-            v-if="$selectedLanguage.value === 'en'"
             x="260"
             y="370"
             text-anchor="middle">
-            Environment
-        </text>
-        <text
-            v-else-if="$selectedLanguage.value === 'es'"
-            x="260"
-            y="370"
-            text-anchor="middle">
-            Environment (Spanish)
-        </text>
-        <text
-            v-else-if="$selectedLanguage.value === 'fr'"
-            x="260"
-            y="370"
-            text-anchor="middle">
-            Environment (French)
-        </text>
-        <text
-            v-else-if="$selectedLanguage.value === 'zh'"
-            x="260"
-            y="370"
-            text-anchor="middle">
-            Environment (Chinese)
+            {{ $t('Environment') }}
         </text>
     </g>
 </template>

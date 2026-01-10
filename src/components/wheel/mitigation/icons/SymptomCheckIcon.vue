@@ -41,32 +41,16 @@ const controlsStore = useControlsStore();
 			c0,0.6-0.4,0.9-1.1,0.9C283.5,105,282,105,280.4,105L280.4,105L280.4,105z" />
         </g>
         <text
-            v-if="$selectedLanguage.value === 'en'"
             x="288"
             y="134"
             text-anchor="middle">
-            Symptom Check
-        </text>
-        <text
-            v-else-if="$selectedLanguage.value === 'es'"
-            x="288"
-            y="134"
-            text-anchor="middle">
-            Symptom Check (Spanish)
-        </text>
-        <text
-            v-else-if="$selectedLanguage.value === 'fr'"
-            x="288"
-            y="134"
-            text-anchor="middle">
-            Symptom Check (French)
-        </text>
-        <text
-            v-else-if="$selectedLanguage.value === 'zh'"
-            x="288"
-            y="134"
-            text-anchor="middle">
-            Symptom Check (Chinese)
+            <tspan
+                v-for="(line, index) in $t('_symptom_check_icon').split('|')"
+                :key="index"
+                x="288"
+                :dy="index === 0 ? 0 : 12">
+                {{ line }}
+            </tspan>
         </text>
     </g>
 </template>

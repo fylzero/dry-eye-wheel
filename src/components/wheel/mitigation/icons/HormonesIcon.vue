@@ -64,32 +64,10 @@ const controlsStore = useControlsStore();
                 y2="389.02" />
         </g>
         <text
-            v-if="$selectedLanguage.value === 'en'"
             x="266"
             y="440"
             text-anchor="middle">
-            Hormones
-        </text>
-        <text
-            v-else-if="$selectedLanguage.value === 'es'"
-            x="266"
-            y="440"
-            text-anchor="middle">
-            Hormones (Spanish)
-        </text>
-        <text
-            v-else-if="$selectedLanguage.value === 'fr'"
-            x="266"
-            y="440"
-            text-anchor="middle">
-            Hormones (French)
-        </text>
-        <text
-            v-else-if="$selectedLanguage.value === 'zh'"
-            x="266"
-            y="440"
-            text-anchor="middle">
-            Hormones (Chinese)
+            {{ $t('Hormones') }}
         </text>
     </g>
 </template>

@@ -22,32 +22,10 @@ const controlsStore = useControlsStore();
             </g>
         </g>
         <text
-            v-if="$selectedLanguage.value === 'en'"
             x="395"
             y="345"
             text-anchor="middle">
-            Prophylaxis
-        </text>
-        <text
-            v-else-if="$selectedLanguage.value === 'es'"
-            x="395"
-            y="345"
-            text-anchor="middle">
-            Prophylaxis (Spanish)
-        </text>
-        <text
-            v-else-if="$selectedLanguage.value === 'fr'"
-            x="395"
-            y="345"
-            text-anchor="middle">
-            Prophylaxis (French)
-        </text>
-        <text
-            v-else-if="$selectedLanguage.value === 'zh'"
-            x="395"
-            y="345"
-            text-anchor="middle">
-            Prophylaxis (Chinese)
+            {{ $t('Prophylaxis') }}
         </text>
     </g>
 </template>

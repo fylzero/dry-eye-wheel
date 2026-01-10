@@ -24,67 +24,15 @@ const controlsStore = useControlsStore();
                 d="m102.46,404.03s-.1,0-.14-.02c-4.66-1.11-8.17-4.93-8.32-5.09-.23-.25-.21-.64.04-.87.25-.23.64-.21.87.04.03.04,3.41,3.71,7.69,4.72.33.08.54.41.46.74-.07.28-.32.48-.6.48Z" />
         </g>
         <text
-            v-if="$selectedLanguage.value === 'en'"
             x="110"
             y="426"
             text-anchor="middle">
             <tspan
+                v-for="(line, index) in $t('_contact_lens_icon').split('|')"
+                :key="index"
                 x="110"
-                dy="0">
-                Contact
-            </tspan>
-            <tspan
-                x="110"
-                dy="12">
-                Lens
-            </tspan>
-        </text>
-        <text
-            v-else-if="$selectedLanguage.value === 'es'"
-            x="110"
-            y="426"
-            text-anchor="middle">
-            <tspan
-                x="110"
-                dy="0">
-                Contact
-            </tspan>
-            <tspan
-                x="110"
-                dy="12">
-                Lens (Spanish)
-            </tspan>
-        </text>
-        <text
-            v-else-if="$selectedLanguage.value === 'fr'"
-            x="110"
-            y="426"
-            text-anchor="middle">
-            <tspan
-                x="110"
-                dy="0">
-                Contact
-            </tspan>
-            <tspan
-                x="110"
-                dy="12">
-                Lens (French)
-            </tspan>
-        </text>
-        <text
-            v-else-if="$selectedLanguage.value === 'zh'"
-            x="110"
-            y="426"
-            text-anchor="middle">
-            <tspan
-                x="110"
-                dy="0">
-                Contact
-            </tspan>
-            <tspan
-                x="110"
-                dy="12">
-                Lens (Chinese)
+                :dy="index === 0 ? 0 : 12">
+                {{ line }}
             </tspan>
         </text>
     </g>

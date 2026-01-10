@@ -154,6 +154,46 @@ remita al paciente según corresponda.</div>
         zh: '鉴别诊断',
     },
     {
+        // Icon label with | as line break delimiter
+        code: '_differential_icon',
+        en: 'Differential|Diagnosis',
+        es: 'Diagnóstico|Diferencial',
+        fr: 'Diagnostic|différentiel',
+        zh: '鉴别诊断',
+    },
+    {
+        // Icon label with | as line break delimiter
+        code: '_contact_lens_icon',
+        en: 'Contact|Lens',
+        es: 'Lentes De|Contacto',
+        fr: 'Lentilles|de contact',
+        zh: '隐形眼镜',
+    },
+    {
+        // Icon label with | as line break delimiter
+        code: '_eye_strain_icon',
+        en: 'Digital|Eye Strain',
+        es: 'Fatiga|Ocular',
+        fr: 'Fatigue|visuelle',
+        zh: '眼疲劳',
+    },
+    {
+        // Icon label with | as line break delimiter
+        code: '_medication_review_icon',
+        en: 'Medication|Review',
+        es: 'Revisión De|Medicamentos',
+        fr: 'Médicaments',
+        zh: '药物审查',
+    },
+    {
+        // Icon label with | as line break delimiter
+        code: '_symptom_check_icon',
+        en: 'Symptom|Check',
+        es: 'Historia Y|Síntomas',
+        fr: 'Symptômes et|histoire de cas',
+        zh: '病史和症状',
+    },
+    {
         code: `_differential_header`,
         fr: `La sécheresse oculaire n'est qu'une des nombreuses affections de la surface oculaire. Le diagnostic différentiel permet de s'assurer qu'il n'existe pas d'autre affection sous-jacente, telle qu'une allergie ou une infection oculaire, qui soit responsable des symptômes. Traiter les comorbidités avant de traiter toute sécheresse oculaire résiduelle, afin d'augmenter les chances de succès pour le patient. La liste de vérification pour le triage TFOS DEWS II permet d'affiner rapidement et facilement le diagnostic et d'éviter des visites cliniques inutiles.`,
         zh: `干眼症只是众多眼表疾病中的一种。鉴别诊断有助于确保没有其他潜在的疾病（如眼部过敏或感染）导致这些症状。在治疗残余干眼症之前应先处理合并症，以提高患者的治疗成功率。TFOS DEWS II分诊检查表可以帮助快速准确地进行诊断，避免不必要的临床就诊。`,

@@ -36,32 +36,10 @@ const controlsStore = useControlsStore();
             </g>
         </g>
         <text
-            v-if="$selectedLanguage.value === 'en'"
             x="120"
             y="340"
             text-anchor="middle">
-            Sleep
-        </text>
-        <text
-            v-else-if="$selectedLanguage.value === 'es'"
-            x="120"
-            y="340"
-            text-anchor="middle">
-            Sleep (Spanish)
-        </text>
-        <text
-            v-else-if="$selectedLanguage.value === 'fr'"
-            x="120"
-            y="340"
-            text-anchor="middle">
-            Sleep (French)
-        </text>
-        <text
-            v-else-if="$selectedLanguage.value === 'zh'"
-            x="120"
-            y="340"
-            text-anchor="middle">
-            Sleep (Chinese)
+            {{ $t('Sleep') }}
         </text>
     </g>
 </template>

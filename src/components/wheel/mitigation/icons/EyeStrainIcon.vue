@@ -36,67 +36,15 @@ const controlsStore = useControlsStore();
                 points="139.78 507.8 137.96 506.04 136.24 505.89 136.13 507.1 137.43 507.21 138.94 508.67 139.78 507.8" />
         </g>
         <text
-            v-if="$selectedLanguage.value === 'en'"
             x="126"
             y="536"
             text-anchor="middle">
             <tspan
+                v-for="(line, index) in $t('_eye_strain_icon').split('|')"
+                :key="index"
                 x="126"
-                dy="0">
-                Digital
-            </tspan>
-            <tspan
-                x="126"
-                dy="12">
-                Eye Strain
-            </tspan>
-        </text>
-        <text
-            v-else-if="$selectedLanguage.value === 'es'"
-            x="126"
-            y="536"
-            text-anchor="middle">
-            <tspan
-                x="126"
-                dy="0">
-                Digital
-            </tspan>
-            <tspan
-                x="126"
-                dy="12">
-                Eye Strain (Spanish)
-            </tspan>
-        </text>
-        <text
-            v-else-if="$selectedLanguage.value === 'fr'"
-            x="126"
-            y="536"
-            text-anchor="middle">
-            <tspan
-                x="126"
-                dy="0">
-                Digital
-            </tspan>
-            <tspan
-                x="126"
-                dy="12">
-                Eye Strain (French)
-            </tspan>
-        </text>
-        <text
-            v-else-if="$selectedLanguage.value === 'zh'"
-            x="126"
-            y="536"
-            text-anchor="middle">
-            <tspan
-                x="126"
-                dy="0">
-                Digital
-            </tspan>
-            <tspan
-                x="126"
-                dy="12">
-                Eye Strain (Chinese)
+                :dy="index === 0 ? 0 : 12">
+                {{ line }}
             </tspan>
         </text>
     </g>

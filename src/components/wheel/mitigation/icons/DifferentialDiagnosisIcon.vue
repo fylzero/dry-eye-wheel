@@ -26,68 +26,17 @@ const controlsStore = useControlsStore();
                         d="m330.93,244.69c.17.94-.26,1.22-1.18,1.23-.93,0-1.21-.33-1.21-1.24,0-.93.3-1.23,1.22-1.22.91,0,1.35.28,1.17,1.23Z" />
                 </g>
             </g>
+            <!-- Use _differential_icon translation with | as line break delimiter -->
             <text
-                v-if="$selectedLanguage.value === 'en'"
                 x="310"
                 y="290"
                 text-anchor="middle">
                 <tspan
+                    v-for="(line, index) in $t('_differential_icon').split('|')"
+                    :key="index"
                     x="310"
-                    dy="0">
-                    Differential
-                </tspan>
-                <tspan
-                    x="310"
-                    dy="12">
-                    Diagnosis
-                </tspan>
-            </text>
-            <text
-                v-else-if="$selectedLanguage.value === 'es'"
-                x="310"
-                y="290"
-                text-anchor="middle">
-                <tspan
-                    x="310"
-                    dy="0">
-                    Differential
-                </tspan>
-                <tspan
-                    x="310"
-                    dy="12">
-                    Diagnosis (Spanish)
-                </tspan>
-            </text>
-            <text
-                v-else-if="$selectedLanguage.value === 'fr'"
-                x="310"
-                y="290"
-                text-anchor="middle">
-                <tspan
-                    x="310"
-                    dy="0">
-                    Differential
-                </tspan>
-                <tspan
-                    x="310"
-                    dy="12">
-                    Diagnosis (French)
-                </tspan>
-            </text>
-            <text
-                v-else-if="$selectedLanguage.value === 'zh'"
-                x="310"
-                y="290"
-                text-anchor="middle">
-                <tspan
-                    x="310"
-                    dy="0">
-                    Differential
-                </tspan>
-                <tspan
-                    x="310"
-                    dy="12">
-                    Diagnosis (Chinese)
+                    :dy="index === 0 ? 0 : 12">
+                    {{ line }}
                 </tspan>
             </text>
         </g>

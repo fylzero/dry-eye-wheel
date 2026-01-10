@@ -22,67 +22,15 @@ const controlsStore = useControlsStore();
             </g>
         </g>
         <text
-            v-if="$selectedLanguage.value === 'en'"
             x="360"
             y="420"
             text-anchor="middle">
             <tspan
+                v-for="(line, index) in $t('_medication_review_icon').split('|')"
+                :key="index"
                 x="360"
-                dy="0">
-                Medication
-            </tspan>
-            <tspan
-                x="360"
-                dy="12">
-                Review
-            </tspan>
-        </text>
-        <text
-            v-else-if="$selectedLanguage.value === 'es'"
-            x="360"
-            y="420"
-            text-anchor="middle">
-            <tspan
-                x="360"
-                dy="0">
-                Medication
-            </tspan>
-            <tspan
-                x="360"
-                dy="12">
-                Review (Spanish)
-            </tspan>
-        </text>
-        <text
-            v-else-if="$selectedLanguage.value === 'fr'"
-            x="360"
-            y="420"
-            text-anchor="middle">
-            <tspan
-                x="360"
-                dy="0">
-                Medication
-            </tspan>
-            <tspan
-                x="360"
-                dy="12">
-                Review (French)
-            </tspan>
-        </text>
-        <text
-            v-else-if="$selectedLanguage.value === 'zh'"
-            x="360"
-            y="420"
-            text-anchor="middle">
-            <tspan
-                x="360"
-                dy="0">
-                Medication
-            </tspan>
-            <tspan
-                x="360"
-                dy="12">
-                Review (Chinese)
+                :dy="index === 0 ? 0 : 12">
+                {{ line }}
             </tspan>
         </text>
     </g>
