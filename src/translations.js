@@ -283,9 +283,10 @@ remita al paciente según corresponda.</div>
         zh: '诊断',
     },
     {
-        en: 'Comfort Time After Blink Test',
-        es: 'Tiempo De Confort Después Del Parpadeo',
-        fr: `Test du temps de confort après clignement`,
+        code: '_comfort_time_after_blink_test_icon',
+        en: 'Comfort Time After|Blink Test',
+        es: 'Tiempo De Confort Tras|La Prueba De Parpadeo',
+        fr: `Temps de confort après|clignement des yeux`,
         zh: '眨眼后舒适时间测试',
     },
     {
@@ -303,7 +304,7 @@ remita al paciente según corresponda.</div>
         zh: '若< 10s，则提示存在干眼症',
     },
     {
-        en: 'Validated Questionnaire',
+        en: 'OSDI-6',
         es: 'Cuestionario Validado',
         fr: `Questionnaire validé`,
         zh: '验证问卷',
@@ -328,9 +329,11 @@ remita al paciente según corresponda.</div>
 `,
     },
     {
-        en: 'Fluorescein Staining',
-        es: 'Tinción Con Fluoresceína',
-        fr: `Coloration à la fluorescéine`,
+        // Icon label with | as line break delimiter
+        code: '_fluorescein_staining_icon',
+        en: 'Fluorescein|Staining',
+        es: 'Tinción Con|Fluoresceína',
+        fr: `Coloration à la|fluorescéine`,
         zh: '荧光素染色',
     },
     {
@@ -352,9 +355,10 @@ remita al paciente según corresponda.</div>
 `,
     },
     {
-        en: 'Non-Invasive Breakup Time',
-        es: 'But No Invasivo',
-        fr: `Temps de rupture non invasif (NIBUT)`,
+        code: '_non_invasive_breakup_time_icon',
+        en: 'Non-Invasive|Breakup Time',
+        es: 'But No|Invasivo',
+        fr: `Temps de rupture|non invasif|(NIBUT)`,
         zh: '非侵入性泪膜破裂时间',
     },
     {
@@ -408,9 +412,11 @@ remita al paciente según corresponda.</div>
 `,
     },
     {
-        en: 'Lissamine Green Staining',
-        es: 'Tinción Con Lisamina Verde',
-        fr: `Coloration au vert de lissamine`,
+        // Icon label with | as line break delimiter
+        code: '_lissamine_green_staining_icon',
+        en: 'Lissamine|Green|Staining',
+        es: 'Tinción|Con Lisamina|Verde',
+        fr: `Coloration|au vert de|lissamine`,
         zh: '绿色利萨明染色',
     },
     {
@@ -462,9 +468,10 @@ remita al paciente según corresponda.</div>
         zh: '眨眼频率和完整性',
     },
     {
-        en: 'Blink Rate & Completeness',
-        es: 'Frecuencia De Parpadeo Completo',
-        fr: `Fréquence et complétude des clignements`,
+        code: '_blink_rate_and_completeness_icon',
+        en: 'Blink Rate &|Completeness',
+        es: 'Frecuencia De|Parpadeo Completo',
+        fr: `Fréquence et|complétude des|clignements`,
         zh: '眨眼频率和完整性',
     },
     {
@@ -475,9 +482,11 @@ remita al paciente según corresponda.</div>
         zh: '眨眼频率降低或眨眼不完全可能导致蒸发过强型干眼症。',
     },
     {
-        en: 'Tear Meniscus Height',
-        es: 'Altura Del Menisco Lagrimal',
-        fr: `Hauteur du ménisque lacrymal`,
+        // Icon label with | as line break delimiter
+        code: '_tear_meniscus_height_icon',
+        en: 'Tear|Meniscus Height',
+        es: 'Altura Del|Menisco Lagrimal',
+        fr: `Hauteur du|ménisque lacrymal`,
         zh: '泪河高度',
     },
     {
@@ -501,9 +510,11 @@ remita al paciente según corresponda.</div>
 `,
     },
     {
-        en: 'Meibomian Gland Expression',
-        es: 'Expresión De Las Glándulas De Meibomio',
-        fr: `Expression des glandes de Meibomius`,
+        // Icon label with | as line break delimiter
+        code: '_meibomian_gland_expression_icon',
+        en: 'Meibomian|Gland Expression',
+        es: 'Expresión De|Las Glándulas|De Meibomio',
+        fr: `Expression des|glandes de|Meibomius`,
         zh: '睑板腺分泌物表达',
     },
     {
