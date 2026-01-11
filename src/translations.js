@@ -77,7 +77,7 @@ remita al paciente según corresponda.</div>
         zh: '隐形眼镜可能会破坏泪膜，并存在与眼表产生摩擦的风险，因此应当谨慎调整戴镜方案，对于那些已患有眼表疾病的患者来说更是如此。',
     },
     {
-        en: 'Eye Strain',
+        en: 'Digital Eye Strain',
         es: 'Fatiga Ocular',
         fr: 'Fatigue visuelle',
         zh: '眼疲劳',
