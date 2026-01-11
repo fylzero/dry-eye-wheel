@@ -11,10 +11,10 @@ import OsmolarityIcon from '@/components/wheel/measurement/icons/OsmolarityIcon.
 import TearMeniscusHeightIcon from '@/components/wheel/measurement/icons/TearMeniscusHeightIcon.vue';
 import ValidatedQuestionnaireIcon from '@/components/wheel/measurement/icons/ValidatedQuestionnaireIcon.vue';
 
-import SubClassificationTextFr from '@/assets/svg/fr/sub-classification-text.svg';
+import SubTypingTextFr from '@/assets/svg/fr/sub-typing-text.svg';
 import DiagnosisTextFr from '@/assets/svg/fr/diagnosis-text.svg';
 import MeasurementTextFr from '@/assets/svg/fr/measurement-text.svg';
-import SubClassificationTextZh from '@/assets/svg/zh/sub-classification-text.svg';
+import SubTypingTextZh from '@/assets/svg/zh/sub-typing-text.svg';
 import DiagnosisTextZh from '@/assets/svg/zh/diagnosis-text.svg';
 import MeasurementTextZh from '@/assets/svg/zh/measurement-text.svg';
 
@@ -241,7 +241,7 @@ const controlsStore = useControlsStore();
             <!-- Sub Class: 1 of 3 -->
             <path
                 class="measurement-cls-15"
-                :filter="controlsStore.subClassificationSectionGrayscale ? 'url(#grayscaleFilter)' : ''"
+                :filter="controlsStore.subTypingSectionGrayscale ? 'url(#grayscaleFilter)' : ''"
                 d="m782.29,193.25l-130.4,79.15c23.98,38.35,37.84,83.67,37.84,132.23,0,44.29-11.54,85.88-31.75,121.95l-14.24-8.43,143.88,85.21c33.97-59.06,53.4-127.54,53.4-200.57,0-76.76-21.47-148.49-58.73-209.54Z" />
 
             <!-- Diagnosis: 1 of 3 -->
@@ -263,7 +263,7 @@ const controlsStore = useControlsStore();
             <!-- Sub Class: 2 of 3 -->
             <path
                 class="measurement-cls-27"
-                :filter="controlsStore.subClassificationSectionGrayscale ? 'url(#grayscaleFilter)' : ''"
+                :filter="controlsStore.subTypingSectionGrayscale ? 'url(#grayscaleFilter)' : ''"
                 d="m689.73,404.63c0-48.56-13.87-93.88-37.84-132.23l-114.13,69.27c11.34,17.91,17.91,39.15,17.91,61.92,0,20.21-5.17,39.2-14.26,55.74l-.4-1.3,26.24,84.11,76.49-24,14.24,8.43c20.21-36.07,31.75-77.66,31.75-121.95Z" />
             <path
                 class="measurement-cls-19"
@@ -290,7 +290,7 @@ const controlsStore = useControlsStore();
             <!-- Sub Class: 3 of 3 -->
             <path
                 class="measurement-cls-17"
-                :filter="controlsStore.subClassificationSectionGrayscale ? 'url(#grayscaleFilter)' : ''"
+                :filter="controlsStore.subTypingSectionGrayscale ? 'url(#grayscaleFilter)' : ''"
                 d="m555.67,403.6c0-22.77-6.57-44.01-17.91-61.92l-93.5,56.76,96.75,59.61.4,1.3c9.09-16.54,14.26-35.54,14.26-55.74Z" />
             <path
                 class="measurement-cls-23"
@@ -392,7 +392,7 @@ const controlsStore = useControlsStore();
             <DiagnosisTextZh :viewBox="null" />
         </g>
 
-        <!-- SUB-CLASSIFICATION text -->
+        <!-- SUB-TYPING text -->
         <g v-if="$selectedLanguage.value === 'en'">
             <path
                 class="measurement-cls-13"
@@ -451,7 +451,7 @@ const controlsStore = useControlsStore();
         </g>
         <g
             v-else-if="$selectedLanguage.value === 'es'"
-            id="sub-classification-text-es"
+            id="sub-typing-text-es"
             style="transform: translate(597px, 239px)"
             class="fill-white">
             <path
@@ -487,12 +487,12 @@ const controlsStore = useControlsStore();
         <g
             v-else-if="$selectedLanguage.value === 'fr'"
             style="transform: translate(597px, 239px)">
-            <SubClassificationTextFr :viewBox="null" />
+            <SubTypingTextFr :viewBox="null" />
         </g>
         <g
             v-else-if="$selectedLanguage.value === 'zh'"
             style="transform: translate(730px, 215px)">
-            <SubClassificationTextZh :viewBox="null" />
+            <SubTypingTextZh :viewBox="null" />
         </g>
 
         <BlinkRateAndCompletenessIcon />

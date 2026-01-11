@@ -64,8 +64,8 @@ const showTestBox = ref(false);
                 <td>{{ controlsStore.diagnosisSectionGrayscale }}</td>
             </tr>
             <tr>
-                <td class="pr-2 text-gray-300">subClassificationSectionGrayscale</td>
-                <td>{{ controlsStore.subClassificationSectionGrayscale }}</td>
+                <td class="pr-2 text-gray-300">subTypingSectionGrayscale</td>
+                <td>{{ controlsStore.subTypingSectionGrayscale }}</td>
             </tr>
         </table>
     </div>

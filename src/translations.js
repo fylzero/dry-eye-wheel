@@ -455,7 +455,7 @@ remita al paciente según corresponda.</div>
     },
     // Measurement -> Sub-classification.
     {
-        en: 'Sub-Classification',
+        en: 'Sub-Typing',
         es: 'Sub-Calsificación',
         fr: `Sous-classification`,
         zh: '亚分类',

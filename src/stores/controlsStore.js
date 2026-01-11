@@ -133,7 +133,7 @@ export const useControlsStore = defineStore('controls', {
         },
         // Measurement: Section Grayscale
         diagnosisSectionGrayscale(state) {
-            if (state.selectedArea === 'measurement' && state.selectedSection === 'sub-classification') {
+            if (state.selectedArea === 'measurement' && state.selectedSection === 'sub-typing') {
                 return true;
             }
             if (!state.defaultState && state.selectedArea !== 'measurement') {
@@ -141,7 +141,7 @@ export const useControlsStore = defineStore('controls', {
             }
             return false;
         },
-        subClassificationSectionGrayscale(state) {
+        subTypingSectionGrayscale(state) {
             if (state.selectedArea === 'measurement' && state.selectedSection === 'diagnosis') {
                 return true;
             }

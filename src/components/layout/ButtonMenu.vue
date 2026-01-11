@@ -141,10 +141,10 @@ watch(sliderValue, () => {
                 {{ $t('Diagnosis') }}
             </GradientButton>
             <GradientButton
-                @click="controlsStore.selectSection('sub-classification', 'measurement')"
-                :class="{ active: controlsStore.selectedSection === 'sub-classification' }"
+                @click="controlsStore.selectSection('sub-typing', 'measurement')"
+                :class="{ active: controlsStore.selectedSection === 'sub-typing' }"
                 class="btn-section">
-                {{ $t('Sub-Classification') }}
+                {{ $t('Sub-Typing') }}
             </GradientButton>
         </div>
         <div class="grid grid-cols-2 gap-3">
@@ -155,7 +155,7 @@ watch(sliderValue, () => {
                 {{ $t('Comfort Time After Blink Test') }}
             </GradientButton>
             <GradientButton
-                @click="controlsStore.selectItem('blink-rate-and-completeness', 'sub-classification', 'measurement')"
+                @click="controlsStore.selectItem('blink-rate-and-completeness', 'sub-typing', 'measurement')"
                 :class="{ active: controlsStore.selectedItem === 'blink-rate-and-completeness' }"
                 class="btn-orange">
                 {{ $t('Blink Rate & Completeness') }}
@@ -169,7 +169,7 @@ watch(sliderValue, () => {
                 {{ $t('Validated Questionnaire') }}
             </GradientButton>
             <GradientButton
-                @click="controlsStore.selectItem('tear-meniscus-height', 'sub-classification', 'measurement')"
+                @click="controlsStore.selectItem('tear-meniscus-height', 'sub-typing', 'measurement')"
                 :class="{ active: controlsStore.selectedItem === 'tear-meniscus-height' }"
                 class="btn-silver">
                 {{ $t('Tear Meniscus Height') }}
@@ -183,7 +183,7 @@ watch(sliderValue, () => {
                 {{ $t('Fluorescein Staining') }}
             </GradientButton>
             <GradientButton
-                @click="controlsStore.selectItem('meibomian-gland-expression', 'sub-classification', 'measurement')"
+                @click="controlsStore.selectItem('meibomian-gland-expression', 'sub-typing', 'measurement')"
                 :class="{ active: controlsStore.selectedItem === 'meibomian-gland-expression' }"
                 class="btn-silver">
                 {{ $t('Meibomian Gland Expression') }}
@@ -197,7 +197,7 @@ watch(sliderValue, () => {
                 {{ $t('Non-Invasive Breakup Time') }}
             </GradientButton>
             <GradientButton
-                @click="controlsStore.selectItem('meibography', 'sub-classification', 'measurement')"
+                @click="controlsStore.selectItem('meibography', 'sub-typing', 'measurement')"
                 :class="{ active: controlsStore.selectedItem === 'meibography' }"
                 class="btn-yellow">
                 {{ $t('Meibography') }}
