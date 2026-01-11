@@ -1,18 +1,18 @@
 <script setup>
 import LottieAnimation from '@/lib/LottieAnimation.vue';
-import EyeStrainJson from '@/assets/json/eye-strain.json';
+import DigitalEyeStrainJson from '@/assets/json/digital-eye-strain.json';
 
 const props = defineProps({
     targetId: {
         type: String,
-        default: 'eyeStrainAnimation',
+        default: 'digitalEyeStrainAnimation',
     },
 });
 </script>
 
 <template>
     <LottieAnimation
-        :json="EyeStrainJson"
+        :json="DigitalEyeStrainJson"
         :loop="true"
         :autoPlay="true" />
 </template>

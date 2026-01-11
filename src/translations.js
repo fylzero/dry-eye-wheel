@@ -83,7 +83,7 @@ remita al paciente según corresponda.</div>
         zh: '眼疲劳',
     },
     {
-        code: '_eye_strain_text',
+        code: '_digital_eye_strain_text',
         en: 'Digital screen viewing can exacerbate ocular surface disease, especially more than 4-5 hours a day. The impact can be reduced by taking regular breaks, blink exercises, and positioning screens lower than the eyes.',
         es: 'La visualización prolongada de pantallas digitales, especialmente por más de 4-5 horas al día, puede agravar las enfermedades de la superficie ocular. Se puede reducir este impacto tomando descansos regulares, realizando ejercicios de parpadeo y colocando las pantallas a una altura inferior a la de los ojos.',
         fr: `L'utilisation d'écrans numériques peut exacerber les affections de surface oculaire, surtout quand elle a lieu plus de 4-5 heures par jour. Son impact peut être diminué en prenant des pauses régulières, en faisant des exercices de clignement des yeux et en positionnant les écrans plus bas que les yeux.`,
