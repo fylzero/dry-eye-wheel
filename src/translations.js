@@ -625,9 +625,10 @@ remita al paciente según corresponda.</div>
         zh: '轻度',
     },
     {
-        en: 'Artificial Tears',
-        es: 'Lágrimas Artificiales',
-        fr: `Larmes artificielles`,
+        code: '_artificial_tears_icon',
+        en: 'Artificial|Tears',
+        es: 'Lágrimas|Artificiales',
+        fr: `Larmes|artificielles`,
         zh: '人工泪液',
     },
     {
@@ -651,9 +652,10 @@ remita al paciente según corresponda.</div>
         zh: '与患者沟通时务必要使其知晓以下几点：干眼症需要长期、持续地进行治疗，很少能被彻底治愈，而是要采用多种方法来进行管理，认真配合医生的随访也十分重要。',
     },
     {
-        en: 'Blink Exercises',
-        es: 'Ejercicios De Parpadeo',
-        fr: `Exercices de clignement`,
+        code: '_blink_exercises_icon',
+        en: 'Blink|Exercises',
+        es: 'Ejercicios|De Parpadeo',
+        fr: `Exercices de|clignement`,
         zh: '眨眼练习',
     },
     {
@@ -664,9 +666,10 @@ remita al paciente según corresponda.</div>
         zh: '在使用数字设备时眨眼次数减少可导致干眼症。可以通过以下方式缓解这些问题：训练患者如何充分眨眼，在近距离工作时定时休息，并使用各种方法提醒他们定期眨眼。',
     },
     {
-        en: 'Diet And Dietary Supplements',
-        es: 'Dieta Y Suplementos Dietéticos',
-        fr: `Régime et compléments alimentaires`,
+        code: '_diet_and_dietary_supplements_icon',
+        en: 'Diet And Dietary|Supplements',
+        es: 'Dieta Y Suplementos|Dietéticos',
+        fr: `Régime et|compléments|alimentaires`,
         zh: '饮食与膳食补充剂',
     },
     {
@@ -677,9 +680,10 @@ remita al paciente según corresponda.</div>
         zh: '健康的饮食（尤其是地中海饮食）搭配富含欧米伽-3等成分的膳食补充剂，有助于保护眼表。',
     },
     {
-        en: 'Warm Compress',
-        es: 'Compresas Calientes',
-        fr: `Compresses chaudes`,
+        code: '_warm_compress_icon',
+        en: 'Warm|Compress',
+        es: 'Compresas|Calientes',
+        fr: `Compresses|chaudes`,
         zh: '热敷',
     },
     {
@@ -690,9 +694,10 @@ remita al paciente según corresponda.</div>
         zh: '可以通过多种热敷方法对眼睑进行外部热敷，例如使用微波加热的种子或玻璃珠制成的热敷包，或者也可以通过专用护目镜进行持续湿热敷。',
     },
     {
+        code: '_lid_hygiene_icon',
         en: 'Lid Hygiene',
-        es: 'Higiene Palpebral',
-        fr: `Hygiène des paupières`,
+        es: 'Higiene|Palpebral',
+        fr: `Hygiène des|paupières`,
         zh: '睑缘清洁',
     },
     {
@@ -709,9 +714,10 @@ remita al paciente según corresponda.</div>
         zh: '中度',
     },
     {
-        en: 'In-Office Treatments',
-        es: 'Tratamientos En Consultorio',
-        fr: `Traitements en cabinet`,
+        code: '_in_office_treatments_icon',
+        en: 'In-Office|Treatments',
+        es: 'Tratamientos|En Consultorio',
+        fr: `Traitements|en cabinet`,
         zh: '门诊治疗',
     },
     {
@@ -735,9 +741,10 @@ remita al paciente según corresponda.</div>
         zh: '目前有多种口服和局部使用的处方药剂可用于治疗更严重类型的干眼症。',
     },
     {
-        en: 'Scleral Lenses',
-        es: 'Lentes Esclerales',
-        fr: `Lentilles sclérales`,
+        code: '_scleral_lenses_icon',
+        en: 'Scleral|Lenses',
+        es: 'Lentes|Esclerales',
+        fr: `Lentilles|sclérales`,
         zh: '巩膜接触镜',
     },
     {
@@ -754,9 +761,10 @@ remita al paciente según corresponda.</div>
         zh: '重度',
     },
     {
-        en: 'Punctal Plugs',
-        es: 'Tapones Punctales',
-        fr: `Bouchons méatiques`,
+        code: '_punctal_plugs_icon',
+        en: 'Punctal|Plugs',
+        es: 'Tapones|Punctales',
+        fr: `Bouchons|méatiques`,
         zh: '泪小点栓塞术',
     },
     {
@@ -767,9 +775,10 @@ remita al paciente según corresponda.</div>
         zh: '泪小点栓塞术可通过阻塞泪小点，暂时性或永久性地阻止泪液从眼表排出。',
     },
     {
-        en: 'Complex Treatments',
-        es: 'Tratamientos Complejos',
-        fr: `Traitements complexes`,
+        code: '_complex_treatments_icon',
+        en: 'Complex|Treatments',
+        es: 'Tratamientos|Complejos',
+        fr: `Traitements|complexes`,
         zh: '综合治疗',
     },
     {
