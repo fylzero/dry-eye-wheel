@@ -5,7 +5,7 @@ import InOfficeTreatmentsIcon from '@/components/icons/InOfficeTreatmentsIcon.vu
 
 <template>
     <Card
-        :title="$t('In-Office Treatments')"
+        :title="$t('In-Office Light/Heat Based Devices')"
         class="absolute left-1/2 top-[200px] z-10 col-span-5 ml-[-300px] max-w-xl">
         <template #icon>
             <InOfficeTreatmentsIcon class="!-mb-8 !-mt-10 !h-40" />

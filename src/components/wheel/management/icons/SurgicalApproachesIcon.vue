@@ -6,7 +6,7 @@ const controlsStore = useControlsStore();
 <template>
     <g
         class="svg-icon"
-        :class="{ 'svg-active': controlsStore.selectedItem === 'punctal-plugs' }"
+        :class="{ 'svg-active': controlsStore.selectedItem === 'surgical-approaches' }"
         style="transform: translate(0px, 0px)">
         <!-- Icon -->
         <g>
@@ -16,13 +16,13 @@ const controlsStore = useControlsStore();
 		c0.4,0.3,1.9,0.9,2.1,1c0.9,0.4,1.8,1.8,0.3,2.5c-2.3,1.1-9.5,3.8-9.5,3.8s-2.1,0.9-3-1.3c-0.9-2.2-2.9-9.2-2.9-9.2
 		s-0.3-2.5,2.2-1.6l2.5,1.3c0,0,0.9,0.6,1.6-0.6C406.6,465,411,455.7,410.9,455.7L410.9,455.7z" />
         </g>
-        <!-- Use _punctal_plugs_icon translation with | as line break delimiter -->
+        <!-- Use _surgical_approaches_icon translation with | as line break delimiter -->
         <text
             x="408"
             y="490"
             text-anchor="middle">
             <tspan
-                v-for="(line, index) in $t('_punctal_plugs_icon').split('|')"
+                v-for="(line, index) in $t('_surgical_approaches_icon').split('|')"
                 :key="index"
                 x="408  "
                 :dy="index === 0 ? 0 : 12"

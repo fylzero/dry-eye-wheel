@@ -7,7 +7,7 @@ import InOfficeTreatmentsIcon from '@/components/wheel/management/icons/InOffice
 import LidHygieneIcon from '@/components/wheel/management/icons/LidHygieneIcon.vue';
 import DietAndDietarySupplementsIcon from '@/components/wheel/management/icons/DietAndDietarySupplementsIcon.vue';
 import PharmaceuticalsIcon from '@/components/wheel/management/icons/PharmaceuticalsIcon.vue';
-import PunctalPlugsIcon from '@/components/wheel/management/icons/PunctalPlugsIcon.vue';
+import SurgicalApproachesIcon from '@/components/wheel/management/icons/SurgicalApproachesIcon.vue';
 import ComplexTreatmentsIcon from '@/components/wheel/management/icons/ComplexTreatmentsIcon.vue';
 import ScleralLensesIcon from '@/components/wheel/management/icons/ScleralLensesIcon.vue';
 import WarmCompressIcon from '@/components/wheel/management/icons/WarmCompressIcon.vue';
@@ -142,7 +142,7 @@ const controlsStore = useControlsStore();
         <LidHygieneIcon />
         <DietAndDietarySupplementsIcon />
         <PharmaceuticalsIcon />
-        <PunctalPlugsIcon />
+        <SurgicalApproachesIcon />
         <ComplexTreatmentsIcon />
         <ScleralLensesIcon />
         <WarmCompressIcon />

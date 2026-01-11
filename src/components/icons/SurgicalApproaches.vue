@@ -1,18 +1,18 @@
 <script setup>
 import LottieAnimation from '@/lib/LottieAnimation.vue';
-import PunctalPlugsJson from '@/assets/json/punctal-plugs.json';
+import SurgicalApproachesJson from '@/assets/json/surgical-approaches.json';
 
 const props = defineProps({
     targetId: {
         type: String,
-        default: 'punctalPlugsAnimation',
+        default: 'surgicalApproachesAnimation',
     },
 });
 </script>
 
 <template>
     <LottieAnimation
-        :json="PunctalPlugsJson"
+        :json="SurgicalApproachesJson"
         :loop="true"
         :autoPlay="true" />
 </template>

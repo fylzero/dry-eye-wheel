@@ -1,6 +1,6 @@
 <script setup>
 import Card from '@/components/Card.vue';
-import PunctalPlugsIcon from '@/components/icons/PunctalPlugs.vue';
+import SurgicalApproachesIcon from '@/components/icons/SurgicalApproaches.vue';
 </script>
 
 <template>
@@ -8,9 +8,9 @@ import PunctalPlugsIcon from '@/components/icons/PunctalPlugs.vue';
         :title="$t('Punctal Plugs')"
         class="absolute left-1/2 top-[180px] z-10 col-span-5 ml-[-260px] max-w-xl">
         <template #icon>
-            <PunctalPlugsIcon class="!-mb-8 !-mt-10 !h-40" />
+            <SurgicalApproachesIcon class="!-mb-8 !-mt-10 !h-40" />
         </template>
 
-        {{ $t('_punctal_plugs_text') }}
+        {{ $t('_surgical_approaches_text') }}
     </Card>
 </template>

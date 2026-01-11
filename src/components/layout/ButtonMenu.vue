@@ -294,10 +294,10 @@ watch(sliderValue, () => {
                 {{ $t('In-Office Treatments') }}
             </GradientButton>
             <GradientButton
-                @click="controlsStore.selectItem('punctal-plugs', null, 'management')"
-                :class="{ active: controlsStore.selectedItem === 'punctal-plugs' }"
+                @click="controlsStore.selectItem('surgical-approaches', null, 'management')"
+                :class="{ active: controlsStore.selectedItem === 'surgical-approaches' }"
                 class="btn-yellow">
-                {{ $t('Punctal Plugs') }}
+                {{ $t('Surgical Approaches') }}
             </GradientButton>
         </div>
         <div class="grid grid-cols-2 gap-3">

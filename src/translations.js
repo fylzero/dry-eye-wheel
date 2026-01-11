@@ -716,7 +716,7 @@ remita al paciente según corresponda.</div>
     },
     {
         code: '_in_office_treatments_icon',
-        en: 'In-Office|Treatments',
+        en: 'In-Office Light/Heat|Based Devices',
         es: 'Tratamientos|En Consultorio',
         fr: `Traitements|en cabinet`,
         zh: '门诊治疗',
@@ -762,14 +762,14 @@ remita al paciente según corresponda.</div>
         zh: '重度',
     },
     {
-        code: '_punctal_plugs_icon',
-        en: 'Punctal|Plugs',
+        code: '_surgical_approaches_icon',
+        en: 'Surgical|Approaches',
         es: 'Tapones|Punctales',
         fr: `Bouchons|méatiques`,
         zh: '泪小点栓塞术',
     },
     {
-        code: '_punctal_plugs_text',
+        code: '_surgical_approaches_text',
         en: 'Punctal plugs can be used to temporarily or permanently block the drainage of tears from the ocular surface by occluding the puncta.',
         es: 'Los tapones punctales pueden usarse para bloquear temporal o permanentemente el drenaje de lágrimas de la superficie ocular mediante la oclusión de los puntos lagrimales.',
         fr: `Les bouchons méatiques peuvent être utilisés pour bloquer temporairement ou définitivement le drainage des larmes de la surface oculaire en obstruant les points lacrymaux.`,

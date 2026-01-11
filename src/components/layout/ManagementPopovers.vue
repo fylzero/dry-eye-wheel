@@ -10,7 +10,7 @@ import LightTherapyPopover from '@/components/wheel/popovers/management/LightThe
 import DietAndDietarySupplementsPopover from '@/components/wheel/popovers/management/DietAndDietarySupplementsPopover.vue';
 import PharmaceuticalsPopover from '@/components/wheel/popovers/management/PharmaceuticalsPopover.vue';
 import ScleralLensesPopover from '@/components/wheel/popovers/management/ScleralLensesPopover.vue';
-import PunctalPlugsPopover from '@/components/wheel/popovers/management/PunctalPlugsPopover.vue';
+import SurgicalApproachesPopover from '@/components/wheel/popovers/management/SurgicalApproachesPopover.vue';
 import ComplexTreatmentsPopover from '@/components/wheel/popovers/management/ComplexTreatmentsPopover.vue';
 
 const controlsStore = useControlsStore();
@@ -32,6 +32,6 @@ const controlsStore = useControlsStore();
     <LightTherapyPopover v-if="controlsStore.selectedItem === 'in-office-treatments'" />
     <PharmaceuticalsPopover v-if="controlsStore.selectedItem === 'pharmaceuticals'" />
     <ScleralLensesPopover v-if="controlsStore.selectedItem === 'scleral-lenses'" />
-    <PunctalPlugsPopover v-if="controlsStore.selectedItem === 'punctal-plugs'" />
+    <SurgicalApproachesPopover v-if="controlsStore.selectedItem === 'surgical-approaches'" />
     <ComplexTreatmentsPopover v-if="controlsStore.selectedItem === 'complex-treatments'" />
 </template>
