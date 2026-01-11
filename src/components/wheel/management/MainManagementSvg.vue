@@ -3,7 +3,7 @@ import { useControlsStore } from '@/stores/controlsStore.js';
 import AdviceIcon from '@/components/wheel/management/icons/AdviceIcon.vue';
 import ArtificialTearsIcon from '@/components/wheel/management/icons/ArtificialTearsIcon.vue';
 import BlinkExercisesIcon from '@/components/wheel/management/icons/BlinkExercisesIcon.vue';
-import InOfficeTreatmentsIcon from '@/components/wheel/management/icons/InOfficeTreatmentsIcon.vue';
+import InOfficeLightHeatBasedDevicesIcon from '@/components/wheel/management/icons/InOfficeLightHeatBasedDevicesIcon.vue';
 import LidHygieneIcon from '@/components/wheel/management/icons/LidHygieneIcon.vue';
 import DietAndDietarySupplementsIcon from '@/components/wheel/management/icons/DietAndDietarySupplementsIcon.vue';
 import PharmaceuticalsIcon from '@/components/wheel/management/icons/PharmaceuticalsIcon.vue';
@@ -138,7 +138,7 @@ const controlsStore = useControlsStore();
         <AdviceIcon />
         <ArtificialTearsIcon />
         <BlinkExercisesIcon />
-        <InOfficeTreatmentsIcon />
+        <InOfficeLightHeatBasedDevicesIcon />
         <LidHygieneIcon />
         <DietAndDietarySupplementsIcon />
         <PharmaceuticalsIcon />

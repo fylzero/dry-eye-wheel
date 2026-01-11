@@ -45,13 +45,13 @@ const controlsStore = useControlsStore();
         </g>
         <!-- Use _lissamine_green_staining_icon translation with | as line break delimiter -->
         <text
-            x="478"
-            y="340"
+            x="476"
+            y="337"
             text-anchor="middle">
             <tspan
                 v-for="(line, index) in $t('_lissamine_green_staining_icon').split('|')"
                 :key="index"
-                x="478"
+                x="476"
                 :dy="index === 0 ? 0 : 12"
                 :style="$selectedLanguage.value === 'en' ? '' : 'font-size: 8px !important'">
                 {{ line }}

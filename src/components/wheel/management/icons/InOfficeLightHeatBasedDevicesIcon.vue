@@ -5,7 +5,7 @@ const controlsStore = useControlsStore();
 
 <template>
     <g
-        :class="{ 'svg-active': controlsStore.selectedItem === 'in-office-treatments' }"
+        :class="{ 'svg-active': controlsStore.selectedItem === 'in-office-light-heat-based-devices' }"
         class="svg-icon svg-fill-path"
         style="transform: translate(0px, 0px)">
         <!-- Icon -->
@@ -22,13 +22,13 @@ const controlsStore = useControlsStore();
     c-5.4,2.1-10,5.2-14.3,9.2C317.9,540.7,322.6,543.8,328,545.8L328,545.8z M349.9,545.8c5.3-2.1,10-5.2,14.2-9.1
     c-4.2-3.9-8.9-7-14.2-9C354.1,533.7,354.1,539.7,349.9,545.8L349.9,545.8z" />
         </g>
-        <!-- Use _in_office_treatments_icon translation with | as line break delimiter -->
+        <!-- Use _in_office_light_heat_based_devices_icon translation with | as line break delimiter -->
         <text
             x="340"
             y="566"
             text-anchor="middle">
             <tspan
-                v-for="(line, index) in $t('_in_office_treatments_icon').split('|')"
+                v-for="(line, index) in $t('_in_office_light_heat_based_devices_icon').split('|')"
                 :key="index"
                 x="340  "
                 :dy="index === 0 ? 0 : 12"

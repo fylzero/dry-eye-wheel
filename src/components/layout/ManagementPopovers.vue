@@ -6,7 +6,7 @@ import WarmCompressPopover from '@/components/wheel/popovers/management/WarmComp
 import BlinkExercisesPopover from '@/components/wheel/popovers/management/BlinkExercisesPopover.vue';
 import AdvicePopover from '@/components/wheel/popovers/management/AdvicePopover.vue';
 import ArtificialTearsPopover from '@/components/wheel/popovers/management/ArtificialTearsPopover.vue';
-import LightTherapyPopover from '@/components/wheel/popovers/management/LightTherapyPopover.vue';
+import InOfficeLightHeatBasedDevicesPopover from '@/components/wheel/popovers/management/InOfficeLightHeatBasedDevicesPopover.vue';
 import DietAndDietarySupplementsPopover from '@/components/wheel/popovers/management/DietAndDietarySupplementsPopover.vue';
 import PharmaceuticalsPopover from '@/components/wheel/popovers/management/PharmaceuticalsPopover.vue';
 import ScleralLensesPopover from '@/components/wheel/popovers/management/ScleralLensesPopover.vue';
@@ -29,7 +29,7 @@ const controlsStore = useControlsStore();
     <AdvicePopover v-if="controlsStore.selectedItem === 'advice'" />
     <DietAndDietarySupplementsPopover v-if="controlsStore.selectedItem === 'diet-and-dietary-supplements'" />
     <ArtificialTearsPopover v-if="controlsStore.selectedItem === 'artificial-tears'" />
-    <LightTherapyPopover v-if="controlsStore.selectedItem === 'in-office-treatments'" />
+    <InOfficeLightHeatBasedDevicesPopover v-if="controlsStore.selectedItem === 'in-office-light-heat-based-devices'" />
     <PharmaceuticalsPopover v-if="controlsStore.selectedItem === 'pharmaceuticals'" />
     <ScleralLensesPopover v-if="controlsStore.selectedItem === 'scleral-lenses'" />
     <SurgicalApproachesPopover v-if="controlsStore.selectedItem === 'surgical-approaches'" />

@@ -149,7 +149,7 @@ remita al paciente según corresponda.</div>
         zh: '病史采集：仔细的病史采集有助于识别干眼症状以及与干眼症发展相关的风险因素。识别可改变的风险因素尤为重要，因为通过简单的生活方式改变就可以帮助减轻或消除这些因素的影响，促进眼表健康。',
     },
     {
-        en: 'Differential',
+        en: 'Differential Diagnosis',
         es: 'Diagnóstico Diferencial',
         fr: `Diagnostic différentiel`,
         zh: '鉴别诊断',
@@ -716,14 +716,14 @@ remita al paciente según corresponda.</div>
         zh: '中度',
     },
     {
-        code: '_in_office_treatments_icon',
+        code: '_in_office_light_heat_based_devices_icon',
         en: 'In-Office Light/Heat|Based Devices',
         es: 'Tratamientos|En Consultorio',
         fr: `Traitements|en cabinet`,
         zh: '门诊治疗',
     },
     {
-        code: '_in_office_treatments_text',
+        code: '_in_office_light_heat_based_devices_text',
         en: 'These include debridement, therapeutic expression, lid warming and massage therapies, intense pulsed light therapy and photobiomodulation.',
         es: 'Estos incluyen desbridamiento, expresión terapéutica, terapias de calentamiento y masaje de párpados, terapia de luz pulsada intensa y fotobiomodulación.',
         fr: `Ceux-ci comprennent le débridement, l'expression thérapeutique, les thérapies de réchauffement et de massage des paupières, la thérapie par lumière pulsée intense et la photobiomodulation.`,

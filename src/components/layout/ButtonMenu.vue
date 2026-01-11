@@ -77,34 +77,41 @@ watch(sliderValue, () => {
                 {{ $t('Contact Lens') }}
             </GradientButton>
             <GradientButton
-                @click="controlsStore.selectItem('differential', 'triaging', 'mitigation')"
-                :class="{ active: controlsStore.selectedItem === 'differential' }"
-                class="btn-silver">
-                {{ $t('Differential') }}
-            </GradientButton>
-        </div>
-        <div class="grid grid-cols-2 gap-3">
-            <GradientButton
-                @click="controlsStore.selectItem('eye-strain', 'risk-factors', 'mitigation')"
-                :class="{ active: controlsStore.selectedItem === 'eye-strain' }"
+                @click="controlsStore.selectItem('differential-diagnosis', 'triaging', 'mitigation')"
+                :class="{ active: controlsStore.selectedItem === 'differential-diagnosis' }"
                 class="btn-orange">
-                {{ $t('Digital Eye Strain') }}
-            </GradientButton>
-            <GradientButton
-                @click="controlsStore.selectItem('prophylaxis', 'triaging', 'mitigation')"
-                :class="{ active: controlsStore.selectedItem === 'prophylaxis' }"
-                class="btn-yellow">
-                {{ $t('Prophylaxis') }}
+                {{ $t('Differential Diagnosis') }}
             </GradientButton>
         </div>
         <div class="grid grid-cols-2 gap-3">
             <GradientButton
                 @click="controlsStore.selectItem('environment', 'risk-factors', 'mitigation')"
                 :class="{ active: controlsStore.selectedItem === 'environment' }"
-                class="btn-silver">
+                class="btn-orange">
                 {{ $t('Environment') }}
             </GradientButton>
-            <div>&nbsp;</div>
+            <GradientButton
+                @click="controlsStore.selectItem('eye-strain', 'risk-factors', 'mitigation')"
+                :class="{ active: controlsStore.selectedItem === 'eye-strain' }"
+                class="btn-orange">
+                {{ $t('Digital Eye Strain') }}
+            </GradientButton>
+        </div>
+        <div class="grid grid-cols-2 gap-3">
+            <GradientButton
+                @click="controlsStore.selectItem('previous-eye-surgery', 'triaging', 'mitigation')"
+                :class="{ active: controlsStore.selectedItem === 'previous-eye-surgery' }"
+                class="btn-silver">
+                {{ $t('Previous Eye Surgery') }}
+            </GradientButton>
+            <GradientButton
+                @click="
+                    controlsStore.selectItem('proactive-management-of-ocular-surface-disease', 'triaging', 'mitigation')
+                "
+                :class="{ active: controlsStore.selectedItem === 'proactive-management-of-ocular-surface-disease' }"
+                class="btn-silver">
+                {{ $t('Proactive Management of Ocular Surface Disease') }}
+            </GradientButton>
         </div>
         <div class="grid grid-cols-2 gap-3">
             <GradientButton
@@ -113,7 +120,12 @@ watch(sliderValue, () => {
                 class="btn-silver">
                 {{ $t('Hormones') }}
             </GradientButton>
-            <div>&nbsp;</div>
+            <GradientButton
+                @click="controlsStore.selectItem('corneal-sensitivity-assessment', 'risk-factors', 'mitigation')"
+                :class="{ active: controlsStore.selectedItem === 'corneal-sensitivity-assessment' }"
+                class="btn-silver">
+                {{ $t('Corneal Sensitivity Assessment') }}
+            </GradientButton>
         </div>
         <div class="mb-6 grid grid-cols-2 gap-3">
             <GradientButton
@@ -122,7 +134,12 @@ watch(sliderValue, () => {
                 class="btn-yellow">
                 {{ $t('Medication Review') }}
             </GradientButton>
-            <div>&nbsp;</div>
+            <GradientButton
+                @click="controlsStore.selectItem('prophylaxis', 'triaging', 'mitigation')"
+                :class="{ active: controlsStore.selectedItem === 'prophylaxis' }"
+                class="btn-yellow">
+                {{ $t('Prophylaxis') }}
+            </GradientButton>
         </div>
 
         <!-- Measurement -->
@@ -288,10 +305,10 @@ watch(sliderValue, () => {
         </div>
         <div class="grid grid-cols-2 gap-3">
             <GradientButton
-                @click="controlsStore.selectItem('in-office-treatments', null, 'management')"
-                :class="{ active: controlsStore.selectedItem === 'in-office-treatments' }"
+                @click="controlsStore.selectItem('in-office-light-heat-based-devices', null, 'management')"
+                :class="{ active: controlsStore.selectedItem === 'in-office-light-heat-based-devices' }"
                 class="btn-silver">
-                {{ $t('In-Office Treatments') }}
+                {{ $t('In-Office Light/Heat-Based Devices') }}
             </GradientButton>
             <GradientButton
                 @click="controlsStore.selectItem('surgical-approaches', null, 'management')"

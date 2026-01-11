@@ -6,7 +6,7 @@ import GradientBorderBox from '@/components/layout/GradientBorderBox.vue';
 
 <template>
     <Card
-        :title="$t('Differential')"
+        :title="$t('Differential Diagnosis')"
         class="absolute left-1/2 top-[240px] z-10 col-span-5 ml-[-224px] max-w-xl">
         <template #icon>
             <DifferentialDiagnosisIcon class="!-mb-8 !-mt-10 !h-40" />
@@ -73,8 +73,12 @@ import GradientBorderBox from '@/components/layout/GradientBorderBox.vue';
         <template v-else>
             <div v-html="$t('_differential_header')" />
             <GradientBorderBox>
-                <ul class="mx-1 list-inside list-disc text-left text-xs" v-html="$t('_differential_list')" />
-                <div class="text-xs font-bold text-[#2B398F]" v-html="$t('_differential_footer')"></div>
+                <ul
+                    class="mx-1 list-inside list-disc text-left text-xs"
+                    v-html="$t('_differential_list')" />
+                <div
+                    class="text-xs font-bold text-[#2B398F]"
+                    v-html="$t('_differential_footer')"></div>
             </GradientBorderBox>
         </template>
     </Card>

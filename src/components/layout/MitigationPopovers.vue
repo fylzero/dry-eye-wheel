@@ -22,7 +22,7 @@ const controlsStore = useControlsStore();
 
     <!-- Section Popovers -->
     <QuestionnaireForEarlyIdPopover v-if="controlsStore.selectedItem === 'questionnaire'" />
-    <DifferentialDiagnosisPopover v-if="controlsStore.selectedItem === 'differential'" />
+    <DifferentialDiagnosisPopover v-if="controlsStore.selectedItem === 'differential-diagnosis'" />
     <ProphylaxisPopover v-if="controlsStore.selectedItem === 'prophylaxis'" />
     <SleepPopover v-if="controlsStore.selectedItem === 'sleep'" />
     <ContactLensesPopover v-if="controlsStore.selectedItem === 'contact-lens'" />
