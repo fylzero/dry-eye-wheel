@@ -1,18 +1,18 @@
 <script setup>
 import LottieAnimation from '@/lib/LottieAnimation.vue';
-import ValidatedQuestionnaireJson from '@/assets/json/validated-questionnaire.json';
+import Osdi6Json from '@/assets/json/osdi-6.json';
 
 const props = defineProps({
     targetId: {
         type: String,
-        default: 'validatedQuestionnaireAnimation',
+        default: 'osdi6Animation',
     },
 });
 </script>
 
 <template>
     <LottieAnimation
-        :json="ValidatedQuestionnaireJson"
+        :json="Osdi6Json"
         :loop="true"
         :autoPlay="true" />
 </template>

@@ -180,30 +180,44 @@ watch(sliderValue, () => {
         </div>
         <div class="grid grid-cols-2 gap-3">
             <GradientButton
-                @click="controlsStore.selectItem('validated-questionnaire', 'diagnosis', 'measurement')"
-                :class="{ active: controlsStore.selectedItem === 'validated-questionnaire' }"
+                @click="controlsStore.selectItem('osdi-6', 'diagnosis', 'measurement')"
+                :class="{ active: controlsStore.selectedItem === 'osdi-6' }"
                 class="btn-orange">
-                {{ $t('Validated Questionnaire') }}
+                {{ $t('OSDI-6') }}
             </GradientButton>
+            <GradientButton
+                @click="controlsStore.selectItem('ocular-surface-misalignment', 'sub-typing', 'measurement')"
+                :class="{ active: controlsStore.selectedItem === 'ocular-surface-misalignment' }"
+                class="btn-silver">
+                {{ $t('Ocular Surface Misalignment') }}
+            </GradientButton>
+        </div>
+        <div class="grid grid-cols-2 gap-3">
             <GradientButton
                 @click="controlsStore.selectItem('aqueous-tear-meniscus-height', 'sub-typing', 'measurement')"
                 :class="{ active: controlsStore.selectedItem === 'aqueous-tear-meniscus-height' }"
                 class="btn-silver">
                 {{ $t('Aqueous Tear Meniscus Height') }}
             </GradientButton>
-        </div>
-        <div class="grid grid-cols-2 gap-3">
             <GradientButton
                 @click="controlsStore.selectItem('fluorescein-staining', 'diagnosis', 'measurement')"
                 :class="{ active: controlsStore.selectedItem === 'fluorescein-staining' }"
                 class="btn-silver">
                 {{ $t('Fluorescein Staining') }}
             </GradientButton>
+        </div>
+        <div class="grid grid-cols-2 gap-3">
             <GradientButton
                 @click="controlsStore.selectItem('eyelids-meibomian-gland-expression', 'sub-typing', 'measurement')"
                 :class="{ active: controlsStore.selectedItem === 'eyelids-meibomian-gland-expression' }"
                 class="btn-silver">
                 {{ $t('Eyelids: Meibomian Gland Expression') }}
+            </GradientButton>
+            <GradientButton
+                @click="controlsStore.selectItem('eyelids-anterior-blepharitis-exam', 'sub-typing', 'measurement')"
+                :class="{ active: controlsStore.selectedItem === 'eyelids-anterior-blepharitis-exam' }"
+                class="btn-silver">
+                {{ $t('Eyelids: Anterior Blepharitis Exam') }}
             </GradientButton>
         </div>
         <div class="grid grid-cols-2 gap-3">
@@ -227,16 +241,12 @@ watch(sliderValue, () => {
                 class="btn-silver">
                 {{ $t('Osmolarity') }}
             </GradientButton>
-            <div>&nbsp;</div>
-        </div>
-        <div class="grid grid-cols-2 gap-3">
             <GradientButton
                 @click="controlsStore.selectItem('lissamine-green-staining', 'diagnosis', 'measurement')"
                 :class="{ active: controlsStore.selectedItem === 'lissamine-green-staining' }"
                 class="btn-yellow">
                 {{ $t('Lissamine Green Staining') }}
             </GradientButton>
-            <div>&nbsp;</div>
         </div>
 
         <!-- Management -->

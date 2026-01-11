@@ -311,7 +311,7 @@ remita al paciente según corresponda.</div>
         zh: '验证问卷',
     },
     {
-        code: '_validated_questionnaire_text',
+        code: '_osdi_6_text',
         en: `
         <div>OSDI score ≥ 13 OR DEQ-5 score ≥ 6.</div>
         <div>Other questionnaires can assist with management choices, but not standardized diagnosis.</div>

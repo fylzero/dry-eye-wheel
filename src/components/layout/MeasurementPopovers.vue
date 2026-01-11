@@ -2,7 +2,7 @@
 import { useControlsStore } from '@/stores/controlsStore.js';
 import MeasurementPopover from '@/components/wheel/popovers/MeasurementPopover.vue';
 import ComfortAfterBlinkTestPopover from '@/components/wheel/popovers/measurement/ComfortAfterBlinkTestPopover.vue';
-import ValidatedQuestionnairePopover from '@/components/wheel/popovers/measurement/ValidatedQuestionnairePopover.vue';
+import Osdi6Popover from '@/components/wheel/popovers/measurement/Osdi6Popover.vue';
 import FluoresceinStainingPopover from '@/components/wheel/popovers/measurement/FluoresceinStainingPopover.vue';
 import NonInvasiveBreakupTimePopover from '@/components/wheel/popovers/measurement/NonInvasiveBreakupTimePopover.vue';
 import OsmolarityPopover from '@/components/wheel/popovers/measurement/OsmolarityPopover.vue';
@@ -25,7 +25,7 @@ const controlsStore = useControlsStore();
 
     <!-- Section Popovers -->
     <ComfortAfterBlinkTestPopover v-if="controlsStore.selectedItem === 'comfort-time-after-blink-test'" />
-    <ValidatedQuestionnairePopover v-if="controlsStore.selectedItem === 'validated-questionnaire'" />
+    <Osdi6Popover v-if="controlsStore.selectedItem === 'osdi-6'" />
     <FluoresceinStainingPopover v-if="controlsStore.selectedItem === 'fluorescein-staining'" />
     <NonInvasiveBreakupTimePopover v-if="controlsStore.selectedItem === 'non-invasive-breakup-time'" />
     <OsmolarityPopover v-if="controlsStore.selectedItem === 'osmolarity'" />
