@@ -309,7 +309,7 @@ export default [
     },
     {
         code: '_ocular_surface_misalignment_text',
-        en: '',
+        en: 'Altered alignment between the globe and inner eyelid surfaces due to pterygium, for example, impairs tear film distribution across the ocular surface, resulting in tear film instability',
         es: '',
         fr: '',
         zh: '',
@@ -330,7 +330,7 @@ export default [
     },
     {
         code: '_eyelids_anterior_blepharitis_exam_text',
-        en: '',
+        en: 'Checking the eyelashes under magnification during downgaze for the presence of flakes or collarettes may reveal a high microbial load',
         es: '',
         fr: '',
         zh: '',
