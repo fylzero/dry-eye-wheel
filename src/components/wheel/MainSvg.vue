@@ -3,9 +3,9 @@ import { useControlsStore } from '@/stores/controlsStore.js';
 import MainManagementSvg from '@/components/wheel/management/MainManagementSvg.vue';
 import MainMitigationSvg from '@/components/wheel/mitigation/MainMitigationSvg.vue';
 import MainMeasurementSvg from '@/components/wheel/measurement/MainMeasurementSvg.vue';
-import MitigationPopovers from '@/components/layout/MitigationPopovers.vue';
-import MeasurementPopovers from '@/components/layout/MeasurementPopovers.vue';
-import ManagementPopovers from '@/components/layout/ManagementPopovers.vue';
+import MitigationPopovers from '@/components/wheel/mitigation/popovers/MitigationPopovers.vue';
+import MeasurementPopovers from '@/components/wheel/measurement/popovers/MeasurementPopovers.vue';
+import ManagementPopovers from '@/components/wheel/management/popovers/ManagementPopovers.vue';
 
 const controlsStore = useControlsStore();
 </script>

@@ -1,18 +1,18 @@
 <script setup>
 import { useControlsStore } from '@/stores/controlsStore.js';
-import MeasurementPopover from '@/components/wheel/popovers/MeasurementPopover.vue';
-import ComfortAfterBlinkTestPopover from '@/components/wheel/popovers/measurement/ComfortAfterBlinkTestPopover.vue';
-import Osdi6Popover from '@/components/wheel/popovers/measurement/Osdi6Popover.vue';
-import FluoresceinStainingPopover from '@/components/wheel/popovers/measurement/FluoresceinStainingPopover.vue';
-import NonInvasiveBreakupTimePopover from '@/components/wheel/popovers/measurement/NonInvasiveBreakupTimePopover.vue';
-import OsmolarityPopover from '@/components/wheel/popovers/measurement/OsmolarityPopover.vue';
-import LissamineGreenStainingPopover from '@/components/wheel/popovers/measurement/LissamineGreenStainingPopover.vue';
-import BlinkCompletenessAndLidClosurePopover from '@/components/wheel/popovers/measurement/BlinkCompletenessAndLidClosurePopover.vue';
-import AqueousTearMeniscusHeightPopover from '@/components/wheel/popovers/measurement/AqueousTearMeniscusHeightPopover.vue';
-import EyelidsMeibomianGlandExpressionPopover from '@/components/wheel/popovers/measurement/EyelidsMeibomianGlandExpressionPopover.vue';
-import MeibographyAndInterferometryPopover from '@/components/wheel/popovers/measurement/MeibographyAndInterferometryPopover.vue';
-import OcularSurfaceMisalignmentPopover from '@/components/wheel/popovers/measurement/OcularSurfaceMisalignmentPopover.vue';
-import EyelidsAnteriorBlepharitisExamPopover from '@/components/wheel/popovers/measurement/EyelidsAnteriorBlepharitisExamPopover.vue';
+import MeasurementPopover from '@/components/wheel/measurement/popovers/MeasurementPopover.vue';
+import ComfortAfterBlinkTestPopover from '@/components/wheel/measurement/popovers/ComfortAfterBlinkTestPopover.vue';
+import Osdi6Popover from '@/components/wheel/measurement/popovers/Osdi6Popover.vue';
+import FluoresceinStainingPopover from '@/components/wheel/measurement/popovers/FluoresceinStainingPopover.vue';
+import NonInvasiveBreakupTimePopover from '@/components/wheel/measurement/popovers/NonInvasiveBreakupTimePopover.vue';
+import OsmolarityPopover from '@/components/wheel/measurement/popovers/OsmolarityPopover.vue';
+import LissamineGreenStainingPopover from '@/components/wheel/measurement/popovers/LissamineGreenStainingPopover.vue';
+import BlinkCompletenessAndLidClosurePopover from '@/components/wheel/measurement/popovers/BlinkCompletenessAndLidClosurePopover.vue';
+import AqueousTearMeniscusHeightPopover from '@/components/wheel/measurement/popovers/AqueousTearMeniscusHeightPopover.vue';
+import EyelidsMeibomianGlandExpressionPopover from '@/components/wheel/measurement/popovers/EyelidsMeibomianGlandExpressionPopover.vue';
+import MeibographyAndInterferometryPopover from '@/components/wheel/measurement/popovers/MeibographyAndInterferometryPopover.vue';
+import OcularSurfaceMisalignmentPopover from '@/components/wheel/measurement/popovers/OcularSurfaceMisalignmentPopover.vue';
+import EyelidsAnteriorBlepharitisExamPopover from '@/components/wheel/measurement/popovers/EyelidsAnteriorBlepharitisExamPopover.vue';
 
 const controlsStore = useControlsStore();
 </script>

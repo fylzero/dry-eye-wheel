@@ -1,17 +1,17 @@
 <script setup>
 import { useControlsStore } from '@/stores/controlsStore.js';
-import ManagementPopover from '@/components/wheel/popovers/ManagementPopover.vue';
-import LidHygienePopover from '@/components/wheel/popovers/management/LidHygienePopover.vue';
-import WarmCompressPopover from '@/components/wheel/popovers/management/WarmCompressPopover.vue';
-import BlinkExercisesPopover from '@/components/wheel/popovers/management/BlinkExercisesPopover.vue';
-import AdvicePopover from '@/components/wheel/popovers/management/AdvicePopover.vue';
-import ArtificialTearsPopover from '@/components/wheel/popovers/management/ArtificialTearsPopover.vue';
-import InOfficeLightHeatBasedDevicesPopover from '@/components/wheel/popovers/management/InOfficeLightHeatBasedDevicesPopover.vue';
-import DietAndDietarySupplementsPopover from '@/components/wheel/popovers/management/DietAndDietarySupplementsPopover.vue';
-import PharmaceuticalsPopover from '@/components/wheel/popovers/management/PharmaceuticalsPopover.vue';
-import ScleralLensesPopover from '@/components/wheel/popovers/management/ScleralLensesPopover.vue';
-import SurgicalApproachesPopover from '@/components/wheel/popovers/management/SurgicalApproachesPopover.vue';
-import ComplexTreatmentsPopover from '@/components/wheel/popovers/management/ComplexTreatmentsPopover.vue';
+import ManagementPopover from '@/components/wheel/management/popovers/ManagementPopover.vue';
+import LidHygienePopover from '@/components/wheel/management/popovers/LidHygienePopover.vue';
+import WarmCompressPopover from '@/components/wheel/management/popovers/WarmCompressPopover.vue';
+import BlinkExercisesPopover from '@/components/wheel/management/popovers/BlinkExercisesPopover.vue';
+import AdvicePopover from '@/components/wheel/management/popovers/AdvicePopover.vue';
+import ArtificialTearsPopover from '@/components/wheel/management/popovers/ArtificialTearsPopover.vue';
+import InOfficeLightHeatBasedDevicesPopover from '@/components/wheel/management/popovers/InOfficeLightHeatBasedDevicesPopover.vue';
+import DietAndDietarySupplementsPopover from '@/components/wheel/management/popovers/DietAndDietarySupplementsPopover.vue';
+import PharmaceuticalsPopover from '@/components/wheel/management/popovers/PharmaceuticalsPopover.vue';
+import ScleralLensesPopover from '@/components/wheel/management/popovers/ScleralLensesPopover.vue';
+import SurgicalApproachesPopover from '@/components/wheel/management/popovers/SurgicalApproachesPopover.vue';
+import ComplexTreatmentsPopover from '@/components/wheel/management/popovers/ComplexTreatmentsPopover.vue';
 
 const controlsStore = useControlsStore();
 </script>
