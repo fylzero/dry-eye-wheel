@@ -1,6 +1,5 @@
 // eslint-disable no-irregular-whitespace
 export default [
-    // Management.
     {
         en: 'Management',
         es: 'Tratamiento',
