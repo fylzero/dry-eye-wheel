@@ -22,9 +22,10 @@ const controlsStore = useControlsStore();
             </g>
         </g>
         <text
-            x="395"
-            y="345"
-            text-anchor="middle">
+            x="398"
+            y="348"
+            text-anchor="middle"
+            :style="$selectedLanguage.value === 'zh' ? 'font-size: 14px !important;' : ''">
             {{ $t('Prophylaxis') }}
         </text>
     </g>

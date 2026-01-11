@@ -359,7 +359,7 @@ remita al paciente según corresponda.</div>
         en: 'Non-Invasive|Breakup Time',
         es: 'But No|Invasivo',
         fr: `Temps de rupture|non invasif|(NIBUT)`,
-        zh: '非侵入性泪膜破裂时间',
+        zh: '非侵入性泪|膜破裂时间',
     },
     {
         code: '_non_invasive_breakup_time_text',

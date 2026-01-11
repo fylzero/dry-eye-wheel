@@ -38,7 +38,8 @@ const controlsStore = useControlsStore();
         <text
             x="120"
             y="340"
-            text-anchor="middle">
+            text-anchor="middle"
+            :style="$selectedLanguage.value === 'zh' ? 'font-size: 14px !important;' : ''">
             {{ $t('Sleep') }}
         </text>
     </g>

@@ -83,7 +83,8 @@ const controlsStore = useControlsStore();
                 v-for="(line, index) in $t('_warm_compress_icon').split('|')"
                 :key="index"
                 x="600  "
-                :dy="index === 0 ? 0 : 12">
+                :dy="index === 0 ? 0 : 12"
+                :style="$selectedLanguage.value === 'zh' ? 'font-size: 14px !important;' : ''">
                 {{ line }}
             </tspan>
         </text>

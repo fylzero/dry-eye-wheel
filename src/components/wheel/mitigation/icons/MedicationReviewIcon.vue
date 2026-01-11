@@ -29,7 +29,14 @@ const controlsStore = useControlsStore();
                 v-for="(line, index) in $t('_medication_review_icon').split('|')"
                 :key="index"
                 x="360"
-                :dy="index === 0 ? 0 : 12">
+                :dy="index === 0 ? 0 : 12"
+                :style="
+                    $selectedLanguage.value === 'zh'
+                        ? 'font-size: 14px !important;'
+                        : $selectedLanguage.value === 'es'
+                        ? 'font-size: 8px !important;'
+                        : ''
+                ">
                 {{ line }}
             </tspan>
         </text>

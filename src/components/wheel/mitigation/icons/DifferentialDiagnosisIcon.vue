@@ -35,7 +35,8 @@ const controlsStore = useControlsStore();
                     v-for="(line, index) in $t('_differential_icon').split('|')"
                     :key="index"
                     x="310"
-                    :dy="index === 0 ? 0 : 12">
+                    :dy="index === 0 ? 0 : 12"
+                    :style="$selectedLanguage.value === 'zh' ? 'font-size: 14px !important;' : ''">
                     {{ line }}
                 </tspan>
             </text>

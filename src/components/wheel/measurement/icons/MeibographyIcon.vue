@@ -29,7 +29,8 @@ const controlsStore = useControlsStore();
         <text
             x="510"
             y="414"
-            text-anchor="middle">
+            text-anchor="middle"
+            :style="$selectedLanguage.value === 'zh' ? 'font-size: 14px !important;' : ''">
             {{ $t('Meibography') }}
         </text>
     </g>

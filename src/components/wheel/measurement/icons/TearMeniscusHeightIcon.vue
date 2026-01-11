@@ -67,7 +67,8 @@ const controlsStore = useControlsStore();
                 v-for="(line, index) in $t('_tear_meniscus_height_icon').split('|')"
                 :key="index"
                 x="620"
-                :dy="index === 0 ? 0 : 12">
+                :dy="index === 0 ? 0 : 12"
+                :style="$selectedLanguage.value === 'zh' ? 'font-size: 14px !important;' : ''">
                 {{ line }}
             </tspan>
         </text>
