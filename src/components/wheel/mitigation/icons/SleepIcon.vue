@@ -7,7 +7,7 @@ const controlsStore = useControlsStore();
     <g
         class="svg-icon"
         :class="{ 'svg-active': controlsStore.selectedItem === 'sleep' }"
-        style="transform: translate(0px, 0px)">
+        style="transform: translate(16px, -3px)">
         <!-- Icon -->
         <g>
             <g>

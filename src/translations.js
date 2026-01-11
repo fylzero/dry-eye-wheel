@@ -90,7 +90,8 @@ remita al paciente según corresponda.</div>
         zh: '观看电子屏幕会加重眼表疾病，尤其是每天观看时长超过4-5个小时。可以通过定期休息、进行眨眼练习以及将屏幕放置在低于眼睛的位置来减轻这种影响。',
     },
     {
-        en: 'Environment',
+        code: '_environment_advice_icon',
+        en: 'Environment|Advice',
         es: 'Ambiente',
         fr: `Environnement`,
         zh: '环境',

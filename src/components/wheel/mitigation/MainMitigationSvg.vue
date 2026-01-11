@@ -1,8 +1,8 @@
 <script setup>
 import { useControlsStore } from '@/stores/controlsStore.js';
-import EnvironmentIcon from '@/components/wheel/mitigation/icons/EnvironmentIcon.vue';
+import EnvironmentAdviceIcon from '@/components/wheel/mitigation/icons/EnvironmentAdviceIcon.vue';
 import ContactLensIcon from '@/components/wheel/mitigation/icons/ContactLensIcon.vue';
-import EyeStrainIcon from '@/components/wheel/mitigation/icons/EyeStrainIcon.vue';
+import DigitalEyeStrainIcon from '@/components/wheel/mitigation/icons/DigitalEyeStrainIcon.vue';
 import MedicationReviewIcon from '@/components/wheel/mitigation/icons/MedicationReviewIcon.vue';
 import HormonesIcon from '@/components/wheel/mitigation/icons/HormonesIcon.vue';
 import SleepIcon from '@/components/wheel/mitigation/icons/SleepIcon.vue';
@@ -547,11 +547,11 @@ const controlsStore = useControlsStore();
             <RiskFactorsTextZh :viewBox="null" />
         </g>
 
-        <EnvironmentIcon />
+        <EnvironmentAdviceIcon />
 
         <ContactLensIcon />
 
-        <EyeStrainIcon />
+        <DigitalEyeStrainIcon />
 
         <MedicationReviewIcon />
 

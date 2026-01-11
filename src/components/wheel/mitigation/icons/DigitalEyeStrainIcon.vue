@@ -7,7 +7,7 @@ const controlsStore = useControlsStore();
     <g
         :class="{ 'svg-active': controlsStore.selectedItem === 'eye-strain' }"
         class="svg-icon svg-fill-path"
-        style="transform: translate(0px, 0px)">
+        style="transform: translate(18px, 20px)">
         <!-- Icon -->
         <g>
             <path

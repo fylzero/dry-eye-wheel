@@ -7,7 +7,7 @@ const controlsStore = useControlsStore();
     <g
         class="svg-icon"
         :class="{ 'svg-active': controlsStore.selectedItem === 'contact-lens' }"
-        style="transform: translate(0px, 0px)">
+        style="transform: translate(0px, 60px)">
         <!-- Icon -->
         <g>
             <path

@@ -7,7 +7,7 @@ const controlsStore = useControlsStore();
     <g
         :class="{ 'svg-active': controlsStore.selectedItem === 'environment' }"
         class="svg-icon svg-fill-path"
-        style="transform: translate(0px, 0px)">
+        style="transform: translate(-155px, 36px)">
         <!-- Icon -->
         <g>
             <path
@@ -35,12 +35,19 @@ const controlsStore = useControlsStore();
             <path
                 d="m240.38,320.22c.25.09.52.15.75.28,1.41.8,2.81,1.61,4.2,2.44.78.47,1.02,1.27.61,1.92-.39.63-1.18.8-1.93.37-1.43-.81-2.85-1.65-4.28-2.47-.64-.37-.89-.97-.62-1.58.2-.44.71-.74,1.09-1.1.06.05.12.09.18.14Z" />
         </g>
+        <!-- Use _environment_advice_icon translation with | as line break delimiter -->
         <text
             x="260"
             y="370"
-            text-anchor="middle"
-            :style="$selectedLanguage.value === 'zh' ? 'font-size: 14px !important;' : ''">
-            {{ $t('Environment') }}
+            text-anchor="middle">
+            <tspan
+                v-for="(line, index) in $t('_environment_advice_icon').split('|')"
+                :key="index"
+                x="260"
+                :dy="index === 0 ? 0 : 12"
+                :style="$selectedLanguage.value === 'zh' ? 'font-size: 14px !important;' : ''">
+                {{ line }}
+            </tspan>
         </text>
     </g>
 </template>
