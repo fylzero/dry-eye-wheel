@@ -1,6 +1,6 @@
 <script setup>
 import Card from '@/components/Card.vue';
-import AdviceIcon from '@/components/animated-icons/Advice.vue';
+import AdviceIcon from '@/components/wheel/management/animated-icons/Advice.vue';
 </script>
 
 <template>

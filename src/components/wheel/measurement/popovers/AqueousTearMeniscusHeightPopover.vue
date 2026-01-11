@@ -1,6 +1,6 @@
 <script setup>
 import Card from '@/components/Card.vue';
-import AqueousTearMeniscusHeightIcon from '@/components/animated-icons/AqueousTearMeniscusHeight.vue';
+import AqueousTearMeniscusHeightIcon from '@/components/wheel/measurement/animated-icons/AqueousTearMeniscusHeight.vue';
 </script>
 
 <template>

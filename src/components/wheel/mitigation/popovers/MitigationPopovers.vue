@@ -1,7 +1,7 @@
 <script setup>
 import { useControlsStore } from '@/stores/controlsStore.js';
 import MitigationPopover from '@/components/wheel/mitigation/popovers/MitigationPopover.vue';
-import QuestionnaireForEarlyIdPopover from '@/components/wheel/mitigation/popovers/QuestionnaireForEarlyIdPopover.vue';
+import SymptomCheckPopover from '@/components/wheel/mitigation/popovers/SymptomCheckPopover.vue';
 import DifferentialDiagnosisPopover from '@/components/wheel/mitigation/popovers/DifferentialDiagnosisPopover.vue';
 import ProphylaxisPopover from '@/components/wheel/mitigation/popovers/ProphylaxisPopover.vue';
 import SleepPopover from '@/components/wheel/mitigation/popovers/SleepPopover.vue';
@@ -24,7 +24,7 @@ const controlsStore = useControlsStore();
         " />
 
     <!-- Section Popovers -->
-    <QuestionnaireForEarlyIdPopover v-if="controlsStore.selectedItem === 'questionnaire'" />
+    <SymptomCheckPopover v-if="controlsStore.selectedItem === 'symptom-check'" />
     <DifferentialDiagnosisPopover v-if="controlsStore.selectedItem === 'differential-diagnosis'" />
     <ProphylaxisPopover v-if="controlsStore.selectedItem === 'prophylaxis'" />
     <SleepPopover v-if="controlsStore.selectedItem === 'sleep'" />

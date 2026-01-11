@@ -1,6 +1,6 @@
 <script setup>
 import Card from '@/components/Card.vue';
-import PreviousEyeSurgeryIcon from '@/components/animated-icons/PreviousEyeSurgery.vue';
+import PreviousEyeSurgeryIcon from '@/components/wheel/mitigation/animated-icons/PreviousEyeSurgery.vue';
 </script>
 
 <template>

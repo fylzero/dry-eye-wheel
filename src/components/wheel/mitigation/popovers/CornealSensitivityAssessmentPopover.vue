@@ -1,6 +1,6 @@
 <script setup>
 import Card from '@/components/Card.vue';
-import CornealSensitivityAssessmentIcon from '@/components/animated-icons/CornealSensitivityAssessment.vue';
+import CornealSensitivityAssessmentIcon from '@/components/wheel/mitigation/animated-icons/CornealSensitivityAssessment.vue';
 </script>
 
 <template>

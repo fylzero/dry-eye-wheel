@@ -1,6 +1,6 @@
 <script setup>
 import Card from '@/components/Card.vue';
-import EnvironmentAdviceIcon from '@/components/animated-icons/Environment.vue';
+import EnvironmentAdviceIcon from '@/components/wheel/mitigation/animated-icons/Environment.vue';
 </script>
 
 <template>

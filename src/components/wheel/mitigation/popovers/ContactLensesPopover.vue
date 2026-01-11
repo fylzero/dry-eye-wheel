@@ -1,6 +1,6 @@
 <script setup>
 import Card from '@/components/Card.vue';
-import ContactLensIcon from '@/components/animated-icons/ContactLens.vue';
+import ContactLensIcon from '@/components/wheel/mitigation/animated-icons/ContactLens.vue';
 </script>
 
 <template>

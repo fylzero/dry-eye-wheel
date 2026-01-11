@@ -1,6 +1,6 @@
 <script setup>
 import Card from '@/components/Card.vue';
-import DietAndDietarySupplementsIcon from '@/components/animated-icons/DietAndDietarySupplements.vue';
+import DietAndDietarySupplementsIcon from '@/components/wheel/management/animated-icons/DietAndDietarySupplements.vue';
 </script>
 
 <template>

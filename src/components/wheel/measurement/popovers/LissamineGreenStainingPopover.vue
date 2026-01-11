@@ -1,6 +1,6 @@
 <script setup>
 import Card from '@/components/Card.vue';
-import LissamineGreenStainingIcon from '@/components/animated-icons/LissamineGreenStaining.vue';
+import LissamineGreenStainingIcon from '@/components/wheel/measurement/animated-icons/LissamineGreenStaining.vue';
 </script>
 
 <template>

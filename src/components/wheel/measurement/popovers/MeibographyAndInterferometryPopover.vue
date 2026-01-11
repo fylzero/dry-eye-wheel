@@ -1,6 +1,6 @@
 <script setup>
 import Card from '@/components/Card.vue';
-import MeibographyAndInterferometryIcon from '@/components/animated-icons/MeibographyAndInterferometry.vue';
+import MeibographyAndInterferometryIcon from '@/components/wheel/measurement/animated-icons/MeibographyAndInterferometry.vue';
 </script>
 
 <template>

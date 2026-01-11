@@ -1,6 +1,6 @@
 <script setup>
 import Card from '@/components/Card.vue';
-import ScleralLensesIcon from '@/components/animated-icons/ScleralLenses.vue';
+import ScleralLensesIcon from '@/components/wheel/management/animated-icons/ScleralLenses.vue';
 </script>
 
 <template>

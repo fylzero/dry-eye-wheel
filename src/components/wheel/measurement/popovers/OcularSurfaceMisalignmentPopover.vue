@@ -1,6 +1,6 @@
 <script setup>
 import Card from '@/components/Card.vue';
-import OcularSurfaceMisalignmentIcon from '@/components/animated-icons/OcularSurfaceMisalignment.vue';
+import OcularSurfaceMisalignmentIcon from '@/components/wheel/measurement/animated-icons/OcularSurfaceMisalignment.vue';
 </script>
 
 <template>

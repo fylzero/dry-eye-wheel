@@ -1,6 +1,6 @@
 <script setup>
 import Card from '@/components/Card.vue';
-import ComplexTreatmentsIcon from '@/components/animated-icons/ComplexTreatments.vue';
+import ComplexTreatmentsIcon from '@/components/wheel/management/animated-icons/ComplexTreatments.vue';
 </script>
 
 <template>

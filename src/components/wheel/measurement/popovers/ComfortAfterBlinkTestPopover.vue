@@ -1,6 +1,6 @@
 <script setup>
 import Card from '@/components/Card.vue';
-import ComfortAfterBlinkTestIcon from '@/components/animated-icons/ComfortAfterBlinkTest.vue';
+import ComfortAfterBlinkTestIcon from '@/components/wheel/measurement/animated-icons/ComfortAfterBlinkTest.vue';
 </script>
 
 <template>

@@ -1,6 +1,6 @@
 <script setup>
 import Card from '@/components/Card.vue';
-import SleepIcon from '@/components/animated-icons/Sleep.vue';
+import SleepIcon from '@/components/wheel/mitigation/animated-icons/Sleep.vue';
 </script>
 
 <template>

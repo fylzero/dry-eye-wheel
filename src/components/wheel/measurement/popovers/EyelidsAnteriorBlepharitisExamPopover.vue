@@ -1,6 +1,6 @@
 <script setup>
 import Card from '@/components/Card.vue';
-import EyelidsAnteriorBlepharitisExamIcon from '@/components/animated-icons/EyelidsAnteriorBlepharitisExam.vue';
+import EyelidsAnteriorBlepharitisExamIcon from '@/components/wheel/measurement/animated-icons/EyelidsAnteriorBlepharitisExam.vue';
 </script>
 
 <template>

@@ -1,6 +1,6 @@
 <script setup>
 import Card from '@/components/Card.vue';
-import BlinkCompletenessAndLidClosureIcon from '@/components/animated-icons/BlinkCompletenessAndLidClosure.vue';
+import BlinkCompletenessAndLidClosureIcon from '@/components/wheel/measurement/animated-icons/BlinkCompletenessAndLidClosure.vue';
 </script>
 
 <template>

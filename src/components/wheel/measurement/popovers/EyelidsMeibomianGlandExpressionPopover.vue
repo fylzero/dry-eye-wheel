@@ -1,6 +1,6 @@
 <script setup>
 import Card from '@/components/Card.vue';
-import EyelidsMeibomianGlandExpressionIcon from '@/components/animated-icons/EyelidsMeibomianGlandExpression.vue';
+import EyelidsMeibomianGlandExpressionIcon from '@/components/wheel/measurement/animated-icons/EyelidsMeibomianGlandExpression.vue';
 </script>
 
 <template>

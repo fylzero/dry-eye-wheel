@@ -1,6 +1,6 @@
 <script setup>
 import Card from '@/components/Card.vue';
-import OsmolarityIcon from '@/components/animated-icons/Osmolarity.vue';
+import OsmolarityIcon from '@/components/wheel/measurement/animated-icons/Osmolarity.vue';
 </script>
 
 <template>

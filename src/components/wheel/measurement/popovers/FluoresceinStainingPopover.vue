@@ -1,6 +1,6 @@
 <script setup>
 import Card from '@/components/Card.vue';
-import FluoresceinStainingIcon from '@/components/animated-icons/FluoresceinStaining.vue';
+import FluoresceinStainingIcon from '@/components/wheel/measurement/animated-icons/FluoresceinStaining.vue';
 </script>
 
 <template>

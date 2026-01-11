@@ -1,6 +1,6 @@
 <script setup>
 import Card from '@/components/Card.vue';
-import WarmCompressIcon from '@/components/animated-icons/WarmCompress.vue';
+import WarmCompressIcon from '@/components/wheel/management/animated-icons/WarmCompress.vue';
 </script>
 
 <template>

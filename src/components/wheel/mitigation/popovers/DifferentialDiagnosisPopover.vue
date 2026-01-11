@@ -1,7 +1,7 @@
 <script setup>
 import Card from '@/components/Card.vue';
-import DifferentialDiagnosisIcon from '@/components/animated-icons/DifferentialDiagnosis.vue';
-import GradientBorderBox from '@/components/layout/GradientBorderBox.vue';
+import DifferentialDiagnosisIcon from '@/components/wheel/mitigation/animated-icons/DifferentialDiagnosis.vue';
+import GradientBorderBox from '@/components/GradientBorderBox.vue';
 </script>
 
 <template>

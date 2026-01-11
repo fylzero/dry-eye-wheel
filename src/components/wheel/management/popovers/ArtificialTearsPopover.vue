@@ -1,6 +1,6 @@
 <script setup>
 import Card from '@/components/Card.vue';
-import ArtificialTearsIcon from '@/components/animated-icons/ArtificialTears.vue';
+import ArtificialTearsIcon from '@/components/wheel/management/animated-icons/ArtificialTears.vue';
 </script>
 
 <template>

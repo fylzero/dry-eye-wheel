@@ -1,6 +1,6 @@
 <script setup>
 import Card from '@/components/Card.vue';
-import ProactiveManagementOfOcularSurfaceDiseaseIcon from '@/components/animated-icons/ProactiveManagementOfOcularSurfaceDisease.vue';
+import ProactiveManagementOfOcularSurfaceDiseaseIcon from '@/components/wheel/mitigation/animated-icons/ProactiveManagementOfOcularSurfaceDisease.vue';
 </script>
 
 <template>

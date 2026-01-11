@@ -1,6 +1,6 @@
 <script setup>
 import Card from '@/components/Card.vue';
-import LidHygieneIcon from '@/components/animated-icons/LidHygiene.vue';
+import LidHygieneIcon from '@/components/wheel/management/animated-icons/LidHygiene.vue';
 </script>
 
 <template>
