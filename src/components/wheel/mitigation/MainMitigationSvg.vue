@@ -9,6 +9,9 @@ import SleepIcon from '@/components/wheel/mitigation/icons/SleepIcon.vue';
 import ProphylaxisIcon from '@/components/wheel/mitigation/icons/ProphylaxisIcon.vue';
 import SymptomCheckIcon from '@/components/wheel/mitigation/icons/SymptomCheckIcon.vue';
 import DifferentialDiagnosisIcon from '@/components/wheel/mitigation/icons/DifferentialDiagnosisIcon.vue';
+import PreviousEyeSurgeryIcon from '@/components/wheel/mitigation/icons/PreviousEyeSurgeryIcon.vue';
+import ProactiveManagementOfOcularSurfaceDiseaseIcon from '@/components/wheel/mitigation/icons/ProactiveManagementOfOcularSurfaceDiseaseIcon.vue';
+import CornealSensitivityAssessmentIcon from '@/components/wheel/mitigation/icons/CornealSensitivityAssessmentIcon.vue';
 
 import TriagingTextFr from '@/assets/svg/fr/triaging-text.svg';
 import MitigationTextFr from '@/assets/svg/fr/mitigation-text.svg';
@@ -564,6 +567,12 @@ const controlsStore = useControlsStore();
         <SymptomCheckIcon />
 
         <DifferentialDiagnosisIcon />
+
+        <PreviousEyeSurgeryIcon />
+
+        <ProactiveManagementOfOcularSurfaceDiseaseIcon />
+
+        <CornealSensitivityAssessmentIcon />
 
         <!-- TRIAGING text -->
         <g v-if="$selectedLanguage.value === 'en'">

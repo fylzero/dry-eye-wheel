@@ -7,7 +7,7 @@ const controlsStore = useControlsStore();
     <g
         :class="{ 'svg-active': controlsStore.selectedItem === 'eyelids-meibomian-gland-expression' }"
         class="svg-icon svg-fill-circle"
-        style="transform: translate(0px, 0px)">
+        style="transform: translate(190px, 200px); scale: 0.75">
         <!-- Icon -->
         <g>
             <g>
@@ -89,7 +89,7 @@ const controlsStore = useControlsStore();
         <!-- Use _eyelids_meibomian_gland_expression_icon translation with | as line break delimiter -->
         <text
             x="620"
-            y="484"
+            y="480"
             text-anchor="middle">
             <tspan
                 v-for="(line, index) in $t('_eyelids_meibomian_gland_expression_icon').split('|')"

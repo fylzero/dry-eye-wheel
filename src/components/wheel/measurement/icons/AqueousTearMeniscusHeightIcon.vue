@@ -7,7 +7,7 @@ const controlsStore = useControlsStore();
     <g
         :class="{ 'svg-active': controlsStore.selectedItem === 'aqueous-tear-meniscus-height' }"
         class="svg-icon svg-fill-circle"
-        style="transform: translate(0px, 0px)">
+        style="transform: translate(60px, 90px); scale: 0.85">
         <!-- Icon -->
         <g>
             <circle
@@ -60,13 +60,12 @@ const controlsStore = useControlsStore();
         </g>
         <!-- Use _aqueous_tear_meniscus_height_icon translation with | as line break delimiter -->
         <text
-            x="620"
-            y="396"
-            text-anchor="middle">
+            x="650"
+            y="358">
             <tspan
                 v-for="(line, index) in $t('_aqueous_tear_meniscus_height_icon').split('|')"
                 :key="index"
-                x="620"
+                x="650"
                 :dy="index === 0 ? 0 : 12"
                 :style="$selectedLanguage.value === 'zh' ? 'font-size: 14px !important;' : ''">
                 {{ line }}

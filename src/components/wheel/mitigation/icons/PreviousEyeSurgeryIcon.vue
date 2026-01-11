@@ -7,9 +7,16 @@ const controlsStore = useControlsStore();
     <g
         class="svg-icon"
         :class="{ 'svg-active': controlsStore.selectedItem === 'previous-eye-surgery' }"
-        style="transform: translate(16px, -3px)">
+        style="transform: translate(0px, 20px)">
         <!-- Icon -->
-        ICON
+        <g>
+            <circle
+                cx="200"
+                cy="320"
+                r="15"
+                fill="black" />
+        </g>
+
         <text
             x="200"
             y="340"

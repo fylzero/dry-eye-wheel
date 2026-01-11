@@ -260,6 +260,46 @@ remita al paciente según corresponda.</div>
         fr: `La prévention, comme avec une bonne hydratation, le contrôle des conditions environnementales et l'hygiène oculaire, peut aider à prévenir les atteintes de la surface oculaire et les symptômes d'œil sec qui en résultent.`,
         zh: '预防措施，如保持良好的水分摄入、控制环境条件和眼部卫生，可以帮助预防眼表损伤和由此导致的干眼症状。',
     },
+    {
+        en: 'Proactive Management of Ocular Surface Disease',
+        es: '',
+        fr: '',
+        zh: '',
+    },
+    {
+        code: '_proactive_management_of_ocular_surface_disease_icon',
+        en: 'Proactive Management|of Ocular Surface|Disease',
+        es: '',
+        fr: '',
+        zh: '',
+    },
+    {
+        code: '_proactive_management_of_ocular_surface_disease_text',
+        en: '',
+        es: '',
+        fr: '',
+        zh: '',
+    },
+    {
+        en: 'Corneal Sensitivity Assessment',
+        es: '',
+        fr: '',
+        zh: '',
+    },
+    {
+        code: '_corneal_sensitivity_assessment_icon',
+        en: 'Corneal Sensitivity|Assessment',
+        es: '',
+        fr: '',
+        zh: '',
+    },
+    {
+        code: '_corneal_sensitivity_assessment_text',
+        en: '',
+        es: '',
+        fr: '',
+        zh: '',
+    },
 
     // Measurement.
     {
@@ -558,6 +598,48 @@ remita al paciente según corresponda.</div>
         es: 'Las glándulas acortadas / disminuidas en las imágenes de transiluminación o infrarrojas de los párpados evertidos, pueden ser indicativas de ojo seco evaporativo',
         fr: `L'observation de glandes raccourcies ou atrophiées lors de la transillumination ou de l'imagerie infrarouge des paupières retournées peut indiquer une sécheresse oculaire évaporative.`,
         zh: '翻转眼睑进行透照或红外成像时发现腺体缩短/缺失可能提示存在蒸发过强型干眼症。',
+    },
+    {
+        code: '_ocular_surface_misalignment_title',
+        en: 'Ocular Surface|Misalignment',
+        es: '',
+        fr: '',
+        zh: '',
+    },
+    {
+        code: '_ocular_surface_misalignment_icon',
+        en: 'Ocular Surface|Misalignment',
+        es: '',
+        fr: '',
+        zh: '',
+    },
+    {
+        code: '_ocular_surface_misalignment_text',
+        en: '',
+        es: '',
+        fr: '',
+        zh: '',
+    },
+    {
+        code: '_eyelids_anterior_blepharitis_exam_title',
+        en: 'Eyelids: Anterior|Blepharitis Exam',
+        es: '',
+        fr: '',
+        zh: '',
+    },
+    {
+        code: '_eyelids_anterior_blepharitis_exam_icon',
+        en: 'Eyelids: Anterior|Blepharitis Exam',
+        es: '',
+        fr: '',
+        zh: '',
+    },
+    {
+        code: '_eyelids_anterior_blepharitis_exam_text',
+        en: '',
+        es: '',
+        fr: '',
+        zh: '',
     },
 
     // The Wheel.

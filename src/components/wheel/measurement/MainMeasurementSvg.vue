@@ -10,6 +10,8 @@ import NonInvasiveBreakupTimeIcon from '@/components/wheel/measurement/icons/Non
 import OsmolarityIcon from '@/components/wheel/measurement/icons/OsmolarityIcon.vue';
 import AqueousTearMeniscusHeightIcon from '@/components/wheel/measurement/icons/AqueousTearMeniscusHeightIcon.vue';
 import Osdi6Icon from '@/components/wheel/measurement/icons/Osdi6Icon.vue';
+import OcularSurfaceMisalignmentIcon from '@/components/wheel/measurement/icons/OcularSurfaceMisalignmentIcon.vue';
+import EyelidsAnteriorBlepharitisExamIcon from '@/components/wheel/measurement/icons/EyelidsAnteriorBlepharitisExamIcon.vue';
 
 import DiagnosisTextFr from '@/assets/svg/fr/diagnosis-text.svg';
 import MeasurementTextFr from '@/assets/svg/fr/measurement-text.svg';
@@ -392,7 +394,7 @@ const controlsStore = useControlsStore();
 
         <!-- SUB-TYPING text -->
         <text
-            x="440"
+            x="460"
             y="600"
             text-anchor="middle"
             class="block-title"
@@ -411,6 +413,8 @@ const controlsStore = useControlsStore();
         <OsmolarityIcon />
         <AqueousTearMeniscusHeightIcon />
         <Osdi6Icon />
+        <OcularSurfaceMisalignmentIcon />
+        <EyelidsAnteriorBlepharitisExamIcon />
 
         <polyline
             class="measurement-cls-1"
