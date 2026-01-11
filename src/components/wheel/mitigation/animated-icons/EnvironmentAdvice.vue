@@ -1,6 +1,6 @@
 <script setup>
 import LottieAnimation from '@/lib/LottieAnimation.vue';
-import EnvironmentJson from '@/assets/json/mitigation/environment.json';
+import EnvironmentJson from '@/assets/json/mitigation/environment-advice.json';
 </script>
 
 <template>

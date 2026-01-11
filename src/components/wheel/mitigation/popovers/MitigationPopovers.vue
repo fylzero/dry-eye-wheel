@@ -7,7 +7,7 @@ import ProphylaxisPopover from '@/components/wheel/mitigation/popovers/Prophylax
 import SleepPopover from '@/components/wheel/mitigation/popovers/SleepPopover.vue';
 import ContactLensesPopover from '@/components/wheel/mitigation/popovers/ContactLensesPopover.vue';
 import DigitalEyeStrainPopover from '@/components/wheel/mitigation/popovers/DigitalEyeStrainPopover.vue';
-import EnvironmentPopover from '@/components/wheel/mitigation/popovers/EnvironmentPopover.vue';
+import EnvironmentAdvicePopover from '@/components/wheel/mitigation/popovers/EnvironmentAdvicePopover.vue';
 import HormonesPopover from '@/components/wheel/mitigation/popovers/HormonesPopover.vue';
 import MedicationReviewPopover from '@/components/wheel/mitigation/popovers/MedicationReviewPopover.vue';
 import PreviousEyeSurgeryPopover from '@/components/wheel/mitigation/popovers/PreviousEyeSurgeryPopover.vue';
@@ -30,7 +30,7 @@ const controlsStore = useControlsStore();
     <SleepPopover v-if="controlsStore.selectedItem === 'sleep'" />
     <ContactLensesPopover v-if="controlsStore.selectedItem === 'contact-lens'" />
     <DigitalEyeStrainPopover v-if="controlsStore.selectedItem === 'digital-eye-strain'" />
-    <EnvironmentPopover v-if="controlsStore.selectedItem === 'environment'" />
+    <EnvironmentAdvicePopover v-if="controlsStore.selectedItem === 'environment-advice'" />
     <HormonesPopover v-if="controlsStore.selectedItem === 'hormones'" />
     <MedicationReviewPopover v-if="controlsStore.selectedItem === 'medication-review'" />
     <PreviousEyeSurgeryPopover v-if="controlsStore.selectedItem === 'previous-eye-surgery'" />
