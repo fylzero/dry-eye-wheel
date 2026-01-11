@@ -175,7 +175,6 @@ remita al paciente según corresponda.</div>
         zh: '鉴别诊断',
     },
     {
-        // Icon label with | as line break delimiter
         code: '_differential_icon',
         en: 'Differential|Diagnosis',
         es: 'Diagnóstico|Diferencial',
@@ -183,7 +182,6 @@ remita al paciente según corresponda.</div>
         zh: '鉴别诊断',
     },
     {
-        // Icon label with | as line break delimiter
         code: '_contact_lens_icon',
         en: 'Contact|Lens',
         es: 'Lentes De|Contacto',
@@ -191,7 +189,6 @@ remita al paciente según corresponda.</div>
         zh: '隐形眼镜',
     },
     {
-        // Icon label with | as line break delimiter
         code: '_eye_strain_icon',
         en: 'Digital|Eye Strain',
         es: 'Fatiga|Ocular',
@@ -199,7 +196,6 @@ remita al paciente según corresponda.</div>
         zh: '眼疲劳',
     },
     {
-        // Icon label with | as line break delimiter
         code: '_medication_review_icon',
         en: 'Medication|Review',
         es: 'Revisión De|Medicamentos',
@@ -207,7 +203,6 @@ remita al paciente según corresponda.</div>
         zh: '药物审查',
     },
     {
-        // Icon label with | as line break delimiter
         code: '_symptom_check_icon',
         en: 'Symptom|Check',
         es: 'Historia Y|Síntomas',
