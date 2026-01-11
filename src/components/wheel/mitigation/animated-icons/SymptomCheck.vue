@@ -1,6 +1,6 @@
 <script setup>
 import LottieAnimation from '@/lib/LottieAnimation.vue';
-import SymptomCheckJson from '@/assets/json/symptom-check.json';
+import SymptomCheckJson from '@/assets/json/mitigation/symptom-check.json';
 </script>
 
 <template>

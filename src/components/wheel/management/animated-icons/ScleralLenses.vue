@@ -1,6 +1,6 @@
 <script setup>
 import LottieAnimation from '@/lib/LottieAnimation.vue';
-import ScleralLensesJson from '@/assets/json/scleral-lenses.json';
+import ScleralLensesJson from '@/assets/json/management/scleral-lenses.json';
 </script>
 
 <template>

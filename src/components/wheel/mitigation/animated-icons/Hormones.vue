@@ -1,6 +1,6 @@
 <script setup>
 import LottieAnimation from '@/lib/LottieAnimation.vue';
-import HormonesJson from '@/assets/json/hormones.json';
+import HormonesJson from '@/assets/json/mitigation/hormones.json';
 </script>
 
 <template>

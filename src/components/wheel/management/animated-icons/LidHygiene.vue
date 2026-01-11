@@ -1,6 +1,6 @@
 <script setup>
 import LottieAnimation from '@/lib/LottieAnimation.vue';
-import LidHygieneJson from '@/assets/json/lid-hygiene.json';
+import LidHygieneJson from '@/assets/json/management/lid-hygiene.json';
 </script>
 
 <template>

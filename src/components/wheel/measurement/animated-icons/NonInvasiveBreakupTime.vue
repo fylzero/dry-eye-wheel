@@ -1,6 +1,6 @@
 <script setup>
 import LottieAnimation from '@/lib/LottieAnimation.vue';
-import BreakupTimeJson from '@/assets/json/breakup-time.json';
+import BreakupTimeJson from '@/assets/json/measurement/non-invasive-breakup-time.json';
 </script>
 
 <template>

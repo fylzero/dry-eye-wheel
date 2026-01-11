@@ -1,6 +1,6 @@
 <script setup>
 import LottieAnimation from '@/lib/LottieAnimation.vue';
-import PharmaceuticalsJson from '@/assets/json/pharmaceuticals.json';
+import PharmaceuticalsJson from '@/assets/json/management/pharmaceuticals.json';
 </script>
 
 <template>

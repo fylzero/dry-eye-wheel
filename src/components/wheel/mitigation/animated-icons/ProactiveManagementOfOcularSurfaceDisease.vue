@@ -1,6 +1,6 @@
 <script setup>
 import LottieAnimation from '@/lib/LottieAnimation.vue';
-import ProactiveManagementOfOcularSurfaceDiseaseJson from '@/assets/json/proactive-management-of-ocular-surface-disease.json';
+import ProactiveManagementOfOcularSurfaceDiseaseJson from '@/assets/json/mitigation/proactive-management-of-ocular-surface-disease.json';
 </script>
 
 <template>

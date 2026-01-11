@@ -1,6 +1,6 @@
 <script setup>
 import LottieAnimation from '@/lib/LottieAnimation.vue';
-import FluoresceinStainingJson from '@/assets/json/fluorescein-staining.json';
+import FluoresceinStainingJson from '@/assets/json/measurement/fluorescein-staining.json';
 </script>
 
 <template>

@@ -1,6 +1,6 @@
 <script setup>
 import LottieAnimation from '@/lib/LottieAnimation.vue';
-import ComfortAfterBlinkTestJson from '@/assets/json/comfort-after-blink-test.json';
+import ComfortAfterBlinkTestJson from '@/assets/json/measurement/comfort-after-blink-test.json';
 </script>
 
 <template>

@@ -1,6 +1,6 @@
 <script setup>
 import LottieAnimation from '@/lib/LottieAnimation.vue';
-import BlinkExercisesJson from '@/assets/json/blink-exercises.json';
+import BlinkExercisesJson from '@/assets/json/management/blink-exercises.json';
 </script>
 
 <template>

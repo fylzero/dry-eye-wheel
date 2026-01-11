@@ -1,6 +1,6 @@
 <script setup>
 import LottieAnimation from '@/lib/LottieAnimation.vue';
-import DifferentialDiagnosisJson from '@/assets/json/differential-diagnosis.json';
+import DifferentialDiagnosisJson from '@/assets/json/mitigation/differential-diagnosis.json';
 </script>
 
 <template>

@@ -1,6 +1,6 @@
 <script setup>
 import LottieAnimation from '@/lib/LottieAnimation.vue';
-import ComplexTreatmentsJson from '@/assets/json/complex-treatments.json';
+import ComplexTreatmentsJson from '@/assets/json/management/complex-treatments.json';
 </script>
 
 <template>

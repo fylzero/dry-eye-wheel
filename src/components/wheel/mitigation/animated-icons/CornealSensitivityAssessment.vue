@@ -1,6 +1,6 @@
 <script setup>
 import LottieAnimation from '@/lib/LottieAnimation.vue';
-import CornealSensitivityAssessmentJson from '@/assets/json/corneal-sensitivity-assessment.json';
+import CornealSensitivityAssessmentJson from '@/assets/json/mitigation/corneal-sensitivity-assessment.json';
 </script>
 
 <template>

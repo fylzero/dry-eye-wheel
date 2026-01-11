@@ -1,6 +1,6 @@
 <script setup>
 import LottieAnimation from '@/lib/LottieAnimation.vue';
-import SleepJson from '@/assets/json/sleep.json';
+import SleepJson from '@/assets/json/mitigation/sleep.json';
 </script>
 
 <template>

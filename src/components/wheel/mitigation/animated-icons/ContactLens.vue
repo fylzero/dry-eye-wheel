@@ -1,6 +1,6 @@
 <script setup>
 import LottieAnimation from '@/lib/LottieAnimation.vue';
-import ContactLensJson from '@/assets/json/contact-lens.json';
+import ContactLensJson from '@/assets/json/mitigation/contact-lens.json';
 </script>
 
 <template>

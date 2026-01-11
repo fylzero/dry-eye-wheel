@@ -1,6 +1,6 @@
 <script setup>
 import LottieAnimation from '@/lib/LottieAnimation.vue';
-import LissamineGreenStaningJson from '@/assets/json/lissamine-green-staning.json';
+import LissamineGreenStaningJson from '@/assets/json/measurement/lissamine-green-staning.json';
 </script>
 
 <template>
