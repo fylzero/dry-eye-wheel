@@ -169,10 +169,10 @@ watch(sliderValue, () => {
                 {{ $t('Validated Questionnaire') }}
             </GradientButton>
             <GradientButton
-                @click="controlsStore.selectItem('tear-meniscus-height', 'sub-typing', 'measurement')"
-                :class="{ active: controlsStore.selectedItem === 'tear-meniscus-height' }"
+                @click="controlsStore.selectItem('aqueous-tear-meniscus-height', 'sub-typing', 'measurement')"
+                :class="{ active: controlsStore.selectedItem === 'aqueous-tear-meniscus-height' }"
                 class="btn-silver">
-                {{ $t('Tear Meniscus Height') }}
+                {{ $t('Aqueous Tear Meniscus Height') }}
             </GradientButton>
         </div>
         <div class="grid grid-cols-2 gap-3">

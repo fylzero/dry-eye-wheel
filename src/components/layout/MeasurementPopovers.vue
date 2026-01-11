@@ -8,7 +8,7 @@ import NonInvasiveBreakupTimePopover from '@/components/wheel/popovers/measureme
 import OsmolarityPopover from '@/components/wheel/popovers/measurement/OsmolarityPopover.vue';
 import LissamineGreenStainingPopover from '@/components/wheel/popovers/measurement/LissamineGreenStainingPopover.vue';
 import BlinkCompletenessAndLidClosurePopover from '@/components/wheel/popovers/measurement/BlinkCompletenessAndLidClosurePopover.vue';
-import TearMeniscusHeightPopover from '@/components/wheel/popovers/measurement/TearMeniscusHeightPopover.vue';
+import AqueousTearMeniscusHeightPopover from '@/components/wheel/popovers/measurement/AqueousTearMeniscusHeightPopover.vue';
 import MeibomianGlandExpressionPopover from '@/components/wheel/popovers/measurement/MeibomianGlandExpressionPopover.vue';
 import MeibographyPopover from '@/components/wheel/popovers/measurement/MeibographyPopover.vue';
 
@@ -31,7 +31,7 @@ const controlsStore = useControlsStore();
     <OsmolarityPopover v-if="controlsStore.selectedItem === 'osmolarity'" />
     <LissamineGreenStainingPopover v-if="controlsStore.selectedItem === 'lissamine-green-staining'" />
     <BlinkCompletenessAndLidClosurePopover v-if="controlsStore.selectedItem === 'blink-rate-and-completeness'" />
-    <TearMeniscusHeightPopover v-if="controlsStore.selectedItem === 'tear-meniscus-height'" />
+    <AqueousTearMeniscusHeightPopover v-if="controlsStore.selectedItem === 'aqueous-tear-meniscus-height'" />
     <MeibomianGlandExpressionPopover v-if="controlsStore.selectedItem === 'meibomian-gland-expression'" />
     <MeibographyPopover v-if="controlsStore.selectedItem === 'meibography'" />
 </template>

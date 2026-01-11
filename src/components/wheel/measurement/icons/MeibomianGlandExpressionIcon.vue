@@ -86,7 +86,7 @@ const controlsStore = useControlsStore();
                     d="m647.42,460.95c.4-1.45.8-2.91,1.19-4.36.1-.36.41-.63.76-.66.24-.03.55.18.62.47.04.17.07.37.03.54-.8,2.94-1.6,5.88-2.41,8.82-.1.37-.36.56-.72.62-.12.02-.3-.03-.39-.12-.26-.25-.41-.54-.29-.95.42-1.45.8-2.9,1.2-4.36Z" />
             </g>
         </g>
-        <!-- Use _tear_meniscus_height_icon translation with | as line break delimiter -->
+        <!-- Use _meibomian_gland_expression_icon translation with | as line break delimiter -->
         <text
             x="620"
             y="484"

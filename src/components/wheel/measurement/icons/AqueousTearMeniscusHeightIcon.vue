@@ -5,7 +5,7 @@ const controlsStore = useControlsStore();
 
 <template>
     <g
-        :class="{ 'svg-active': controlsStore.selectedItem === 'tear-meniscus-height' }"
+        :class="{ 'svg-active': controlsStore.selectedItem === 'aqueous-tear-meniscus-height' }"
         class="svg-icon svg-fill-circle"
         style="transform: translate(0px, 0px)">
         <!-- Icon -->
@@ -58,13 +58,13 @@ const controlsStore = useControlsStore();
                     d="m640.6,358.1c.24-.23.47-.46.71-.7" />
             </g>
         </g>
-        <!-- Use _tear_meniscus_height_icon translation with | as line break delimiter -->
+        <!-- Use _aqueous_tear_meniscus_height_icon translation with | as line break delimiter -->
         <text
             x="620"
             y="396"
             text-anchor="middle">
             <tspan
-                v-for="(line, index) in $t('_tear_meniscus_height_icon').split('|')"
+                v-for="(line, index) in $t('_aqueous_tear_meniscus_height_icon').split('|')"
                 :key="index"
                 x="620"
                 :dy="index === 0 ? 0 : 12"

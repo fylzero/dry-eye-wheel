@@ -484,14 +484,14 @@ remita al paciente según corresponda.</div>
     },
     {
         // Icon label with | as line break delimiter
-        code: '_tear_meniscus_height_icon',
-        en: 'Tear|Meniscus Height',
+        code: '_aqueous_tear_meniscus_height_icon',
+        en: 'Aqueous Tear|Meniscus Height',
         es: 'Altura Del|Menisco Lagrimal',
         fr: `Hauteur du|ménisque lacrymal`,
         zh: '泪河高度',
     },
     {
-        code: '_tear_meniscus_height_text',
+        code: '_aqueous_tear_meniscus_height_text',
         en: `
 <div>&lt; 0.2mm indicative of aqueous dry eye disease.</div>
 <div>Irregularity suggests poor tear film quality.</div>

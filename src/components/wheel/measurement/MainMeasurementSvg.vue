@@ -8,7 +8,7 @@ import MeibographyIcon from '@/components/wheel/measurement/icons/MeibographyIco
 import MeibomianGlandExpressionIcon from '@/components/wheel/measurement/icons/MeibomianGlandExpressionIcon.vue';
 import NonInvasiveBreakupTimeIcon from '@/components/wheel/measurement/icons/NonInvasiveBreakupTimeIcon.vue';
 import OsmolarityIcon from '@/components/wheel/measurement/icons/OsmolarityIcon.vue';
-import TearMeniscusHeightIcon from '@/components/wheel/measurement/icons/TearMeniscusHeightIcon.vue';
+import AqueousTearMeniscusHeightIcon from '@/components/wheel/measurement/icons/AqueousTearMeniscusHeightIcon.vue';
 import ValidatedQuestionnaireIcon from '@/components/wheel/measurement/icons/ValidatedQuestionnaireIcon.vue';
 
 import SubTypingTextFr from '@/assets/svg/fr/sub-typing-text.svg';
@@ -503,7 +503,7 @@ const controlsStore = useControlsStore();
         <MeibomianGlandExpressionIcon />
         <NonInvasiveBreakupTimeIcon />
         <OsmolarityIcon />
-        <TearMeniscusHeightIcon />
+        <AqueousTearMeniscusHeightIcon />
         <ValidatedQuestionnaireIcon />
 
         <polyline

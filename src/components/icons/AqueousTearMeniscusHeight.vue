@@ -1,18 +1,18 @@
 <script setup>
 import LottieAnimation from '@/lib/LottieAnimation.vue';
-import TearMeniscusHeightJson from '@/assets/json/tear-meniscus-height.json';
+import AqueousTearMeniscusHeightJson from '@/assets/json/aqueous-tear-meniscus-height.json';
 
 const props = defineProps({
     targetId: {
         type: String,
-        default: 'tearMeniscusHeightAnimation',
+        default: 'aqueousTearMeniscusHeightAnimation',
     },
 });
 </script>
 
 <template>
     <LottieAnimation
-        :json="TearMeniscusHeightJson"
+        :json="AqueousTearMeniscusHeightJson"
         :loop="true"
         :autoPlay="true" />
 </template>
