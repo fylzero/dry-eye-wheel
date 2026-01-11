@@ -5,7 +5,7 @@ const controlsStore = useControlsStore();
 
 <template>
     <g
-        :class="{ 'svg-active': controlsStore.selectedItem === 'environment' }"
+        :class="{ 'svg-active': controlsStore.selectedItem === 'environment-advice' }"
         class="svg-icon svg-fill-path"
         style="transform: translate(-155px, 36px)">
         <!-- Icon -->

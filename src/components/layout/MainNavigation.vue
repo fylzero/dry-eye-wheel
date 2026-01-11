@@ -71,10 +71,10 @@ watch(sliderValue, () => {
         </div>
         <div class="grid grid-cols-2 gap-3">
             <GradientButton
-                @click="controlsStore.selectItem('contact-lens', 'risk-factors', 'mitigation')"
-                :class="{ active: controlsStore.selectedItem === 'contact-lens' }"
+                @click="controlsStore.selectItem('environment-advice', 'risk-factors', 'mitigation')"
+                :class="{ active: controlsStore.selectedItem === 'environment-advice' }"
                 class="btn-orange">
-                {{ $t('Contact Lens') }}
+                {{ $t('Environment Advice') }}
             </GradientButton>
             <GradientButton
                 @click="controlsStore.selectItem('differential-diagnosis', 'triaging', 'mitigation')"
@@ -85,24 +85,10 @@ watch(sliderValue, () => {
         </div>
         <div class="grid grid-cols-2 gap-3">
             <GradientButton
-                @click="controlsStore.selectItem('environment-advice', 'risk-factors', 'mitigation')"
-                :class="{ active: controlsStore.selectedItem === 'environment-advice' }"
+                @click="controlsStore.selectItem('contact-lens', 'risk-factors', 'mitigation')"
+                :class="{ active: controlsStore.selectedItem === 'contact-lens' }"
                 class="btn-orange">
-                {{ $t('Environment Advice') }}
-            </GradientButton>
-            <GradientButton
-                @click="controlsStore.selectItem('digital-eye-strain', 'risk-factors', 'mitigation')"
-                :class="{ active: controlsStore.selectedItem === 'digital-eye-strain' }"
-                class="btn-orange">
-                {{ $t('Digital Eye Strain') }}
-            </GradientButton>
-        </div>
-        <div class="grid grid-cols-2 gap-3">
-            <GradientButton
-                @click="controlsStore.selectItem('previous-eye-surgery', 'risk-factors', 'mitigation')"
-                :class="{ active: controlsStore.selectedItem === 'previous-eye-surgery' }"
-                class="btn-silver">
-                {{ $t('Previous Eye Surgery') }}
+                {{ $t('Contact Lens') }}
             </GradientButton>
             <GradientButton
                 @click="
@@ -115,17 +101,40 @@ watch(sliderValue, () => {
         </div>
         <div class="grid grid-cols-2 gap-3">
             <GradientButton
+                @click="controlsStore.selectItem('digital-eye-strain', 'risk-factors', 'mitigation')"
+                :class="{ active: controlsStore.selectedItem === 'digital-eye-strain' }"
+                class="btn-orange">
+                {{ $t('Digital Eye Strain') }}
+            </GradientButton>
+            <GradientButton
+                @click="controlsStore.selectItem('corneal-sensitivity-assessment', 'triaging', 'mitigation')"
+                :class="{ active: controlsStore.selectedItem === 'corneal-sensitivity-assessment' }"
+                class="btn-silver">
+                {{ $t('Corneal Sensitivity Assessment') }}
+            </GradientButton>
+        </div>
+        <div class="grid grid-cols-2 gap-3">
+            <GradientButton
+                @click="controlsStore.selectItem('previous-eye-surgery', 'risk-factors', 'mitigation')"
+                :class="{ active: controlsStore.selectedItem === 'previous-eye-surgery' }"
+                class="btn-silver">
+                {{ $t('Previous Eye Surgery') }}
+            </GradientButton>
+            <GradientButton
+                @click="controlsStore.selectItem('prophylaxis', 'triaging', 'mitigation')"
+                :class="{ active: controlsStore.selectedItem === 'prophylaxis' }"
+                class="btn-yellow">
+                {{ $t('Prophylaxis') }}
+            </GradientButton>
+        </div>
+        <div class="grid grid-cols-2 gap-3">
+            <GradientButton
                 @click="controlsStore.selectItem('hormones', 'risk-factors', 'mitigation')"
                 :class="{ active: controlsStore.selectedItem === 'hormones' }"
                 class="btn-silver">
                 {{ $t('Hormones') }}
             </GradientButton>
-            <GradientButton
-                @click="controlsStore.selectItem('corneal-sensitivity-assessment', 'risk-factors', 'mitigation')"
-                :class="{ active: controlsStore.selectedItem === 'corneal-sensitivity-assessment' }"
-                class="btn-silver">
-                {{ $t('Corneal Sensitivity Assessment') }}
-            </GradientButton>
+            <div>&nbsp;</div>
         </div>
         <div class="mb-6 grid grid-cols-2 gap-3">
             <GradientButton
@@ -134,12 +143,7 @@ watch(sliderValue, () => {
                 class="btn-yellow">
                 {{ $t('Medication Review') }}
             </GradientButton>
-            <GradientButton
-                @click="controlsStore.selectItem('prophylaxis', 'triaging', 'mitigation')"
-                :class="{ active: controlsStore.selectedItem === 'prophylaxis' }"
-                class="btn-yellow">
-                {{ $t('Prophylaxis') }}
-            </GradientButton>
+            <div>&nbsp;</div>
         </div>
 
         <!-- Measurement -->
@@ -194,24 +198,24 @@ watch(sliderValue, () => {
         </div>
         <div class="grid grid-cols-2 gap-3">
             <GradientButton
-                @click="controlsStore.selectItem('aqueous-tear-meniscus-height', 'sub-typing', 'measurement')"
-                :class="{ active: controlsStore.selectedItem === 'aqueous-tear-meniscus-height' }"
-                class="btn-silver">
-                {{ $t('Aqueous Tear Meniscus Height') }}
-            </GradientButton>
-            <GradientButton
                 @click="controlsStore.selectItem('fluorescein-staining', 'diagnosis', 'measurement')"
                 :class="{ active: controlsStore.selectedItem === 'fluorescein-staining' }"
                 class="btn-silver">
                 {{ $t('Fluorescein Staining') }}
             </GradientButton>
+            <GradientButton
+                @click="controlsStore.selectItem('aqueous-tear-meniscus-height', 'sub-typing', 'measurement')"
+                :class="{ active: controlsStore.selectedItem === 'aqueous-tear-meniscus-height' }"
+                class="btn-silver">
+                {{ $t('Aqueous Tear Meniscus Height') }}
+            </GradientButton>
         </div>
         <div class="grid grid-cols-2 gap-3">
             <GradientButton
-                @click="controlsStore.selectItem('eyelids-meibomian-gland-expression', 'sub-typing', 'measurement')"
-                :class="{ active: controlsStore.selectedItem === 'eyelids-meibomian-gland-expression' }"
+                @click="controlsStore.selectItem('osmolarity', 'diagnosis', 'measurement')"
+                :class="{ active: controlsStore.selectedItem === 'osmolarity' }"
                 class="btn-silver">
-                {{ $t('Eyelids: Meibomian Gland Expression') }}
+                {{ $t('Osmolarity') }}
             </GradientButton>
             <GradientButton
                 @click="controlsStore.selectItem('eyelids-anterior-blepharitis-exam', 'sub-typing', 'measurement')"
@@ -228,24 +232,24 @@ watch(sliderValue, () => {
                 {{ $t('Non-Invasive Breakup Time') }}
             </GradientButton>
             <GradientButton
-                @click="controlsStore.selectItem('meibography-and-interferometry', 'sub-typing', 'measurement')"
-                :class="{ active: controlsStore.selectedItem === 'meibography-and-interferometry' }"
-                class="btn-yellow">
-                {{ $t('Meibography and Interferometry') }}
+                @click="controlsStore.selectItem('eyelids-meibomian-gland-expression', 'sub-typing', 'measurement')"
+                :class="{ active: controlsStore.selectedItem === 'eyelids-meibomian-gland-expression' }"
+                class="btn-silver">
+                {{ $t('Eyelids: Meibomian Gland Expression') }}
             </GradientButton>
         </div>
         <div class="grid grid-cols-2 gap-3">
-            <GradientButton
-                @click="controlsStore.selectItem('osmolarity', 'diagnosis', 'measurement')"
-                :class="{ active: controlsStore.selectedItem === 'osmolarity' }"
-                class="btn-silver">
-                {{ $t('Osmolarity') }}
-            </GradientButton>
             <GradientButton
                 @click="controlsStore.selectItem('lissamine-green-staining', 'diagnosis', 'measurement')"
                 :class="{ active: controlsStore.selectedItem === 'lissamine-green-staining' }"
                 class="btn-yellow">
                 {{ $t('Lissamine Green Staining') }}
+            </GradientButton>
+            <GradientButton
+                @click="controlsStore.selectItem('meibography-and-interferometry', 'sub-typing', 'measurement')"
+                :class="{ active: controlsStore.selectedItem === 'meibography-and-interferometry' }"
+                class="btn-yellow">
+                {{ $t('Meibography and Interferometry') }}
             </GradientButton>
         </div>
 
@@ -259,24 +263,10 @@ watch(sliderValue, () => {
         </GradientButton>
         <div class="grid grid-cols-2 gap-3">
             <GradientButton
-                @click="controlsStore.selectItem('lid-hygiene', null, 'management')"
-                :class="{ active: controlsStore.selectedItem === 'lid-hygiene' }"
+                @click="controlsStore.selectItem('artificial-tears', null, 'management')"
+                :class="{ active: controlsStore.selectedItem === 'artificial-tears' }"
                 class="btn-orange">
-                {{ $t('Lid Hygiene') }}
-            </GradientButton>
-            <GradientButton
-                @click="controlsStore.selectItem('warm-compress', null, 'management')"
-                :class="{ active: controlsStore.selectedItem === 'warm-compress' }"
-                class="btn-orange">
-                {{ $t('Warm Compress') }}
-            </GradientButton>
-        </div>
-        <div class="grid grid-cols-2 gap-3">
-            <GradientButton
-                @click="controlsStore.selectItem('blink-exercises', null, 'management')"
-                :class="{ active: controlsStore.selectedItem === 'blink-exercises' }"
-                class="btn-orange">
-                {{ $t('Blink Exercises') }}
+                {{ $t('Artificial Tears') }}
             </GradientButton>
             <GradientButton
                 @click="controlsStore.selectItem('advice', null, 'management')"
@@ -287,10 +277,10 @@ watch(sliderValue, () => {
         </div>
         <div class="grid grid-cols-2 gap-3">
             <GradientButton
-                @click="controlsStore.selectItem('artificial-tears', null, 'management')"
-                :class="{ active: controlsStore.selectedItem === 'artificial-tears' }"
+                @click="controlsStore.selectItem('blink-exercises', null, 'management')"
+                :class="{ active: controlsStore.selectedItem === 'blink-exercises' }"
                 class="btn-orange">
-                {{ $t('Artificial Tears') }}
+                {{ $t('Blink Exercises') }}
             </GradientButton>
             <GradientButton
                 @click="controlsStore.selectItem('diet-and-dietary-supplements', null, 'management')"
@@ -301,10 +291,24 @@ watch(sliderValue, () => {
         </div>
         <div class="grid grid-cols-2 gap-3">
             <GradientButton
-                @click="controlsStore.selectItem('scleral-lenses', null, 'management')"
-                :class="{ active: controlsStore.selectedItem === 'scleral-lenses' }"
+                @click="controlsStore.selectItem('warm-compress', null, 'management')"
+                :class="{ active: controlsStore.selectedItem === 'warm-compress' }"
+                class="btn-orange">
+                {{ $t('Warm Compress') }}
+            </GradientButton>
+            <GradientButton
+                @click="controlsStore.selectItem('lid-hygiene', null, 'management')"
+                :class="{ active: controlsStore.selectedItem === 'lid-hygiene' }"
+                class="btn-orange">
+                {{ $t('Lid Hygiene') }}
+            </GradientButton>
+        </div>
+        <div class="grid grid-cols-2 gap-3">
+            <GradientButton
+                @click="controlsStore.selectItem('in-office-light-heat-based-devices', null, 'management')"
+                :class="{ active: controlsStore.selectedItem === 'in-office-light-heat-based-devices' }"
                 class="btn-silver">
-                {{ $t('Scleral Lenses') }}
+                {{ $t('In-Office Light/Heat-Based Devices') }}
             </GradientButton>
             <GradientButton
                 @click="controlsStore.selectItem('pharmaceuticals', null, 'management')"
@@ -315,10 +319,10 @@ watch(sliderValue, () => {
         </div>
         <div class="grid grid-cols-2 gap-3">
             <GradientButton
-                @click="controlsStore.selectItem('in-office-light-heat-based-devices', null, 'management')"
-                :class="{ active: controlsStore.selectedItem === 'in-office-light-heat-based-devices' }"
+                @click="controlsStore.selectItem('scleral-lenses', null, 'management')"
+                :class="{ active: controlsStore.selectedItem === 'scleral-lenses' }"
                 class="btn-silver">
-                {{ $t('In-Office Light/Heat-Based Devices') }}
+                {{ $t('Scleral Lenses') }}
             </GradientButton>
             <GradientButton
                 @click="controlsStore.selectItem('surgical-approaches', null, 'management')"
