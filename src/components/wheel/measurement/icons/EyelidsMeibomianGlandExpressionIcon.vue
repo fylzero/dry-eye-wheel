@@ -5,7 +5,7 @@ const controlsStore = useControlsStore();
 
 <template>
     <g
-        :class="{ 'svg-active': controlsStore.selectedItem === 'meibomian-gland-expression' }"
+        :class="{ 'svg-active': controlsStore.selectedItem === 'eyelids-meibomian-gland-expression' }"
         class="svg-icon svg-fill-circle"
         style="transform: translate(0px, 0px)">
         <!-- Icon -->
@@ -70,29 +70,29 @@ const controlsStore = useControlsStore();
             </g>
             <g>
                 <path
-                    :class="{ '!fill-white': controlsStore.selectedItem === 'meibomian-gland-expression' }"
+                    :class="{ '!fill-white': controlsStore.selectedItem === 'eyelids-meibomian-gland-expression' }"
                     d="m647.74,452.23c5.85,1.6,11.7,3.21,17.56,4.81.14.04.28.07.41.12.38.12.55.41.46.8-.1.4-.35.58-.76.52-.16-.02-.31-.07-.47-.11-11.38-3.12-22.76-6.24-34.14-9.34-.71-.19-1.45-.32-2.19-.36-.58-.03-1.16.11-1.74.2-.71.11-1.36.41-1.98.77-.72.42-1.36.95-1.89,1.59-.37.45-.66.94-.93,1.45-.3.56-.52,1.14-.61,1.75-.11.8-.17,1.61-.02,2.43.18,1.02.53,1.96,1.09,2.82.4.6.88,1.13,1.44,1.6.94.79,2.03,1.23,3.2,1.54,11.34,3.1,22.68,6.21,34.01,9.32.19.05.37.11.55.19.31.14.41.46.29.82-.12.34-.39.51-.72.44-.14-.03-.28-.07-.42-.11-11.45-3.14-22.9-6.27-34.36-9.41-.53-.14-1.07-.28-1.56-.5-.68-.3-1.34-.66-1.88-1.19-.4-.38-.83-.74-1.17-1.17-.42-.54-.82-1.11-1.12-1.73-.31-.63-.53-1.31-.69-1.98-.13-.52-.14-1.08-.17-1.62-.06-1.22.25-2.38.7-3.49.21-.52.52-1.02.84-1.49.29-.43.63-.84,1-1.22.5-.51,1.07-.93,1.7-1.29.82-.47,1.68-.82,2.6-.98.61-.11,1.22-.16,1.85-.17,1.04-.01,1.99.31,2.96.57,5.39,1.47,10.78,2.95,16.17,4.42Z" />
                 <path
-                    :class="{ '!fill-white': controlsStore.selectedItem === 'meibomian-gland-expression' }"
+                    :class="{ '!fill-white': controlsStore.selectedItem === 'eyelids-meibomian-gland-expression' }"
                     d="m628.52,461.4c-.76-.14-1.47-.44-2.14-.82-.71-.41-1.28-.97-1.74-1.64-.38-.55-.63-1.16-.77-1.79-.12-.52-.15-1.09-.11-1.62.08-1,.4-1.95,1.01-2.76.67-.89,1.54-1.55,2.62-1.9,1.19-.4,2.38-.36,3.57-.02.34.1.68.19,1.02.28.95.25,1.78.73,2.43,1.46.45.5.76,1.09.95,1.76.28.99.18,1.96-.09,2.93-.09.31-.14.63-.26.92-.21.53-.38,1.09-.69,1.56-.49.75-1.18,1.32-2.03,1.67-1.12.46-2.24.42-3.38.09-.13-.04-.26-.07-.39-.11Zm2.42-9.03c-.28-.08-.57-.15-.85-.23-.87-.25-1.72-.15-2.53.19-1.1.46-1.79,1.32-2.23,2.4-.07.18-.09.39-.11.59-.03.2-.05.4-.04.6.02.32.03.64.1.94.15.62.43,1.18.86,1.66.4.45.84.85,1.42,1.04.75.24,1.52.45,2.28.66.78.22,1.52.1,2.21-.28.63-.35,1.14-.84,1.36-1.55.23-.75.43-1.5.63-2.26.13-.48.07-.96-.08-1.43-.32-1.05-1-1.74-2.05-2.07-.32-.1-.65-.18-.97-.27Z" />
                 <path
-                    :class="{ '!fill-white': controlsStore.selectedItem === 'meibomian-gland-expression' }"
+                    :class="{ '!fill-white': controlsStore.selectedItem === 'eyelids-meibomian-gland-expression' }"
                     d="m645,460.32c-.16.58-.35,1.15-.46,1.73-.13.66-.14,1.34-.02,2,.03.17.12.33.18.49.24.57-.1,1.07-.71,1.07-.3,0-.48-.24-.58-.46-.27-.55-.37-1.14-.38-1.77-.02-1.62.37-3.15.88-4.66.28-.84.63-1.66,1.14-2.38.29-.4.68-.74,1.08-1.04.4-.29.78-.16,1.07.28.16.25,0,.7-.31.94-.37.27-.67.6-.88,1.01-.14.28-.34.55-.44.85-.23.63-.42,1.28-.63,1.92l.07.02Z" />
                 <path
-                    :class="{ '!fill-white': controlsStore.selectedItem === 'meibomian-gland-expression' }"
+                    :class="{ '!fill-white': controlsStore.selectedItem === 'eyelids-meibomian-gland-expression' }"
                     d="m652.68,462.66c-.22.59-.49,1.42-.85,2.2-.25.54-.59,1.06-.96,1.53-.26.33-.59.61-1.03.73-.41.11-.85-.2-.82-.63.02-.31.15-.54.42-.76.33-.27.62-.62.84-.98.67-1.09.93-2.33,1.27-3.55.2-.7.23-1.43.26-2.14.02-.44-.03-.9-.28-1.31-.14-.23,0-.78.22-.93.32-.22.67-.17.94.14.33.38.42.84.49,1.32.19,1.32-.2,3.07-.5,4.37Z" />
                 <path
-                    :class="{ '!fill-white': controlsStore.selectedItem === 'meibomian-gland-expression' }"
+                    :class="{ '!fill-white': controlsStore.selectedItem === 'eyelids-meibomian-gland-expression' }"
                     d="m647.42,460.95c.4-1.45.8-2.91,1.19-4.36.1-.36.41-.63.76-.66.24-.03.55.18.62.47.04.17.07.37.03.54-.8,2.94-1.6,5.88-2.41,8.82-.1.37-.36.56-.72.62-.12.02-.3-.03-.39-.12-.26-.25-.41-.54-.29-.95.42-1.45.8-2.9,1.2-4.36Z" />
             </g>
         </g>
-        <!-- Use _meibomian_gland_expression_icon translation with | as line break delimiter -->
+        <!-- Use _eyelids_meibomian_gland_expression_icon translation with | as line break delimiter -->
         <text
             x="620"
             y="484"
             text-anchor="middle">
             <tspan
-                v-for="(line, index) in $t('_meibomian_gland_expression_icon').split('|')"
+                v-for="(line, index) in $t('_eyelids_meibomian_gland_expression_icon').split('|')"
                 :key="index"
                 x="620"
                 :dy="index === 0 ? 0 : 12"

@@ -512,14 +512,14 @@ remita al paciente según corresponda.</div>
     },
     {
         // Icon label with | as line break delimiter
-        code: '_meibomian_gland_expression_icon',
-        en: 'Meibomian|Gland Expression',
+        code: '_eyelids_meibomian_gland_expression_icon',
+        en: 'Eyelids: Meibomian|Gland Expression',
         es: 'Expresión De|Las Glándulas|De Meibomio',
         fr: `Expression des|glandes de|Meibomius`,
         zh: '睑板腺分泌物表达',
     },
     {
-        code: '_meibomian_gland_expression_text',
+        code: '_eyelids_meibomian_gland_expression_text',
         en: 'Cloudy, thickened, or no expression on pressure to the lid margin may be indicative of evaporative dry eye disease.',
         es: 'La expresión turbia, engrosada o inexistente al presionar el borde del párpado puede ser indicativa de enfermedad evaporativa del ojo seco.',
         fr: `Une expression trouble, épaissie ou absente lors de la pression sur le bord palpébral peut indiquer une sécheresse oculaire évaporative.`,

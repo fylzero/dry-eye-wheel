@@ -1,18 +1,18 @@
 <script setup>
 import LottieAnimation from '@/lib/LottieAnimation.vue';
-import MeibomianGlandExpressionJson from '@/assets/json/meibomian-gland-expression.json';
+import EyelidsMeibomianGlandExpressionJson from '@/assets/json/eyelids-meibomian-gland-expression.json';
 
 const props = defineProps({
     targetId: {
         type: String,
-        default: 'meibomianGlandExpressionAnimation',
+        default: 'eyelidsMeibomianGlandExpressionAnimation',
     },
 });
 </script>
 
 <template>
     <LottieAnimation
-        :json="MeibomianGlandExpressionJson"
+        :json="EyelidsMeibomianGlandExpressionJson"
         :loop="true"
         :autoPlay="true" />
 </template>

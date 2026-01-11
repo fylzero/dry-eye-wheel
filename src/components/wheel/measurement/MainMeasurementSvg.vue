@@ -5,7 +5,7 @@ import ComfortTimeIcon from '@/components/wheel/measurement/icons/ComfortTimeIco
 import FluoresceinStainingIcon from '@/components/wheel/measurement/icons/FluoresceinStainingIcon.vue';
 import LissamineGreenStainingIcon from '@/components/wheel/measurement/icons/LissamineGreenStainingIcon.vue';
 import MeibographyIcon from '@/components/wheel/measurement/icons/MeibographyIcon.vue';
-import MeibomianGlandExpressionIcon from '@/components/wheel/measurement/icons/MeibomianGlandExpressionIcon.vue';
+import EyelidsMeibomianGlandExpressionIcon from '@/components/wheel/measurement/icons/EyelidsMeibomianGlandExpressionIcon.vue';
 import NonInvasiveBreakupTimeIcon from '@/components/wheel/measurement/icons/NonInvasiveBreakupTimeIcon.vue';
 import OsmolarityIcon from '@/components/wheel/measurement/icons/OsmolarityIcon.vue';
 import AqueousTearMeniscusHeightIcon from '@/components/wheel/measurement/icons/AqueousTearMeniscusHeightIcon.vue';
@@ -500,7 +500,7 @@ const controlsStore = useControlsStore();
         <FluoresceinStainingIcon />
         <LissamineGreenStainingIcon />
         <MeibographyIcon />
-        <MeibomianGlandExpressionIcon />
+        <EyelidsMeibomianGlandExpressionIcon />
         <NonInvasiveBreakupTimeIcon />
         <OsmolarityIcon />
         <AqueousTearMeniscusHeightIcon />

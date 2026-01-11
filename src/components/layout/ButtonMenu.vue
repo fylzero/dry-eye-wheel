@@ -183,10 +183,10 @@ watch(sliderValue, () => {
                 {{ $t('Fluorescein Staining') }}
             </GradientButton>
             <GradientButton
-                @click="controlsStore.selectItem('meibomian-gland-expression', 'sub-typing', 'measurement')"
-                :class="{ active: controlsStore.selectedItem === 'meibomian-gland-expression' }"
+                @click="controlsStore.selectItem('eyelids-meibomian-gland-expression', 'sub-typing', 'measurement')"
+                :class="{ active: controlsStore.selectedItem === 'eyelids-meibomian-gland-expression' }"
                 class="btn-silver">
-                {{ $t('Meibomian Gland Expression') }}
+                {{ $t('Eyelids: Meibomian Gland Expression') }}
             </GradientButton>
         </div>
         <div class="grid grid-cols-2 gap-3">
