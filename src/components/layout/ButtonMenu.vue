@@ -197,10 +197,10 @@ watch(sliderValue, () => {
                 {{ $t('Non-Invasive Breakup Time') }}
             </GradientButton>
             <GradientButton
-                @click="controlsStore.selectItem('meibography', 'sub-typing', 'measurement')"
-                :class="{ active: controlsStore.selectedItem === 'meibography' }"
+                @click="controlsStore.selectItem('meibography-and-interferometry', 'sub-typing', 'measurement')"
+                :class="{ active: controlsStore.selectedItem === 'meibography-and-interferometry' }"
                 class="btn-yellow">
-                {{ $t('Meibography') }}
+                {{ $t('Meibography and Interferometry') }}
             </GradientButton>
         </div>
         <div class="grid grid-cols-2 gap-3">

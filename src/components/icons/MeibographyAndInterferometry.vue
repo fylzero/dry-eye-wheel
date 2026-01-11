@@ -1,18 +1,18 @@
 <script setup>
 import LottieAnimation from '@/lib/LottieAnimation.vue';
-import MeibographyJson from '@/assets/json/meibography.json';
+import MeibographyAndInterferometryJson from '@/assets/json/meibography-and-interferometry.json';
 
 const props = defineProps({
     targetId: {
         type: String,
-        default: 'meibographyAnimation',
+        default: 'meibographyAndInterferometryAnimation',
     },
 });
 </script>
 
 <template>
     <LottieAnimation
-        :json="MeibographyJson"
+        :json="MeibographyAndInterferometryJson"
         :loop="true"
         :autoPlay="true" />
 </template>

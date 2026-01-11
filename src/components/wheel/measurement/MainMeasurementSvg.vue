@@ -4,7 +4,7 @@ import BlinkRateAndCompletenessIcon from '@/components/wheel/measurement/icons/B
 import ComfortTimeIcon from '@/components/wheel/measurement/icons/ComfortTimeIcon.vue';
 import FluoresceinStainingIcon from '@/components/wheel/measurement/icons/FluoresceinStainingIcon.vue';
 import LissamineGreenStainingIcon from '@/components/wheel/measurement/icons/LissamineGreenStainingIcon.vue';
-import MeibographyIcon from '@/components/wheel/measurement/icons/MeibographyIcon.vue';
+import MeibographyAndInterferometryIcon from '@/components/wheel/measurement/icons/MeibographyAndInterferometryIcon.vue';
 import EyelidsMeibomianGlandExpressionIcon from '@/components/wheel/measurement/icons/EyelidsMeibomianGlandExpressionIcon.vue';
 import NonInvasiveBreakupTimeIcon from '@/components/wheel/measurement/icons/NonInvasiveBreakupTimeIcon.vue';
 import OsmolarityIcon from '@/components/wheel/measurement/icons/OsmolarityIcon.vue';
@@ -499,7 +499,7 @@ const controlsStore = useControlsStore();
         <ComfortTimeIcon />
         <FluoresceinStainingIcon />
         <LissamineGreenStainingIcon />
-        <MeibographyIcon />
+        <MeibographyAndInterferometryIcon />
         <EyelidsMeibomianGlandExpressionIcon />
         <NonInvasiveBreakupTimeIcon />
         <OsmolarityIcon />

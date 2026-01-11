@@ -526,13 +526,14 @@ remita al paciente según corresponda.</div>
         zh: '压迫睑缘时出现浑浊、增稠或无分泌物表达可能提示存在蒸发过强型干眼症。',
     },
     {
-        en: 'Meibography',
+        code: '_meibography_and_interferometry_icon',
+        en: 'Meibography and|Interferometry',
         es: 'Miebografía',
         fr: `Meibographie`,
         zh: '睑板腺造影',
     },
     {
-        code: '_meibography_text',
+        code: '_meibography_and_interferometry_text',
         en: 'Shortened glands / dropout on transillumination or IR imaging of everted lids may be indicative of evaporative dry eye disease.',
         es: 'Las glándulas acortadas / disminuidas en las imágenes de transiluminación o infrarrojas de los párpados evertidos, pueden ser indicativas de ojo seco evaporativo',
         fr: `L'observation de glandes raccourcies ou atrophiées lors de la transillumination ou de l'imagerie infrarouge des paupières retournées peut indiquer une sécheresse oculaire évaporative.`,
