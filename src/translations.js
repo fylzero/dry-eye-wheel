@@ -51,7 +51,8 @@ remita al paciente según corresponda.</div>
         zh: '风险因素',
     },
     {
-        en: 'Previous Eye Surgery',
+        code: '_previous_eye_surgery_title',
+        en: 'Previous Eye|Surgery',
         es: '',
         fr: '',
         zh: '',

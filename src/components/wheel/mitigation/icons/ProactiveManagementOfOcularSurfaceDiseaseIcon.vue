@@ -7,7 +7,7 @@ const controlsStore = useControlsStore();
     <g
         class="svg-icon"
         :class="{ 'svg-active': controlsStore.selectedItem === 'proactive-management-of-ocular-surface-disease' }"
-        style="transform: translate(0px, 60px)">
+        style="transform: translate(200px, -120px)">
         <!-- Icon -->
         <g>
             <circle
@@ -16,13 +16,18 @@ const controlsStore = useControlsStore();
                 r="15"
                 fill="black" />
         </g>
-
         <text
             x="200"
-            y="340"
-            text-anchor="middle"
-            :style="$selectedLanguage.value === 'zh' ? 'font-size: 14px !important;' : ''">
-            {{ $t('Proactive Management of Ocular Surface Disease') }}
+            y="346"
+            text-anchor="middle">
+            <tspan
+                v-for="(line, index) in $t('_proactive_management_of_ocular_surface_disease_icon').split('|')"
+                :key="index"
+                x="200"
+                :dy="index === 0 ? 0 : 12"
+                :style="$selectedLanguage.value === 'zh' ? 'font-size: 14px !important;' : ''">
+                {{ line }}
+            </tspan>
         </text>
     </g>
 </template>
