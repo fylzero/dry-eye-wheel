@@ -1,7 +1,5 @@
 <script setup>
 import { useControlsStore } from '@/stores/controlsStore.js';
-import ComfortTimeAfterBlinkTestFr from '@/assets/svg/fr/comfort-time-after-blink-test.svg';
-import ComfortTimeAfterBlinkTestZh from '@/assets/svg/zh/comfort-time-after-blink-test.svg';
 const controlsStore = useControlsStore();
 </script>
 

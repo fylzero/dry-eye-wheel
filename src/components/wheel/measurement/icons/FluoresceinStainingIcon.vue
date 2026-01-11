@@ -1,7 +1,5 @@
 <script setup>
 import { useControlsStore } from '@/stores/controlsStore.js';
-import FluoresceinStainingFr from '@/assets/svg/fr/flourescein-staining.svg';
-import FluoresceinStainingZh from '@/assets/svg/zh/fluorescein-staining.svg';
 const controlsStore = useControlsStore();
 </script>
 
