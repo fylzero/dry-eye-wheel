@@ -5,7 +5,7 @@ import SurgicalApproachesIcon from '@/components/icons/SurgicalApproaches.vue';
 
 <template>
     <Card
-        :title="$t('Punctal Plugs')"
+        :title="$t('Surgical Approaches')"
         class="absolute left-1/2 top-[180px] z-10 col-span-5 ml-[-260px] max-w-xl">
         <template #icon>
             <SurgicalApproachesIcon class="!-mb-8 !-mt-10 !h-40" />
