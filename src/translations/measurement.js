@@ -88,7 +88,6 @@ export default [
 `,
     },
     {
-        // Icon label with | as line break delimiter
         code: '_fluorescein_staining_icon',
         en: 'Fluorescein|Staining',
         es: 'Tinción Con|Fluoresceína',
@@ -171,7 +170,6 @@ export default [
 `,
     },
     {
-        // Icon label with | as line break delimiter
         code: '_lissamine_green_staining_icon',
         en: 'Lissamine|Green|Staining',
         es: 'Tinción|Con Lisamina|Verde',
@@ -241,7 +239,6 @@ export default [
         zh: '眨眼频率降低或眨眼不完全可能导致蒸发过强型干眼症。',
     },
     {
-        // Icon label with | as line break delimiter
         code: '_aqueous_tear_meniscus_height_icon',
         en: 'Aqueous Tear|Meniscus Height',
         es: 'Altura Del|Menisco Lagrimal',
@@ -269,7 +266,6 @@ export default [
 `,
     },
     {
-        // Icon label with | as line break delimiter
         code: '_eyelids_meibomian_gland_expression_icon',
         en: 'Eyelids: Meibomian|Gland Expression',
         es: 'Expresión De|Las Glándulas|De Meibomio',
