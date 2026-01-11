@@ -1,5 +1,5 @@
 <script setup>
-import { useControlsStore } from '@/stores/controlsStore.js';
+// import { useControlsStore } from '@/stores/controlsStore.js';
 import AdviceIcon from '@/components/wheel/management/icons/AdviceIcon.vue';
 import ArtificialTearsIcon from '@/components/wheel/management/icons/ArtificialTearsIcon.vue';
 import BlinkExercisesIcon from '@/components/wheel/management/icons/BlinkExercisesIcon.vue';
@@ -21,7 +21,7 @@ import ModerateTextZh from '@/assets/svg/zh/moderate.svg';
 import SevereTextZh from '@/assets/svg/zh/severe.svg';
 import ManagementTextZh from '@/assets/svg/zh/management.svg';
 
-const controlsStore = useControlsStore();
+// const controlsStore = useControlsStore();
 </script>
 
 <template>
