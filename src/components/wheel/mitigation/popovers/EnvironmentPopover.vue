@@ -1,10 +1,10 @@
 <script setup>
-import Card from '@/components/Card.vue';
+import PopoverCard from '@/components/PopoverCard.vue';
 import EnvironmentAdviceIcon from '@/components/wheel/mitigation/animated-icons/Environment.vue';
 </script>
 
 <template>
-    <Card
+    <PopoverCard
         :title="$t('Environment')"
         class="absolute left-1/2 top-[340px] z-10 col-span-5 ml-[-224px] max-w-lg">
         <template #icon>
@@ -12,5 +12,5 @@ import EnvironmentAdviceIcon from '@/components/wheel/mitigation/animated-icons/
         </template>
 
         {{ $t('_environment_text') }}
-    </Card>
+    </PopoverCard>
 </template>

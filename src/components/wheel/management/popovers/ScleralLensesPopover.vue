@@ -1,10 +1,10 @@
 <script setup>
-import Card from '@/components/Card.vue';
+import PopoverCard from '@/components/PopoverCard.vue';
 import ScleralLensesIcon from '@/components/wheel/management/animated-icons/ScleralLenses.vue';
 </script>
 
 <template>
-    <Card
+    <PopoverCard
         :title="$t('Scleral Lenses')"
         class="absolute left-1/2 top-[250px] z-10 col-span-5 ml-[-300px] max-w-xl">
         <template #icon>
@@ -12,5 +12,5 @@ import ScleralLensesIcon from '@/components/wheel/management/animated-icons/Scle
         </template>
 
         {{ $t('_scleral_lenses_text') }}
-    </Card>
+    </PopoverCard>
 </template>

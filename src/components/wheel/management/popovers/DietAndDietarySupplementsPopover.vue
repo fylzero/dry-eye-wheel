@@ -1,10 +1,10 @@
 <script setup>
-import Card from '@/components/Card.vue';
+import PopoverCard from '@/components/PopoverCard.vue';
 import DietAndDietarySupplementsIcon from '@/components/wheel/management/animated-icons/DietAndDietarySupplements.vue';
 </script>
 
 <template>
-    <Card
+    <PopoverCard
         :title="$t('Diet And Dietary Supplements')"
         class="absolute left-1/2 top-[320px] z-10 col-span-5 ml-[-280px] max-w-lg">
         <template #icon>
@@ -12,5 +12,5 @@ import DietAndDietarySupplementsIcon from '@/components/wheel/management/animate
         </template>
 
         {{ $t('_diet_and_dietary_supplements_text') }}
-    </Card>
+    </PopoverCard>
 </template>

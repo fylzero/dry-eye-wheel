@@ -1,10 +1,10 @@
 <script setup>
-import Card from '@/components/Card.vue';
+import PopoverCard from '@/components/PopoverCard.vue';
 import AdviceIcon from '@/components/wheel/management/animated-icons/Advice.vue';
 </script>
 
 <template>
-    <Card
+    <PopoverCard
         :title="$t('Advice')"
         class="absolute left-1/2 top-[320px] z-10 col-span-5 ml-[-280px] max-w-lg">
         <template #icon>
@@ -12,5 +12,5 @@ import AdviceIcon from '@/components/wheel/management/animated-icons/Advice.vue'
         </template>
 
         {{ $t('_advice_text') }}
-    </Card>
+    </PopoverCard>
 </template>

@@ -1,10 +1,10 @@
 <script setup>
-import Card from '@/components/Card.vue';
+import PopoverCard from '@/components/PopoverCard.vue';
 import WarmCompressIcon from '@/components/wheel/management/animated-icons/WarmCompress.vue';
 </script>
 
 <template>
-    <Card
+    <PopoverCard
         :title="$t('Warm Compress')"
         class="absolute left-1/2 top-[310px] z-10 col-span-5 ml-[-260px] max-w-lg">
         <template #icon>
@@ -12,5 +12,5 @@ import WarmCompressIcon from '@/components/wheel/management/animated-icons/WarmC
         </template>
 
         {{ $t('_warm_compress_text') }}
-    </Card>
+    </PopoverCard>
 </template>

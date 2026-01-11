@@ -1,10 +1,10 @@
 <script setup>
-import Card from '@/components/Card.vue';
+import PopoverCard from '@/components/PopoverCard.vue';
 import NonInvasiveBreakupTimeIcon from '@/components/wheel/measurement/animated-icons/NonInvasiveBreakupTime.vue';
 </script>
 
 <template>
-    <Card
+    <PopoverCard
         :title="$t('Non-Invasive Breakup Time')"
         class="absolute left-1/2 top-[300px] z-10 col-span-5 ml-[-260px] max-w-lg">
         <template #icon>
@@ -14,5 +14,5 @@ import NonInvasiveBreakupTimeIcon from '@/components/wheel/measurement/animated-
         <div
             class="contents"
             v-html="$t('_non_invasive_breakup_time_text')" />
-    </Card>
+    </PopoverCard>
 </template>

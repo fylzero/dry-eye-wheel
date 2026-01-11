@@ -1,10 +1,10 @@
 <script setup>
-import Card from '@/components/Card.vue';
+import PopoverCard from '@/components/PopoverCard.vue';
 import SurgicalApproachesIcon from '@/components/wheel/management/animated-icons/SurgicalApproaches.vue';
 </script>
 
 <template>
-    <Card
+    <PopoverCard
         :title="$t('Surgical Approaches')"
         class="absolute left-1/2 top-[180px] z-10 col-span-5 ml-[-260px] max-w-xl">
         <template #icon>
@@ -12,5 +12,5 @@ import SurgicalApproachesIcon from '@/components/wheel/management/animated-icons
         </template>
 
         {{ $t('_surgical_approaches_text') }}
-    </Card>
+    </PopoverCard>
 </template>

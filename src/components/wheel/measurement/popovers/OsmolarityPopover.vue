@@ -1,10 +1,10 @@
 <script setup>
-import Card from '@/components/Card.vue';
+import PopoverCard from '@/components/PopoverCard.vue';
 import OsmolarityIcon from '@/components/wheel/measurement/animated-icons/Osmolarity.vue';
 </script>
 
 <template>
-    <Card
+    <PopoverCard
         :title="$t('Osmolarity')"
         class="absolute left-1/2 top-[300px] z-10 col-span-5 ml-[-260px] max-w-lg">
         <template #icon>
@@ -13,5 +13,5 @@ import OsmolarityIcon from '@/components/wheel/measurement/animated-icons/Osmola
         <div
             class="contents"
             v-html="$t('_osmolarity_text')" />
-    </Card>
+    </PopoverCard>
 </template>

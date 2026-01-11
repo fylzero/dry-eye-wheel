@@ -1,10 +1,10 @@
 <script setup>
-import Card from '@/components/Card.vue';
+import PopoverCard from '@/components/PopoverCard.vue';
 import ComfortAfterBlinkTestIcon from '@/components/wheel/measurement/animated-icons/ComfortAfterBlinkTest.vue';
 </script>
 
 <template>
-    <Card
+    <PopoverCard
         :title="$t('Comfort Time After Blink Test')"
         class="absolute left-1/2 top-[160px] z-10 col-span-5 ml-[-224px] max-w-lg">
         <template #icon>
@@ -41,5 +41,5 @@ import ComfortAfterBlinkTestIcon from '@/components/wheel/measurement/animated-i
         <div
             v-else
             v-html="$t('_comfort_time_after_blink_test_text_2')" />
-    </Card>
+    </PopoverCard>
 </template>

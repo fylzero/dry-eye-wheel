@@ -1,11 +1,11 @@
 <script setup>
-import Card from '@/components/Card.vue';
+import PopoverCard from '@/components/PopoverCard.vue';
 import DifferentialDiagnosisIcon from '@/components/wheel/mitigation/animated-icons/DifferentialDiagnosis.vue';
 import GradientBorderBox from '@/components/GradientBorderBox.vue';
 </script>
 
 <template>
-    <Card
+    <PopoverCard
         :title="$t('Differential Diagnosis')"
         class="absolute left-1/2 top-[240px] z-10 col-span-5 ml-[-224px] max-w-xl">
         <template #icon>
@@ -81,7 +81,7 @@ import GradientBorderBox from '@/components/GradientBorderBox.vue';
                     v-html="$t('_differential_footer')"></div>
             </GradientBorderBox>
         </template>
-    </Card>
+    </PopoverCard>
 </template>
 
 <style lang="postcss" scoped>

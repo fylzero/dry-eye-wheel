@@ -1,10 +1,10 @@
 <script setup>
-import Card from '@/components/Card.vue';
+import PopoverCard from '@/components/PopoverCard.vue';
 import LidHygieneIcon from '@/components/wheel/management/animated-icons/LidHygiene.vue';
 </script>
 
 <template>
-    <Card
+    <PopoverCard
         :title="$t('Lid Hygiene')"
         class="absolute left-1/2 top-[280px] z-10 col-span-5 ml-[-224px] max-w-lg">
         <template #icon>
@@ -12,5 +12,5 @@ import LidHygieneIcon from '@/components/wheel/management/animated-icons/LidHygi
         </template>
 
         {{ $t('_lid_hygiene_text') }}
-    </Card>
+    </PopoverCard>
 </template>

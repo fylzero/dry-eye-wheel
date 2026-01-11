@@ -1,10 +1,10 @@
 <script setup>
-import Card from '@/components/Card.vue';
+import PopoverCard from '@/components/PopoverCard.vue';
 import ArtificialTearsIcon from '@/components/wheel/management/animated-icons/ArtificialTears.vue';
 </script>
 
 <template>
-    <Card
+    <PopoverCard
         :title="$t('Artificial Tears')"
         class="absolute left-1/2 top-[260px] z-10 col-span-5 ml-[-200px] max-w-lg">
         <template #icon>
@@ -12,5 +12,5 @@ import ArtificialTearsIcon from '@/components/wheel/management/animated-icons/Ar
         </template>
 
         {{ $t('_artificial_tears_text') }}
-    </Card>
+    </PopoverCard>
 </template>

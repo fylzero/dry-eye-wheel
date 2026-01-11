@@ -1,12 +1,12 @@
 <script setup>
-import Card from '@/components/Card.vue';
+import PopoverCard from '@/components/PopoverCard.vue';
 import GradientBorderBox from '@/components/GradientBorderBox.vue';
 </script>
 
 <template>
     <!-- TODO: Consider using translations from Spanish and Englush. -->
     <!-- TODO: Consider using a list-marker-class as a translation. -->
-    <Card
+    <PopoverCard
         :title="$t('Measurement')"
         class="absolute left-1/2 top-[340px] z-10 col-span-5 ml-[-460px] max-w-lg">
         <template v-if="$selectedLanguage.value === 'en'">
@@ -63,5 +63,5 @@ import GradientBorderBox from '@/components/GradientBorderBox.vue';
             <div v-html="$t('_measurement_text_1')" />
             <div v-html="$t('_measurement_text_2')" />
         </template>
-    </Card>
+    </PopoverCard>
 </template>

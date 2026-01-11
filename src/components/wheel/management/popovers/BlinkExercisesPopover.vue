@@ -1,10 +1,10 @@
 <script setup>
-import Card from '@/components/Card.vue';
+import PopoverCard from '@/components/PopoverCard.vue';
 import BlinkExercisesIcon from '@/components/wheel/management/animated-icons/BlinkExercises.vue';
 </script>
 
 <template>
-    <Card
+    <PopoverCard
         :title="$t('Blink Exercises')"
         class="absolute left-1/2 top-[340px] z-10 col-span-5 ml-[-224px] max-w-lg">
         <template #icon>
@@ -12,5 +12,5 @@ import BlinkExercisesIcon from '@/components/wheel/management/animated-icons/Bli
         </template>
 
         {{ $t('_blink_exercises_text') }}
-    </Card>
+    </PopoverCard>
 </template>

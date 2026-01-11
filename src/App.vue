@@ -1,7 +1,7 @@
 <script setup>
 import WheelSvg from '@/components/wheel/MainSvg.vue';
 import VerticalSlider from '@/components/VerticalSlider.vue';
-import Card from '@/components/Card.vue';
+import PopoverCard from '@/components/PopoverCard.vue';
 import MainNavigation from '@/components/layout/MainNavigation.vue';
 import GradientButton from '@/components/GradientButton.vue';
 // import TestOutput from '@/components/TestOutput.vue';
@@ -37,20 +37,20 @@ import GradientButton from '@/components/GradientButton.vue';
 
         <div class="my-5 grid grid-cols-12 gap-5">
             <!-- The Wheel -->
-            <Card
+            <PopoverCard
                 :title="$t('The Wheel')"
                 theme="card"
                 class="col-span-5 max-w-none">
                 {{ $t('_the_wheel_text') }}
-            </Card>
+            </PopoverCard>
 
             <!-- The Rings -->
-            <Card
+            <PopoverCard
                 :title="$t('The Rings')"
                 theme="card"
                 class="col-span-7 max-w-none">
                 <span v-html="$t('_the_rings_text')" />
-            </Card>
+            </PopoverCard>
         </div>
 
         <!-- Footer -->

@@ -1,10 +1,10 @@
 <script setup>
-import Card from '@/components/Card.vue';
+import PopoverCard from '@/components/PopoverCard.vue';
 import HormonesIcon from '@/components/wheel/mitigation/animated-icons/Hormones.vue';
 </script>
 
 <template>
-    <Card
+    <PopoverCard
         :title="$t('Hormones')"
         class="absolute left-1/2 top-[240px] z-10 col-span-5 ml-[-140px] max-w-lg">
         <template #icon>
@@ -12,5 +12,5 @@ import HormonesIcon from '@/components/wheel/mitigation/animated-icons/Hormones.
         </template>
 
         {{ $t('_hormones_text') }}
-    </Card>
+    </PopoverCard>
 </template>

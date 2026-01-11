@@ -1,10 +1,10 @@
 <script setup>
-import Card from '@/components/Card.vue';
+import PopoverCard from '@/components/PopoverCard.vue';
 import LissamineGreenStainingIcon from '@/components/wheel/measurement/animated-icons/LissamineGreenStaining.vue';
 </script>
 
 <template>
-    <Card
+    <PopoverCard
         :title="$t('Lissamine Green Staining')"
         class="absolute left-1/2 top-[340px] z-10 col-span-5 ml-[-260px] max-w-lg">
         <template #icon>
@@ -13,5 +13,5 @@ import LissamineGreenStainingIcon from '@/components/wheel/measurement/animated-
         <div
             class="contents"
             v-html="$t('_lissamine_green_staining_text')" />
-    </Card>
+    </PopoverCard>
 </template>
