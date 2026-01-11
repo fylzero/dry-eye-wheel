@@ -11,10 +11,8 @@ import OsmolarityIcon from '@/components/wheel/measurement/icons/OsmolarityIcon.
 import AqueousTearMeniscusHeightIcon from '@/components/wheel/measurement/icons/AqueousTearMeniscusHeightIcon.vue';
 import Osdi6Icon from '@/components/wheel/measurement/icons/Osdi6Icon.vue';
 
-import SubTypingTextFr from '@/assets/svg/fr/sub-typing-text.svg';
 import DiagnosisTextFr from '@/assets/svg/fr/diagnosis-text.svg';
 import MeasurementTextFr from '@/assets/svg/fr/measurement-text.svg';
-import SubTypingTextZh from '@/assets/svg/zh/sub-typing-text.svg';
 import DiagnosisTextZh from '@/assets/svg/zh/diagnosis-text.svg';
 import MeasurementTextZh from '@/assets/svg/zh/measurement-text.svg';
 

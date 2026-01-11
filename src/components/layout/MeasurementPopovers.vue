@@ -11,6 +11,8 @@ import BlinkCompletenessAndLidClosurePopover from '@/components/wheel/popovers/m
 import AqueousTearMeniscusHeightPopover from '@/components/wheel/popovers/measurement/AqueousTearMeniscusHeightPopover.vue';
 import EyelidsMeibomianGlandExpressionPopover from '@/components/wheel/popovers/measurement/EyelidsMeibomianGlandExpressionPopover.vue';
 import MeibographyAndInterferometryPopover from '@/components/wheel/popovers/measurement/MeibographyAndInterferometryPopover.vue';
+import OcularSurfaceMisalignmentPopover from '@/components/wheel/popovers/measurement/OcularSurfaceMisalignmentPopover.vue';
+import EyelidsAnteriorBlepharitisExamPopover from '@/components/wheel/popovers/measurement/EyelidsAnteriorBlepharitisExamPopover.vue';
 
 const controlsStore = useControlsStore();
 </script>
@@ -35,4 +37,6 @@ const controlsStore = useControlsStore();
     <EyelidsMeibomianGlandExpressionPopover
         v-if="controlsStore.selectedItem === 'eyelids-meibomian-gland-expression'" />
     <MeibographyAndInterferometryPopover v-if="controlsStore.selectedItem === 'meibography-and-interferometry'" />
+    <OcularSurfaceMisalignmentPopover v-if="controlsStore.selectedItem === 'ocular-surface-misalignment'" />
+    <EyelidsAnteriorBlepharitisExamPopover v-if="controlsStore.selectedItem === 'eyelids-anterior-blepharitis-exam'" />
 </template>

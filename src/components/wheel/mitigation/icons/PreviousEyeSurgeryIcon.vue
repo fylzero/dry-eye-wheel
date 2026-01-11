@@ -1,0 +1,21 @@
+<script setup>
+import { useControlsStore } from '@/stores/controlsStore.js';
+const controlsStore = useControlsStore();
+</script>
+
+<template>
+    <g
+        class="svg-icon"
+        :class="{ 'svg-active': controlsStore.selectedItem === 'previous-eye-surgery' }"
+        style="transform: translate(16px, -3px)">
+        <!-- Icon -->
+        ICON
+        <text
+            x="200"
+            y="340"
+            text-anchor="middle"
+            :style="$selectedLanguage.value === 'zh' ? 'font-size: 14px !important;' : ''">
+            {{ $t('Previous Eye Surgery') }}
+        </text>
+    </g>
+</template>

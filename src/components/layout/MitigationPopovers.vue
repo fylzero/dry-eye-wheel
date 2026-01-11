@@ -10,6 +10,9 @@ import DigitalEyeStrainPopover from '@/components/wheel/popovers/mitigation/Digi
 import EnvironmentPopover from '@/components/wheel/popovers/mitigation/EnvironmentPopover.vue';
 import HormonesPopover from '@/components/wheel/popovers/mitigation/HormonesPopover.vue';
 import MedicationReviewPopover from '@/components/wheel/popovers/mitigation/MedicationReviewPopover.vue';
+import PreviousEyeSurgeryPopover from '@/components/wheel/popovers/mitigation/PreviousEyeSurgeryPopover.vue';
+import ProactiveManagementOfOcularSurfaceDiseasePopover from '@/components/wheel/popovers/mitigation/ProactiveManagementOfOcularSurfaceDiseasePopover.vue';
+import CornealSensitivityAssessmentPopover from '@/components/wheel/popovers/mitigation/CornealSensitivityAssessmentPopover.vue';
 
 const controlsStore = useControlsStore();
 </script>
@@ -30,4 +33,8 @@ const controlsStore = useControlsStore();
     <EnvironmentPopover v-if="controlsStore.selectedItem === 'environment'" />
     <HormonesPopover v-if="controlsStore.selectedItem === 'hormones'" />
     <MedicationReviewPopover v-if="controlsStore.selectedItem === 'medication-review'" />
+    <PreviousEyeSurgeryPopover v-if="controlsStore.selectedItem === 'previous-eye-surgery'" />
+    <ProactiveManagementOfOcularSurfaceDiseasePopover
+        v-if="controlsStore.selectedItem === 'proactive-management-of-ocular-surface-disease'" />
+    <CornealSensitivityAssessmentPopover v-if="controlsStore.selectedItem === 'corneal-sensitivity-assessment'" />
 </template>

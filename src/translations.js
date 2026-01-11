@@ -51,6 +51,26 @@ remita al paciente según corresponda.</div>
         zh: '风险因素',
     },
     {
+        en: 'Previous Eye Surgery',
+        es: '',
+        fr: '',
+        zh: '',
+    },
+    {
+        code: '_previous_eye_surgery_text',
+        en: '',
+        es: '',
+        fr: '',
+        zh: '',
+    },
+    {
+        code: '_previous_eye_surgery_icon',
+        en: 'Previous Eye|Surgery',
+        es: '',
+        fr: '',
+        zh: '',
+    },
+    {
         en: 'Sleep',
         es: 'Dormir',
         fr: 'Sommeil',
