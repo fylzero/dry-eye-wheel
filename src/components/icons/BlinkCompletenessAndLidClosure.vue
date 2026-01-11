@@ -1,18 +1,18 @@
 <script setup>
 import LottieAnimation from '@/lib/LottieAnimation.vue';
-import BlinkRateCompletenessJson from '@/assets/json/blink-rate-completeness.json';
+import BlinkCompletenessAndLidClosureJson from '@/assets/json/blink-rate-completeness.json';
 
 const props = defineProps({
     targetId: {
         type: String,
-        default: 'blinkRateCompletenessAnimation',
+        default: 'BlinkCompletenessAndLidClosureAnimation',
     },
 });
 </script>
 
 <template>
     <LottieAnimation
-        :json="BlinkRateCompletenessJson"
+        :json="BlinkCompletenessAndLidClosureJson"
         :loop="true"
         :autoPlay="true" />
 </template>

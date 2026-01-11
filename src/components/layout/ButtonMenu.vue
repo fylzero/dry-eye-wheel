@@ -158,7 +158,7 @@ watch(sliderValue, () => {
                 @click="controlsStore.selectItem('blink-rate-and-completeness', 'sub-typing', 'measurement')"
                 :class="{ active: controlsStore.selectedItem === 'blink-rate-and-completeness' }"
                 class="btn-orange">
-                {{ $t('Blink Rate & Completeness') }}
+                {{ $t('Blink Completeness and Lid Closure; Redness') }}
             </GradientButton>
         </div>
         <div class="grid grid-cols-2 gap-3">

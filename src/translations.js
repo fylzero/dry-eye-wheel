@@ -463,14 +463,14 @@ remita al paciente según corresponda.</div>
     },
     // There are two versions (one with ampersand) used in the English version.
     {
-        en: 'Blink Rate And Completeness',
+        en: 'Blink Completeness and Lid Closure; Redness',
         es: 'Frecuencia De Parpadeo Completo',
         fr: `Fréquence et Complétude des Clignements`,
         zh: '眨眼频率和完整性',
     },
     {
         code: '_blink_rate_and_completeness_icon',
-        en: 'Blink Rate &|Completeness',
+        en: 'Blink|Completeness|and Lid Closure;|Redness',
         es: 'Frecuencia De|Parpadeo Completo',
         fr: `Fréquence et|complétude des|clignements`,
         zh: '眨眼频率和完整性',
