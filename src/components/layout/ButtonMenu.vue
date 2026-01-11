@@ -91,8 +91,8 @@ watch(sliderValue, () => {
                 {{ $t('Environment') }}
             </GradientButton>
             <GradientButton
-                @click="controlsStore.selectItem('eye-strain', 'risk-factors', 'mitigation')"
-                :class="{ active: controlsStore.selectedItem === 'eye-strain' }"
+                @click="controlsStore.selectItem('digital-eye-strain', 'risk-factors', 'mitigation')"
+                :class="{ active: controlsStore.selectedItem === 'digital-eye-strain' }"
                 class="btn-orange">
                 {{ $t('Digital Eye Strain') }}
             </GradientButton>
