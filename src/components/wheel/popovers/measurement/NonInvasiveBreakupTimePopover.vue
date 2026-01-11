@@ -1,6 +1,6 @@
 <script setup>
 import Card from '@/components/Card.vue';
-import NonInvasiveBreakupTimeIcon from '@/components/icons/NonInvasiveBreakupTime.vue';
+import NonInvasiveBreakupTimeIcon from '@/components/animated-icons/NonInvasiveBreakupTime.vue';
 </script>
 
 <template>

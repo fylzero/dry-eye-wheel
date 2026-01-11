@@ -1,6 +1,6 @@
 <script setup>
 import Card from '@/components/Card.vue';
-import ProphylaxisIcon from '@/components/icons/Prophylaxis.vue';
+import ProphylaxisIcon from '@/components/animated-icons/Prophylaxis.vue';
 </script>
 
 <template>

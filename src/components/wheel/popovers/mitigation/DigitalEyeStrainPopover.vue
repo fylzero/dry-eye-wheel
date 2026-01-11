@@ -1,6 +1,6 @@
 <script setup>
 import Card from '@/components/Card.vue';
-import DigitalEyeStrainIcon from '@/components/icons/DigitalEyeStrain.vue';
+import DigitalEyeStrainIcon from '@/components/animated-icons/DigitalEyeStrain.vue';
 </script>
 
 <template>

@@ -1,6 +1,6 @@
 <script setup>
 import Card from '@/components/Card.vue';
-import HormonesIcon from '@/components/icons/Hormones.vue';
+import HormonesIcon from '@/components/animated-icons/Hormones.vue';
 </script>
 
 <template>

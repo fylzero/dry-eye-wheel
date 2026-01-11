@@ -1,6 +1,6 @@
 <script setup>
 import Card from '@/components/Card.vue';
-import Osdi6Icon from '@/components/icons/Osdi6.vue';
+import Osdi6Icon from '@/components/animated-icons/Osdi6.vue';
 </script>
 
 <template>

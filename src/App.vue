@@ -1,13 +1,10 @@
 <script setup>
-import { useControlsStore } from '@/stores/controlsStore.js';
 import WheelSvg from '@/components/wheel/MainSvg.vue';
 import VerticalSlider from '@/components/VerticalSlider.vue';
 import Card from '@/components/Card.vue';
-import ButtonMenu from '@/components/layout/ButtonMenu.vue';
+import MainNavigation from '@/components/layout/MainNavigation.vue';
 import GradientButton from '@/components/GradientButton.vue';
 // import TestOutput from '@/components/TestOutput.vue';
-
-const controlsStore = useControlsStore();
 </script>
 
 <template>
@@ -16,7 +13,7 @@ const controlsStore = useControlsStore();
             <!-- Vetical Slider/Menu Area -->
             <div class="flex h-[700px] w-96">
                 <VerticalSlider />
-                <ButtonMenu />
+                <MainNavigation />
             </div>
 
             <!-- Wheel Area -->
@@ -27,8 +24,11 @@ const controlsStore = useControlsStore();
             </div>
 
             <div class="absolute right-8 top-8 flex flex-col gap-3">
-                <GradientButton :key="$language.code" v-for="$language in $languages"
-                    @click="$setLanguage($language.code)" class="btn btn-section"
+                <GradientButton
+                    :key="$language.code"
+                    v-for="$language in $languages"
+                    @click="$setLanguage($language.code)"
+                    class="btn btn-section"
                     :class="{ active: $language.code === $selectedLanguage.value }">
                     {{ $language.name }}
                 </GradientButton>
@@ -37,12 +37,18 @@ const controlsStore = useControlsStore();
 
         <div class="my-5 grid grid-cols-12 gap-5">
             <!-- The Wheel -->
-            <Card :title="$t('The Wheel')" theme="card" class="col-span-5 max-w-none">
+            <Card
+                :title="$t('The Wheel')"
+                theme="card"
+                class="col-span-5 max-w-none">
                 {{ $t('_the_wheel_text') }}
             </Card>
 
             <!-- The Rings -->
-            <Card :title="$t('The Rings')" theme="card" class="col-span-7 max-w-none">
+            <Card
+                :title="$t('The Rings')"
+                theme="card"
+                class="col-span-7 max-w-none">
                 <span v-html="$t('_the_rings_text')" />
             </Card>
         </div>

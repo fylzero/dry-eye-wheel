@@ -1,6 +1,6 @@
 <script setup>
 import { storeToRefs } from 'pinia';
-import { watch, nextTick } from 'vue';
+import { watch } from 'vue';
 import { useControlsStore } from '../../stores/controlsStore.js';
 import GradientButton from '../GradientButton.vue';
 

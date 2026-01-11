@@ -1,6 +1,6 @@
 <script setup>
 import Card from '@/components/Card.vue';
-import BlinkExercisesIcon from '@/components/icons/BlinkExercises.vue';
+import BlinkExercisesIcon from '@/components/animated-icons/BlinkExercises.vue';
 </script>
 
 <template>

@@ -1,6 +1,6 @@
 <script setup>
 import Card from '@/components/Card.vue';
-import InOfficeLightHeatBasedDevicesIcon from '@/components/icons/InOfficeLightHeatBasedDevices.vue';
+import InOfficeLightHeatBasedDevicesIcon from '@/components/animated-icons/InOfficeLightHeatBasedDevices.vue';
 </script>
 
 <template>
