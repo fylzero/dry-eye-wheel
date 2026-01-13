@@ -6,7 +6,7 @@ import PreviousEyeSurgeryIcon from '@/components/wheel/mitigation/animated-icons
 <template>
     <PopoverCard
         :title="$t('Previous Eye Surgery')"
-        class="absolute left-1/2 top-[240px] z-10 col-span-5 ml-[-224px] max-w-lg">
+        class="absolute left-1/2 top-[340px] z-10 col-span-5 ml-[-224px] max-w-lg">
         <template #icon>
             <PreviousEyeSurgeryIcon class="!-mb-8 !-mt-10 !h-40" />
         </template>
