@@ -262,6 +262,14 @@ remita al paciente según corresponda.</div>
         zh: '预防措施，如保持良好的水分摄入、控制环境条件和眼部卫生，可以帮助预防眼表损伤和由此导致的干眼症状。',
     },
     {
+        code: '_proactive_management_of_ocular_surface_disease_button',
+        en: 'Proactive OSD Management',
+        es: '',
+        fr: '',
+        zh: '',
+    },
+    {
+        code: '_proactive_management_of_ocular_surface_disease_title',
         en: 'Proactive Management of Ocular Surface Disease',
         es: '',
         fr: '',

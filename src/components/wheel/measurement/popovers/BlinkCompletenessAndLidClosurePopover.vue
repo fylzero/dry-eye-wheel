@@ -5,7 +5,7 @@ import BlinkCompletenessAndLidClosureIcon from '@/components/wheel/measurement/a
 
 <template>
     <PopoverCard
-        :title="$t('Blink Completeness and Lid Closure; Redness')"
+        :title="$t('_blink_rate_and_completeness_title')"
         class="absolute left-1/2 top-[320px] z-10 col-span-5 ml-[-300px] max-w-lg">
         <template #icon>
             <BlinkCompletenessAndLidClosureIcon class="!-mb-8 !-mt-10 !h-40" />

@@ -96,7 +96,7 @@ watch(sliderValue, () => {
                 "
                 :class="{ active: controlsStore.selectedItem === 'proactive-management-of-ocular-surface-disease' }"
                 class="btn-silver">
-                {{ $t('Proactive Management of Ocular Surface Disease') }}
+                {{ $t('_proactive_management_of_ocular_surface_disease_button') }}
             </GradientButton>
         </div>
         <div class="grid grid-cols-2 gap-3">
@@ -179,7 +179,7 @@ watch(sliderValue, () => {
                 @click="controlsStore.selectItem('blink-rate-and-completeness', 'sub-typing', 'measurement')"
                 :class="{ active: controlsStore.selectedItem === 'blink-rate-and-completeness' }"
                 class="btn-orange">
-                {{ $t('Blink Completeness and Lid Closure; Redness') }}
+                {{ $t('_blink_rate_and_completeness_button') }}
             </GradientButton>
         </div>
         <div class="grid grid-cols-2 gap-3">
@@ -308,7 +308,7 @@ watch(sliderValue, () => {
                 @click="controlsStore.selectItem('in-office-light-heat-based-devices', null, 'management')"
                 :class="{ active: controlsStore.selectedItem === 'in-office-light-heat-based-devices' }"
                 class="btn-silver">
-                {{ $t('In-Office Light/Heat-Based Devices') }}
+                {{ $t('_in_office_light_heat_based_devices_button') }}
             </GradientButton>
             <GradientButton
                 @click="controlsStore.selectItem('pharmaceuticals', null, 'management')"

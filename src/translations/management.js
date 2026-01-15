@@ -109,6 +109,13 @@ export default [
         zh: '中度',
     },
     {
+        code: '_in_office_light_heat_based_devices_button',
+        en: 'Light/Heat-Based Devices ',
+        es: '',
+        fr: '',
+        zh: '',
+    },
+    {
         code: '_in_office_light_heat_based_devices_icon',
         en: 'In-Office Light/Heat|Based Devices',
         es: 'Tratamientos|En Consultorio',
