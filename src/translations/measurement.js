@@ -274,6 +274,13 @@ export default [
 `,
     },
     {
+        code: '_eyelids_meibomian_gland_expression_button',
+        en: 'Meibomian Gland Expression',
+        es: '',
+        fr: '',
+        zh: '',
+    },
+    {
         code: '_eyelids_meibomian_gland_expression_icon',
         en: 'Eyelids: Meibomian|Gland Expression',
         es: 'Expresión De|Las Glándulas|De Meibomio',

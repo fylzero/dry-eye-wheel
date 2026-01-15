@@ -110,7 +110,14 @@ watch(sliderValue, () => {
                 @click="controlsStore.selectItem('corneal-sensitivity-assessment', 'triaging', 'mitigation')"
                 :class="{ active: controlsStore.selectedItem === 'corneal-sensitivity-assessment' }"
                 class="btn-silver">
-                {{ $t('Corneal Sensitivity Assessment') }}
+                <div
+                    :class="{
+                        'font-euclid-circular-bold': controlsStore.selectedItem === 'corneal-sensitivity-assessment',
+                    }"
+                    v-for="(line, index) in $t('_corneal_sensitivity_button').split('|')"
+                    :key="index">
+                    {{ line }}
+                </div>
             </GradientButton>
         </div>
         <div class="grid grid-cols-2 gap-3">
@@ -235,7 +242,7 @@ watch(sliderValue, () => {
                 @click="controlsStore.selectItem('eyelids-meibomian-gland-expression', 'sub-typing', 'measurement')"
                 :class="{ active: controlsStore.selectedItem === 'eyelids-meibomian-gland-expression' }"
                 class="btn-silver">
-                {{ $t('Eyelids: Meibomian Gland Expression') }}
+                {{ $t('_eyelids_meibomian_gland_expression_button') }}
             </GradientButton>
         </div>
         <div class="grid grid-cols-2 gap-3">

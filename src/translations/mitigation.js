@@ -290,6 +290,14 @@ remita al paciente según corresponda.</div>
         zh: '',
     },
     {
+        code: '_corneal_sensitivity_button',
+        en: 'Corneal|Sensitivity',
+        es: '',
+        fr: '',
+        zh: '',
+    },
+    {
+        code: '_corneal_sensitivity_title',
         en: 'Corneal Sensitivity Assessment',
         es: '',
         fr: '',
