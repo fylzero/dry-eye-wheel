@@ -8,7 +8,7 @@ const controlsStore = useControlsStore();
     <g
         :class="{ 'svg-active': controlsStore.selectedItem === 'complex-treatments' }"
         class="svg-icon svg-fill-circle svg-stroke-polyline svg-fill-polyline svg-fill-line"
-        style="transform: translate(0px, 0px)">
+        style="transform: translate(-70px, 36px)">
         <!-- Icon -->
         <g>
             <path
@@ -134,13 +134,13 @@ const controlsStore = useControlsStore();
         </g>
         <!-- Use _complex_treatments_icon translation with | as line break delimiter -->
         <text
-            x="476"
-            y="480"
+            x="528"
+            y="450"
             text-anchor="middle">
             <tspan
                 v-for="(line, index) in $t('_complex_treatments_icon').split('|')"
                 :key="index"
-                x="476  "
+                x="528  "
                 :dy="index === 0 ? 0 : 12"
                 :style="$selectedLanguage.value === 'zh' ? 'font-size: 14px !important;' : ''">
                 {{ line }}

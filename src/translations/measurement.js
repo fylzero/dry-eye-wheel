@@ -71,7 +71,7 @@ export default [
     {
         code: '_osdi_6_text',
         en: `
-        <div>OSDI score ≥ 13 OR DEQ-5 score ≥ 6.</div>
+        <div>OSDI-6 score ≥ 4</div>
         <div>Other questionnaires can assist with management choices, but not standardized diagnosis.</div>
 `,
         es: `
