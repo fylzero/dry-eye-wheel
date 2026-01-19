@@ -7,7 +7,7 @@ const controlsStore = useControlsStore();
     <g
         class="svg-icon svg-fill-path"
         :class="{ 'svg-active': controlsStore.selectedItem === 'ocular-surface-misalignment' }"
-        style="transform: translate(420px, 0px)">
+        style="transform: translate(430px, -8px)">
         <!-- Icon -->
         <g style="transform: translate(610px, 1060px); scale: 0.29">
             <path

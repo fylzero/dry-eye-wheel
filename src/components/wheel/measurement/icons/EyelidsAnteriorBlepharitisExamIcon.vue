@@ -7,7 +7,7 @@ const controlsStore = useControlsStore();
     <g
         class="svg-icon svg-fill-path"
         :class="{ 'svg-active': controlsStore.selectedItem === 'eyelids-anterior-blepharitis-exam' }"
-        style="transform: translate(420px, 96px)">
+        style="transform: translate(420px, 88px)">
         <!-- Icon -->
         <g style="transform: translate(570px, 1050px); scale: 0.29">
             <path

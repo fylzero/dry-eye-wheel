@@ -7,7 +7,7 @@ const controlsStore = useControlsStore();
     <g
         :class="{ 'svg-active': controlsStore.selectedItem === 'aqueous-tear-meniscus-height' }"
         class="svg-icon svg-fill-circle"
-        style="transform: translate(60px, 90px); scale: 0.85">
+        style="transform: translate(60px, 80px); scale: 0.85">
         <!-- Icon -->
         <g>
             <circle
