@@ -50,14 +50,14 @@ export default [
     },
     {
         code: '_comfort_time_after_blink_test_text_1',
-        en: 'Patient blinks and reports when eyes first become uncomfortable – repeat 3 times',
+        en: 'Patient blinks and reports when eyes first become uncomfortable - repeat 3 times.',
         es: 'El paciente parpadea y reporta cuando los ojos comienzan a sentirse incómodos por primera vez - repetir 3 veces.',
         fr: `Le patient cligne des yeux et signale quand ses yeux deviennent inconfortables pour la première fois - répéter 3 fois.`,
         zh: '患者眨眼并在眼睛首次感到不适时报告-重复3次。',
     },
     {
         code: '_comfort_time_after_blink_test_text_2',
-        en: '< 10s indicative of dry eye disease',
+        en: '< 10s indicative of dry eye disease.',
         es: '< 10s es indicativo de la enfermedad del ojo seco.',
         fr: `< 10s est indicatif de la sécheresse oculaire.`,
         zh: '若< 10s，则提示存在干眼症',
@@ -186,8 +186,8 @@ export default [
 <div>&gt; 9 conjunctival spots diagnostic of dry eye disease.</div>
 <div>Lid margin observed between 3 and 6 minutes.</div>
 <div>
-    &GreaterEqual; 2 mm in length and/or ≥ 25% sagittal width (excluding Marx's line) diagnostic of dry eye
-    disease.
+    &GreaterEqual; 2 mm in length and/or ≥ 25% sagittal width (excluding Marx's line diagnostic of dry eye
+    disease).
 </div>
 `,
         es: `
@@ -324,7 +324,7 @@ export default [
     },
     {
         code: '_ocular_surface_misalignment_text',
-        en: 'Altered alignment between the globe and inner eyelid surfaces due to pterygium, for example, impairs tear film distribution across the ocular surface, resulting in tear film instability',
+        en: 'Altered alignment between the globe and inner eyelid surfaces due to pterygium, for example, impairs tear film distribution across the ocular surface, resulting in tear film instability.',
         es: '',
         fr: '',
         zh: '',
@@ -345,7 +345,7 @@ export default [
     },
     {
         code: '_eyelids_anterior_blepharitis_exam_text',
-        en: 'Checking the eyelashes under magnification during downgaze for the presence of flakes or collarettes may reveal a high microbial load',
+        en: 'Checking the eyelashes under magnification during downgaze for the presence of flakes or collarettes may reveal a high microbial load.',
         es: '',
         fr: '',
         zh: '',

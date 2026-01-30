@@ -185,9 +185,9 @@ export default [
     },
     {
         code: '_complex_treatments_text',
-        en: 'Complex treatments such as serum drops/amniotic membranes',
-        es: 'Tratamientos complejos como gotas de suero/membranas amnióticas',
-        fr: `Traitements complexes tels que gouttes de sérum/membranes amniotiques`,
+        en: 'Complex treatments such as serum drops/amniotic membranes.',
+        es: 'Tratamientos complejos como gotas de suero/membranas amnióticas.',
+        fr: `Traitements complexes tels que gouttes de sérum/membranes amniotiques.`,
         zh: '血清滴眼液/羊膜等综合治疗',
     },
 ];

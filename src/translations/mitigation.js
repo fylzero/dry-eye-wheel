@@ -58,7 +58,7 @@ remita al paciente según corresponda.</div>
     },
     {
         code: '_previous_eye_surgery_text',
-        en: 'Eye surgery often involves cutting corneal nerves and can result in anatomical misalignment between the ocular surface and eyelid surfaces, which can disrupt tear film homeostasis',
+        en: 'Eye surgery often involves cutting corneal nerves and can result in anatomical misalignment between the ocular surface and eyelid surfaces, which can disrupt tear film homeostasis.',
         es: '',
         fr: '',
         zh: '',
@@ -312,7 +312,7 @@ remita al paciente según corresponda.</div>
     },
     {
         code: '_corneal_sensitivity_assessment_text',
-        en: 'A tissue corner, cotton bud wisp, aesthesiometer, or topical anesthetic challenge can be used to assess for signs of neural dysfunction',
+        en: 'A tissue corner, cotton bud wisp, aesthesiometer, or topical anesthetic challenge can be used to assess for signs of neural dysfunction.',
         es: '',
         fr: '',
         zh: '',
